@@ -15,8 +15,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MainLayerTileGroupData
   type: Struct
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: MainLayerTileGroupData
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 107
   assemblies:
   - ResourceDataManagementLib
@@ -53,8 +57,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MainLayerTileGroupData.FundamentalDetail
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: FundamentalDetail
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 136
   assemblies:
   - ResourceDataManagementLib
@@ -88,8 +96,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MainLayerTileGroupData.FunctionalDetail
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: FunctionalDetail
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 139
   assemblies:
   - ResourceDataManagementLib

@@ -17,8 +17,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType
   type: Enum
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/MapGenInputDataType.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: MapGenInputDataType
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\MapGenInputDataType.cs
+    path: ../Public/Data/MapGenInputDataSpec/MapGenInputDataType.cs
     startLine: 9
   assemblies:
   - ResourceDataManagementLib
@@ -48,8 +52,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType.AbstractInputData
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/MapGenInputDataType.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: AbstractInputData
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\MapGenInputDataType.cs
+    path: ../Public/Data/MapGenInputDataSpec/MapGenInputDataType.cs
     startLine: 11
   assemblies:
   - ResourceDataManagementLib
@@ -70,8 +78,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType.BasicMapGenInputData
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/MapGenInputDataType.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BasicMapGenInputData
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\MapGenInputDataType.cs
+    path: ../Public/Data/MapGenInputDataSpec/MapGenInputDataType.cs
     startLine: 12
   assemblies:
   - ResourceDataManagementLib
@@ -92,8 +104,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType.RegionSelectionInputData
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/MapGenInputDataType.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: RegionSelectionInputData
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\MapGenInputDataType.cs
+    path: ../Public/Data/MapGenInputDataSpec/MapGenInputDataType.cs
     startLine: 13
   assemblies:
   - ResourceDataManagementLib
@@ -114,8 +130,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType.MiddleLayersInputData
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/MapGenInputDataType.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: MiddleLayersInputData
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\MapGenInputDataType.cs
+    path: ../Public/Data/MapGenInputDataSpec/MapGenInputDataType.cs
     startLine: 14
   assemblies:
   - ResourceDataManagementLib

@@ -17,8 +17,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData
   type: Struct
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: ToGoBackLayerGateTileDetailData
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 199
   assemblies:
   - ResourceDataManagementLib
@@ -55,8 +59,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData.GateMainTiles
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: GateMainTiles
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 202
   assemblies:
   - ResourceDataManagementLib
@@ -90,8 +98,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData.GateUpperHorizontalEdgtTiles
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: GateUpperHorizontalEdgtTiles
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 205
   assemblies:
   - ResourceDataManagementLib
@@ -125,8 +137,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData.GateLowerHorizontalEdgyTiles
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: GateLowerHorizontalEdgyTiles
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 206
   assemblies:
   - ResourceDataManagementLib
@@ -148,8 +164,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData.GateVerticalEdgyTiles
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: GateVerticalEdgyTiles
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 209
   assemblies:
   - ResourceDataManagementLib

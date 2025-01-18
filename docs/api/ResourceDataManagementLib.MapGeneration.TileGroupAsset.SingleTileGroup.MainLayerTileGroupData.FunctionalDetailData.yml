@@ -22,8 +22,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData
   type: Struct
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: FunctionalDetailData
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 114
   assemblies:
   - ResourceDataManagementLib
@@ -60,8 +64,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.FallingTile
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: FallingTile
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 117
   assemblies:
   - ResourceDataManagementLib
@@ -95,8 +103,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.ArrawTrapTile
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: ArrawTrapTile
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 118
   assemblies:
   - ResourceDataManagementLib
@@ -118,8 +130,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.SpearTrapTile
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: SpearTrapTile
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 119
   assemblies:
   - ResourceDataManagementLib
@@ -141,8 +157,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.SpikeTrapTile
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: SpikeTrapTile
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 120
   assemblies:
   - ResourceDataManagementLib
@@ -164,8 +184,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.ChestTile
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: ChestTile
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 123
   assemblies:
   - ResourceDataManagementLib
@@ -199,8 +223,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.DoorTile
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: DoorTile
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 124
   assemblies:
   - ResourceDataManagementLib
@@ -222,8 +250,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.LadderTile
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: LadderTile
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 125
   assemblies:
   - ResourceDataManagementLib
@@ -245,8 +277,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.GlowTile
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: GlowTile
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 128
   assemblies:
   - ResourceDataManagementLib
@@ -280,8 +316,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.MovementTile
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: MovementTile
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 131
   assemblies:
   - ResourceDataManagementLib

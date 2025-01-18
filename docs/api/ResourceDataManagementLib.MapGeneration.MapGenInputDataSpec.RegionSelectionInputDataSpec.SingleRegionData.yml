@@ -18,8 +18,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData
   type: Struct
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/RegionSelectionInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: SingleRegionData
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\RegionSelectionInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/RegionSelectionInputDataSpec.cs
     startLine: 15
   assemblies:
   - ResourceDataManagementLib
@@ -46,8 +50,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData.RegionName
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/RegionSelectionInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: RegionName
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\RegionSelectionInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/RegionSelectionInputDataSpec.cs
     startLine: 17
   assemblies:
   - ResourceDataManagementLib
@@ -69,8 +77,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData.RegionID
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/RegionSelectionInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: RegionID
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\RegionSelectionInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/RegionSelectionInputDataSpec.cs
     startLine: 18
   assemblies:
   - ResourceDataManagementLib
@@ -92,8 +104,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData.RegionBlendColor
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/RegionSelectionInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: RegionBlendColor
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\RegionSelectionInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/RegionSelectionInputDataSpec.cs
     startLine: 20
   assemblies:
   - ResourceDataManagementLib
@@ -115,8 +131,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData.IdealSpawnPos
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/RegionSelectionInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: IdealSpawnPos
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\RegionSelectionInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/RegionSelectionInputDataSpec.cs
     startLine: 22
   assemblies:
   - ResourceDataManagementLib
@@ -138,8 +158,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData.DirectionWeight
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/RegionSelectionInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: DirectionWeight
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\RegionSelectionInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/RegionSelectionInputDataSpec.cs
     startLine: 23
   assemblies:
   - ResourceDataManagementLib

@@ -20,8 +20,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapActiveType
   type: Enum
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: MapActiveType
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\BasicMapGenInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
     startLine: 11
   assemblies:
   - ResourceDataManagementLib
@@ -51,8 +55,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapActiveType.BIsNodeActive
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BIsNodeActive
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\BasicMapGenInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
     startLine: 13
   assemblies:
   - ResourceDataManagementLib
@@ -73,8 +81,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapActiveType.BIsNodeIsGateToBack
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BIsNodeIsGateToBack
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\BasicMapGenInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
     startLine: 15
   assemblies:
   - ResourceDataManagementLib
@@ -95,8 +107,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapActiveType.BIsNodeIsTopEdge
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BIsNodeIsTopEdge
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\BasicMapGenInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
     startLine: 17
   assemblies:
   - ResourceDataManagementLib
@@ -117,8 +133,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapActiveType.BIsNodeIsBottomEdge
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BIsNodeIsBottomEdge
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\BasicMapGenInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
     startLine: 18
   assemblies:
   - ResourceDataManagementLib
@@ -139,8 +159,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapActiveType.BIsNodeIsLeftEdge
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BIsNodeIsLeftEdge
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\BasicMapGenInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
     startLine: 19
   assemblies:
   - ResourceDataManagementLib
@@ -161,8 +185,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapActiveType.BIsNodeIsRightEdge
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BIsNodeIsRightEdge
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\BasicMapGenInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
     startLine: 20
   assemblies:
   - ResourceDataManagementLib
@@ -183,8 +211,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapActiveType.BIsNodeIsGateBottomEdge
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BIsNodeIsGateBottomEdge
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\BasicMapGenInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
     startLine: 22
   assemblies:
   - ResourceDataManagementLib

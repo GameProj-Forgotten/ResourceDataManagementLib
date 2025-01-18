@@ -14,9 +14,13 @@ items:
   fullName: ResourceDataManagementLib.GameSaveData.GameSaveMetadataExtension
   type: Class
   source:
+    remote:
+      path: Public/Data/GameSaveMetadata/GameSaveMetadata.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: GameSaveMetadataExtension
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\GameSaveMetadata\GameSaveMetadata.cs
-    startLine: 27
+    path: ../Public/Data/GameSaveMetadata/GameSaveMetadata.cs
+    startLine: 28
   assemblies:
   - ResourceDataManagementLib
   namespace: ResourceDataManagementLib.GameSaveData
@@ -46,9 +50,13 @@ items:
   fullName: ResourceDataManagementLib.GameSaveData.GameSaveMetadataExtension.Init(ref ResourceDataManagementLib.GameSaveData.GameSaveMetadata)
   type: Method
   source:
+    remote:
+      path: Public/Data/GameSaveMetadata/GameSaveMetadata.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: Init
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\GameSaveMetadata\GameSaveMetadata.cs
-    startLine: 29
+    path: ../Public/Data/GameSaveMetadata/GameSaveMetadata.cs
+    startLine: 30
   assemblies:
   - ResourceDataManagementLib
   namespace: ResourceDataManagementLib.GameSaveData

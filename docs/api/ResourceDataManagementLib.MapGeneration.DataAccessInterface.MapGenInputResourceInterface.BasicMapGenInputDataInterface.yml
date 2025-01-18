@@ -19,8 +19,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface
   type: Class
   source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BasicMapGenInputDataInterface
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\MapGenInputResourceInterface.cs
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
     startLine: 139
   assemblies:
   - ResourceDataManagementLib
@@ -50,8 +54,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetMaxTryCountRatio()
   type: Method
   source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: GetMaxTryCountRatio
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\MapGenInputResourceInterface.cs
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
     startLine: 142
   assemblies:
   - ResourceDataManagementLib
@@ -74,8 +82,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetBrushSize()
   type: Method
   source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: GetBrushSize
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\MapGenInputResourceInterface.cs
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
     startLine: 148
   assemblies:
   - ResourceDataManagementLib
@@ -98,8 +110,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetMainWayFillPercent()
   type: Method
   source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: GetMainWayFillPercent
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\MapGenInputResourceInterface.cs
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
     startLine: 154
   assemblies:
   - ResourceDataManagementLib
@@ -122,8 +138,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetSubWayFillPercent()
   type: Method
   source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: GetSubWayFillPercent
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\MapGenInputResourceInterface.cs
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
     startLine: 160
   assemblies:
   - ResourceDataManagementLib
@@ -146,8 +166,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetPenetratingWayCountRate()
   type: Method
   source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: GetPenetratingWayCountRate
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\MapGenInputResourceInterface.cs
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
     startLine: 166
   assemblies:
   - ResourceDataManagementLib
@@ -170,8 +194,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetPenetratingWayFillPercent()
   type: Method
   source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: GetPenetratingWayFillPercent
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\MapGenInputResourceInterface.cs
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
     startLine: 172
   assemblies:
   - ResourceDataManagementLib

@@ -14,8 +14,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.GateStairTileDetailData
   type: Struct
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: GateStairTileDetailData
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 223
   assemblies:
   - ResourceDataManagementLib
@@ -52,8 +56,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.GateStairTileDetailData.GateStairTiles
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: GateStairTiles
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 226
   assemblies:
   - ResourceDataManagementLib

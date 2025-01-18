@@ -15,8 +15,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerDetailData
   type: Struct
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: OnMiddleLayerDetailData
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 143
   assemblies:
   - ResourceDataManagementLib
@@ -53,8 +57,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerDetailData.PillarTile
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: PillarTile
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 146
   assemblies:
   - ResourceDataManagementLib
@@ -76,8 +84,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerDetailData.BackgroundWallpaperTile
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BackgroundWallpaperTile
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 147
   assemblies:
   - ResourceDataManagementLib

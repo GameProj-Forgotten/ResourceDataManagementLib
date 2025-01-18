@@ -15,8 +15,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSaver
   type: Class
   source:
+    remote:
+      path: Public/Functor/MapGen/DataSupplyAndSave/MapGenDataSaver.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: MapGenDataSaver
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataSupplyAndSave\MapGenDataSaver.cs
+    path: ../Public/Functor/MapGen/DataSupplyAndSave/MapGenDataSaver.cs
     startLine: 19
   assemblies:
   - ResourceDataManagementLib
@@ -46,8 +50,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSaver.SaveMapGenInputData(in ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType)
   type: Method
   source:
+    remote:
+      path: Public/Functor/MapGen/DataSupplyAndSave/MapGenDataSaver.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: SaveMapGenInputData
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataSupplyAndSave\MapGenDataSaver.cs
+    path: ../Public/Functor/MapGen/DataSupplyAndSave/MapGenDataSaver.cs
     startLine: 21
   assemblies:
   - ResourceDataManagementLib
@@ -74,8 +82,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSaver.SaveMapGenData(in int)
   type: Method
   source:
+    remote:
+      path: Public/Functor/MapGen/DataSupplyAndSave/MapGenDataSaver.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: SaveMapGenData
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataSupplyAndSave\MapGenDataSaver.cs
+    path: ../Public/Functor/MapGen/DataSupplyAndSave/MapGenDataSaver.cs
     startLine: 76
   assemblies:
   - ResourceDataManagementLib

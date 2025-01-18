@@ -17,7 +17,7 @@
   "api/ResourceDataManagementLib.GameSaveData.GameSaveMetadata.html": {
     "href": "api/ResourceDataManagementLib.GameSaveData.GameSaveMetadata.html",
     "title": "Struct GameSaveMetadata | ResourceDataManagementLib",
-    "keywords": "Struct GameSaveMetadata Namespace ResourceDataManagementLib.GameSaveData Assembly ResourceDataManagementLib.dll public struct GameSaveMetadata Inherited Members ValueType.Equals(object) ValueType.GetHashCode() ValueType.ToString() object.Equals(object, object) object.ReferenceEquals(object, object) object.GetType() Extension Methods GameSaveMetadataExtension.Init(ref GameSaveMetadata) Fields BIsFirstInited public bool BIsFirstInited Field Value bool LastSaveTime public DateTime LastSaveTime Field Value DateTime SaveName public string SaveName Field Value string"
+    "keywords": "Struct GameSaveMetadata Namespace ResourceDataManagementLib.GameSaveData Assembly ResourceDataManagementLib.dll public struct GameSaveMetadata Inherited Members ValueType.Equals(object) ValueType.GetHashCode() ValueType.ToString() object.Equals(object, object) object.ReferenceEquals(object, object) object.GetType() Extension Methods GameSaveMetadataExtension.Init(ref GameSaveMetadata) Fields BIsFirstInited public bool BIsFirstInited Field Value bool GameSeed public int GameSeed Field Value int LastSaveTime public DateTime LastSaveTime Field Value DateTime SaveName public string SaveName Field Value string"
   },
   "api/ResourceDataManagementLib.GameSaveData.GameSaveMetadataExtension.html": {
     "href": "api/ResourceDataManagementLib.GameSaveData.GameSaveMetadataExtension.html",

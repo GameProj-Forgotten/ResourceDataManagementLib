@@ -30,8 +30,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.TileKind
   type: Enum
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: TileKind
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 12
   assemblies:
   - ResourceDataManagementLib
@@ -51,8 +55,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.TileKind.BasicCommonAreaTile
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BasicCommonAreaTile
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 19
   assemblies:
   - ResourceDataManagementLib
@@ -75,8 +83,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.TileKind.BasicDecorationAreaTile_0
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BasicDecorationAreaTile_0
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 23
   assemblies:
   - ResourceDataManagementLib
@@ -99,8 +111,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.TileKind.BasicDecorationAreaTile_1
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BasicDecorationAreaTile_1
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 24
   assemblies:
   - ResourceDataManagementLib
@@ -121,8 +137,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.TileKind.BasicDecorationAreaTile_2
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BasicDecorationAreaTile_2
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 25
   assemblies:
   - ResourceDataManagementLib
@@ -143,8 +163,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.TileKind.BasicDecorationAreaTile_3
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BasicDecorationAreaTile_3
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 26
   assemblies:
   - ResourceDataManagementLib
@@ -165,8 +189,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.TileKind.FallingTile
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: FallingTile
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 34
   assemblies:
   - ResourceDataManagementLib
@@ -189,8 +217,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.TileKind.ArrawTrapTile
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: ArrawTrapTile
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 38
   assemblies:
   - ResourceDataManagementLib
@@ -213,8 +245,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.TileKind.SpearTrapTile
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: SpearTrapTile
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 42
   assemblies:
   - ResourceDataManagementLib
@@ -237,8 +273,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.TileKind.SpikeTrapTile
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: SpikeTrapTile
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 46
   assemblies:
   - ResourceDataManagementLib
@@ -261,8 +301,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.TileKind.ChestTile
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: ChestTile
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 52
   assemblies:
   - ResourceDataManagementLib
@@ -285,8 +329,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.TileKind.DoorTile
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: DoorTile
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 56
   assemblies:
   - ResourceDataManagementLib
@@ -309,8 +357,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.TileKind.LadderTile
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: LadderTile
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 61
   assemblies:
   - ResourceDataManagementLib
@@ -333,8 +385,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.TileKind.GlowTile
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: GlowTile
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 67
   assemblies:
   - ResourceDataManagementLib
@@ -357,8 +413,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.TileKind.MovementTile
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: MovementTile
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 73
   assemblies:
   - ResourceDataManagementLib
@@ -381,8 +441,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.TileKind.PillarTile
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: PillarTile
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 82
   assemblies:
   - ResourceDataManagementLib
@@ -405,8 +469,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.TileKind.BackgroundWallpaperTile
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BackgroundWallpaperTile
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 86
   assemblies:
   - ResourceDataManagementLib
@@ -429,8 +497,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.TileKind.FloatingDecorationPropTile
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: FloatingDecorationPropTile
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 92
   assemblies:
   - ResourceDataManagementLib

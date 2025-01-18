@@ -15,8 +15,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface
   type: Class
   source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: RegionSelectionInputDataInterface
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\MapGenInputResourceInterface.cs
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
     startLine: 249
   assemblies:
   - ResourceDataManagementLib
@@ -46,8 +50,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.GetBaseColor()
   type: Method
   source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: GetBaseColor
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\MapGenInputResourceInterface.cs
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
     startLine: 252
   assemblies:
   - ResourceDataManagementLib
@@ -70,8 +78,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.GetSingleRegionDatas()
   type: Method
   source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: GetSingleRegionDatas
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\MapGenInputResourceInterface.cs
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
     startLine: 258
   assemblies:
   - ResourceDataManagementLib

@@ -13,8 +13,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.DoorTileDetailData
   type: Struct
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: DoorTileDetailData
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 285
   assemblies:
   - ResourceDataManagementLib

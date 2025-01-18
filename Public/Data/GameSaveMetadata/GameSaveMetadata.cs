@@ -10,6 +10,7 @@ namespace ResourceDataManagementLib.GameSaveData
     public struct GameSaveMetadata
     {
         public string SaveName;
+        public int GameSeed;
 
         public bool BIsFirstInited;
 
@@ -30,6 +31,7 @@ namespace ResourceDataManagementLib.GameSaveData
         public static void Init(ref this GameSaveMetadata metadata)
         {
             metadata.SaveName = GameSaveMetadata.DefaultSaveName + UnityEngine.Random.Range(0, int.MaxValue);
+            metadata.GameSeed = UnityEngine.Random.Range(int.MinValue, int.MaxValue);
 
             metadata.BIsFirstInited = false;
 

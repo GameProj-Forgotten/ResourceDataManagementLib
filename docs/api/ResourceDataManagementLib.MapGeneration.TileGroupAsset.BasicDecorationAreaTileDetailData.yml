@@ -14,8 +14,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicDecorationAreaTileDetailData
   type: Struct
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BasicDecorationAreaTileDetailData
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 245
   assemblies:
   - ResourceDataManagementLib
@@ -52,8 +56,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicDecorationAreaTileDetailData.BackgroundTileDetailDatas
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BackgroundTileDetailDatas
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 261
   assemblies:
   - ResourceDataManagementLib

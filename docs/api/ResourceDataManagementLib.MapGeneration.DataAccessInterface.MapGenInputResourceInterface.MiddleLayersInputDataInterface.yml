@@ -15,8 +15,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface
   type: Class
   source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: MiddleLayersInputDataInterface
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\MapGenInputResourceInterface.cs
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
     startLine: 332
   assemblies:
   - ResourceDataManagementLib
@@ -46,8 +50,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface.GetCurLayerMiddleLayerDepth()
   type: Method
   source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: GetCurLayerMiddleLayerDepth
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\MapGenInputResourceInterface.cs
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
     startLine: 335
   assemblies:
   - ResourceDataManagementLib
@@ -70,8 +78,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface.GetColorStepForCurLayer()
   type: Method
   source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: GetColorStepForCurLayer
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\MapGenInputResourceInterface.cs
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
     startLine: 341
   assemblies:
   - ResourceDataManagementLib

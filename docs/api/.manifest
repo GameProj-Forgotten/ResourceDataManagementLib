@@ -7,6 +7,7 @@
   "ResourceDataManagementLib.GameSaveData": "ResourceDataManagementLib.GameSaveData.yml",
   "ResourceDataManagementLib.GameSaveData.GameSaveMetadata": "ResourceDataManagementLib.GameSaveData.GameSaveMetadata.yml",
   "ResourceDataManagementLib.GameSaveData.GameSaveMetadata.BIsFirstInited": "ResourceDataManagementLib.GameSaveData.GameSaveMetadata.yml",
+  "ResourceDataManagementLib.GameSaveData.GameSaveMetadata.GameSeed": "ResourceDataManagementLib.GameSaveData.GameSaveMetadata.yml",
   "ResourceDataManagementLib.GameSaveData.GameSaveMetadata.LastSaveTime": "ResourceDataManagementLib.GameSaveData.GameSaveMetadata.yml",
   "ResourceDataManagementLib.GameSaveData.GameSaveMetadata.SaveName": "ResourceDataManagementLib.GameSaveData.GameSaveMetadata.yml",
   "ResourceDataManagementLib.GameSaveData.GameSaveMetadataExtension": "ResourceDataManagementLib.GameSaveData.GameSaveMetadataExtension.yml",

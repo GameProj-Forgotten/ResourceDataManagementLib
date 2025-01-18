@@ -13,8 +13,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface
   type: Class
   source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: MapGenInputResourceInterface
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\MapGenInputResourceInterface.cs
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
     startLine: 14
   assemblies:
   - ResourceDataManagementLib

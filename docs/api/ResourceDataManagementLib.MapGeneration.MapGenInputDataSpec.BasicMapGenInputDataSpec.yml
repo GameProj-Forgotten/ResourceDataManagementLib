@@ -19,8 +19,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.BasicMapGenInputDataSpec
   type: Struct
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BasicMapGenInputDataSpec
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\BasicMapGenInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
     startLine: 25
   assemblies:
   - ResourceDataManagementLib
@@ -50,8 +54,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.BasicMapGenInputDataSpec.MaxTryCountRatio
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: MaxTryCountRatio
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\BasicMapGenInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
     startLine: 27
   assemblies:
   - ResourceDataManagementLib
@@ -73,8 +81,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.BasicMapGenInputDataSpec.BrushSize
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BrushSize
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\BasicMapGenInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
     startLine: 29
   assemblies:
   - ResourceDataManagementLib
@@ -96,8 +108,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.BasicMapGenInputDataSpec.MainWayFillPercent
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: MainWayFillPercent
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\BasicMapGenInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
     startLine: 31
   assemblies:
   - ResourceDataManagementLib
@@ -119,8 +135,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.BasicMapGenInputDataSpec.SubWayFillPercent
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: SubWayFillPercent
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\BasicMapGenInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
     startLine: 31
   assemblies:
   - ResourceDataManagementLib
@@ -142,8 +162,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.BasicMapGenInputDataSpec.PenetratingWayCountRate
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: PenetratingWayCountRate
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\BasicMapGenInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
     startLine: 32
   assemblies:
   - ResourceDataManagementLib
@@ -165,8 +189,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.BasicMapGenInputDataSpec.PenetratingWayFillPercent
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: PenetratingWayFillPercent
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\BasicMapGenInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
     startLine: 33
   assemblies:
   - ResourceDataManagementLib

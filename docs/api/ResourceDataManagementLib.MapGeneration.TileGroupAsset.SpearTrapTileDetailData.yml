@@ -13,8 +13,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SpearTrapTileDetailData
   type: Struct
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: SpearTrapTileDetailData
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 272
   assemblies:
   - ResourceDataManagementLib

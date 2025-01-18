@@ -18,8 +18,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData
   type: Struct
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BasicCommonAreaTileDetailData
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 173
   assemblies:
   - ResourceDataManagementLib
@@ -56,8 +60,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.BorderTileData
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BorderTileData
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 231
   assemblies:
   - ResourceDataManagementLib
@@ -91,8 +99,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.BackgroundTileData
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BackgroundTileData
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 234
   assemblies:
   - ResourceDataManagementLib
@@ -126,8 +138,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoBackLayerGateTileData
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: ToGoBackLayerGateTileData
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 237
   assemblies:
   - ResourceDataManagementLib
@@ -161,8 +177,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileData
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: ToGoFrontLayerGateTileData
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 240
   assemblies:
   - ResourceDataManagementLib
@@ -196,8 +216,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.GateStairTileData
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: GateStairTileData
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 243
   assemblies:
   - ResourceDataManagementLib

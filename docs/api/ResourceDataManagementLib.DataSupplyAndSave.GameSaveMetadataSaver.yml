@@ -14,8 +14,12 @@ items:
   fullName: ResourceDataManagementLib.DataSupplyAndSave.GameSaveMetadataSaver
   type: Class
   source:
+    remote:
+      path: Public/Functor/MapGen/DataSupplyAndSave/GameSaveMetadataSaver.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: GameSaveMetadataSaver
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataSupplyAndSave\GameSaveMetadataSaver.cs
+    path: ../Public/Functor/MapGen/DataSupplyAndSave/GameSaveMetadataSaver.cs
     startLine: 15
   assemblies:
   - ResourceDataManagementLib
@@ -45,8 +49,12 @@ items:
   fullName: ResourceDataManagementLib.DataSupplyAndSave.GameSaveMetadataSaver.SaveGameSaveMetadata()
   type: Method
   source:
+    remote:
+      path: Public/Functor/MapGen/DataSupplyAndSave/GameSaveMetadataSaver.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: SaveGameSaveMetadata
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataSupplyAndSave\GameSaveMetadataSaver.cs
+    path: ../Public/Functor/MapGen/DataSupplyAndSave/GameSaveMetadataSaver.cs
     startLine: 17
   assemblies:
   - ResourceDataManagementLib

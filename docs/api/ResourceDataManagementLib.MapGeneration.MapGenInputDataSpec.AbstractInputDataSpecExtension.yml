@@ -15,8 +15,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.AbstractInputDataSpecExtension
   type: Class
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: AbstractInputDataSpecExtension
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\AbstractInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
     startLine: 63
   assemblies:
   - ResourceDataManagementLib
@@ -47,8 +51,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.AbstractInputDataSpecExtension.Init(ref ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.AbstractInputDataSpec)
   type: Method
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: Init
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\AbstractInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
     startLine: 65
   assemblies:
   - ResourceDataManagementLib
@@ -76,8 +84,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.AbstractInputDataSpecExtension.BIsValid(in ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.AbstractInputDataSpec)
   type: Method
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BIsValid
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\AbstractInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
     startLine: 74
   assemblies:
   - ResourceDataManagementLib

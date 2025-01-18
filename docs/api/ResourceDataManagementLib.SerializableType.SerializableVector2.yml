@@ -21,8 +21,12 @@ items:
   fullName: ResourceDataManagementLib.SerializableType.SerializableVector2
   type: Struct
   source:
+    remote:
+      path: Public/Data/SerializableType/SerializableVector.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: SerializableVector2
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\SerializableType\SerializableVector.cs
+    path: ../Public/Data/SerializableType/SerializableVector.cs
     startLine: 11
   assemblies:
   - ResourceDataManagementLib
@@ -49,8 +53,12 @@ items:
   fullName: ResourceDataManagementLib.SerializableType.SerializableVector2.X
   type: Field
   source:
+    remote:
+      path: Public/Data/SerializableType/SerializableVector.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: X
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\SerializableType\SerializableVector.cs
+    path: ../Public/Data/SerializableType/SerializableVector.cs
     startLine: 13
   assemblies:
   - ResourceDataManagementLib
@@ -72,8 +80,12 @@ items:
   fullName: ResourceDataManagementLib.SerializableType.SerializableVector2.Y
   type: Field
   source:
+    remote:
+      path: Public/Data/SerializableType/SerializableVector.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: Y
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\SerializableType\SerializableVector.cs
+    path: ../Public/Data/SerializableType/SerializableVector.cs
     startLine: 13
   assemblies:
   - ResourceDataManagementLib
@@ -95,8 +107,12 @@ items:
   fullName: ResourceDataManagementLib.SerializableType.SerializableVector2.SerializableVector2(in UnityEngine.Vector2)
   type: Constructor
   source:
+    remote:
+      path: Public/Data/SerializableType/SerializableVector.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: .ctor
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\SerializableType\SerializableVector.cs
+    path: ../Public/Data/SerializableType/SerializableVector.cs
     startLine: 16
   assemblies:
   - ResourceDataManagementLib
@@ -123,8 +139,12 @@ items:
   fullName: ResourceDataManagementLib.SerializableType.SerializableVector2.SerializableVector2(in float, in float)
   type: Constructor
   source:
+    remote:
+      path: Public/Data/SerializableType/SerializableVector.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: .ctor
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\SerializableType\SerializableVector.cs
+    path: ../Public/Data/SerializableType/SerializableVector.cs
     startLine: 21
   assemblies:
   - ResourceDataManagementLib
@@ -153,8 +173,12 @@ items:
   fullName: ResourceDataManagementLib.SerializableType.SerializableVector2.implicit operator UnityEngine.Vector2(in ResourceDataManagementLib.SerializableType.SerializableVector2)
   type: Operator
   source:
+    remote:
+      path: Public/Data/SerializableType/SerializableVector.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: op_Implicit
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\SerializableType\SerializableVector.cs
+    path: ../Public/Data/SerializableType/SerializableVector.cs
     startLine: 27
   assemblies:
   - ResourceDataManagementLib
@@ -183,8 +207,12 @@ items:
   fullName: ResourceDataManagementLib.SerializableType.SerializableVector2.implicit operator ResourceDataManagementLib.SerializableType.SerializableVector2(in UnityEngine.Vector2)
   type: Operator
   source:
+    remote:
+      path: Public/Data/SerializableType/SerializableVector.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: op_Implicit
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\SerializableType\SerializableVector.cs
+    path: ../Public/Data/SerializableType/SerializableVector.cs
     startLine: 31
   assemblies:
   - ResourceDataManagementLib
@@ -213,8 +241,12 @@ items:
   fullName: ResourceDataManagementLib.SerializableType.SerializableVector2.zero
   type: Property
   source:
+    remote:
+      path: Public/Data/SerializableType/SerializableVector.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: zero
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\SerializableType\SerializableVector.cs
+    path: ../Public/Data/SerializableType/SerializableVector.cs
     startLine: 36
   assemblies:
   - ResourceDataManagementLib
@@ -238,8 +270,12 @@ items:
   fullName: ResourceDataManagementLib.SerializableType.SerializableVector2.one
   type: Property
   source:
+    remote:
+      path: Public/Data/SerializableType/SerializableVector.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: one
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\SerializableType\SerializableVector.cs
+    path: ../Public/Data/SerializableType/SerializableVector.cs
     startLine: 43
   assemblies:
   - ResourceDataManagementLib

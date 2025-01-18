@@ -17,8 +17,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.AbstractInputDataSpec
   type: Struct
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: AbstractInputDataSpec
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\AbstractInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
     startLine: 23
   assemblies:
   - ResourceDataManagementLib
@@ -48,8 +52,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.AbstractInputDataSpec.SingleChunkSize
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: SingleChunkSize
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\AbstractInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
     startLine: 25
   assemblies:
   - ResourceDataManagementLib
@@ -71,8 +79,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.AbstractInputDataSpec.MapSize
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: MapSize
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\AbstractInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
     startLine: 25
   assemblies:
   - ResourceDataManagementLib
@@ -94,8 +106,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.AbstractInputDataSpec.SingleRoomSize
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: SingleRoomSize
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\AbstractInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
     startLine: 26
   assemblies:
   - ResourceDataManagementLib
@@ -117,8 +133,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.AbstractInputDataSpec.AreaNameTable
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: AreaNameTable
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\AbstractInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
     startLine: 28
   assemblies:
   - ResourceDataManagementLib

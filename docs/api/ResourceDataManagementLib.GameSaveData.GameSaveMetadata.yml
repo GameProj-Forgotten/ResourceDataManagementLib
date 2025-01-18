@@ -6,6 +6,7 @@ items:
   parent: ResourceDataManagementLib.GameSaveData
   children:
   - ResourceDataManagementLib.GameSaveData.GameSaveMetadata.BIsFirstInited
+  - ResourceDataManagementLib.GameSaveData.GameSaveMetadata.GameSeed
   - ResourceDataManagementLib.GameSaveData.GameSaveMetadata.LastSaveTime
   - ResourceDataManagementLib.GameSaveData.GameSaveMetadata.SaveName
   langs:
@@ -16,8 +17,12 @@ items:
   fullName: ResourceDataManagementLib.GameSaveData.GameSaveMetadata
   type: Struct
   source:
+    remote:
+      path: Public/Data/GameSaveMetadata/GameSaveMetadata.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: GameSaveMetadata
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\GameSaveMetadata\GameSaveMetadata.cs
+    path: ../Public/Data/GameSaveMetadata/GameSaveMetadata.cs
     startLine: 9
   assemblies:
   - ResourceDataManagementLib
@@ -46,8 +51,12 @@ items:
   fullName: ResourceDataManagementLib.GameSaveData.GameSaveMetadata.SaveName
   type: Field
   source:
+    remote:
+      path: Public/Data/GameSaveMetadata/GameSaveMetadata.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: SaveName
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\GameSaveMetadata\GameSaveMetadata.cs
+    path: ../Public/Data/GameSaveMetadata/GameSaveMetadata.cs
     startLine: 11
   assemblies:
   - ResourceDataManagementLib
@@ -57,6 +66,33 @@ items:
     return:
       type: System.String
     content.vb: Public SaveName As String
+- uid: ResourceDataManagementLib.GameSaveData.GameSaveMetadata.GameSeed
+  commentId: F:ResourceDataManagementLib.GameSaveData.GameSaveMetadata.GameSeed
+  id: GameSeed
+  parent: ResourceDataManagementLib.GameSaveData.GameSaveMetadata
+  langs:
+  - csharp
+  - vb
+  name: GameSeed
+  nameWithType: GameSaveMetadata.GameSeed
+  fullName: ResourceDataManagementLib.GameSaveData.GameSaveMetadata.GameSeed
+  type: Field
+  source:
+    remote:
+      path: Public/Data/GameSaveMetadata/GameSaveMetadata.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
+    id: GameSeed
+    path: ../Public/Data/GameSaveMetadata/GameSaveMetadata.cs
+    startLine: 12
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.GameSaveData
+  syntax:
+    content: public int GameSeed
+    return:
+      type: System.Int32
+    content.vb: Public GameSeed As Integer
 - uid: ResourceDataManagementLib.GameSaveData.GameSaveMetadata.BIsFirstInited
   commentId: F:ResourceDataManagementLib.GameSaveData.GameSaveMetadata.BIsFirstInited
   id: BIsFirstInited
@@ -69,9 +105,13 @@ items:
   fullName: ResourceDataManagementLib.GameSaveData.GameSaveMetadata.BIsFirstInited
   type: Field
   source:
+    remote:
+      path: Public/Data/GameSaveMetadata/GameSaveMetadata.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BIsFirstInited
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\GameSaveMetadata\GameSaveMetadata.cs
-    startLine: 13
+    path: ../Public/Data/GameSaveMetadata/GameSaveMetadata.cs
+    startLine: 14
   assemblies:
   - ResourceDataManagementLib
   namespace: ResourceDataManagementLib.GameSaveData
@@ -92,9 +132,13 @@ items:
   fullName: ResourceDataManagementLib.GameSaveData.GameSaveMetadata.LastSaveTime
   type: Field
   source:
+    remote:
+      path: Public/Data/GameSaveMetadata/GameSaveMetadata.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: LastSaveTime
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\GameSaveMetadata\GameSaveMetadata.cs
-    startLine: 15
+    path: ../Public/Data/GameSaveMetadata/GameSaveMetadata.cs
+    startLine: 16
   assemblies:
   - ResourceDataManagementLib
   namespace: ResourceDataManagementLib.GameSaveData
@@ -421,6 +465,17 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System

@@ -14,8 +14,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.TileBaseResourceInterface
   type: Class
   source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/TileBaseResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: TileBaseResourceInterface
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\TileBaseResourceInterface.cs
+    path: ../Public/Functor/MapGen/DataAccessInterface/TileBaseResourceInterface.cs
     startLine: 14
   assemblies:
   - ResourceDataManagementLib
@@ -45,8 +49,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.TileBaseResourceInterface.GetTotalTileGroupInstance()
   type: Method
   source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/TileBaseResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: GetTotalTileGroupInstance
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\TileBaseResourceInterface.cs
+    path: ../Public/Functor/MapGen/DataAccessInterface/TileBaseResourceInterface.cs
     startLine: 23
   assemblies:
   - ResourceDataManagementLib

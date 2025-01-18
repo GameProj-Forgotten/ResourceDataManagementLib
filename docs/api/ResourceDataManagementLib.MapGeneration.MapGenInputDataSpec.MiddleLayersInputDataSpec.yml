@@ -15,8 +15,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MiddleLayersInputDataSpec
   type: Struct
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/MiddleLayersInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: MiddleLayersInputDataSpec
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\MiddleLayersInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/MiddleLayersInputDataSpec.cs
     startLine: 11
   assemblies:
   - ResourceDataManagementLib
@@ -46,8 +50,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MiddleLayersInputDataSpec.CurLayerMiddleLayerDepth
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/MiddleLayersInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: CurLayerMiddleLayerDepth
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\MiddleLayersInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/MiddleLayersInputDataSpec.cs
     startLine: 13
   assemblies:
   - ResourceDataManagementLib
@@ -69,8 +77,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MiddleLayersInputDataSpec.ColorStepForCurLayer
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/MiddleLayersInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: ColorStepForCurLayer
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\MiddleLayersInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/MiddleLayersInputDataSpec.cs
     startLine: 15
   assemblies:
   - ResourceDataManagementLib

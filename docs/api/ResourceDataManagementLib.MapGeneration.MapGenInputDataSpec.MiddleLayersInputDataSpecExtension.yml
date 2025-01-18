@@ -15,8 +15,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MiddleLayersInputDataSpecExtension
   type: Class
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/MiddleLayersInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: MiddleLayersInputDataSpecExtension
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\MiddleLayersInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/MiddleLayersInputDataSpec.cs
     startLine: 34
   assemblies:
   - ResourceDataManagementLib
@@ -47,8 +51,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MiddleLayersInputDataSpecExtension.Init(ref ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MiddleLayersInputDataSpec)
   type: Method
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/MiddleLayersInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: Init
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\MiddleLayersInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/MiddleLayersInputDataSpec.cs
     startLine: 36
   assemblies:
   - ResourceDataManagementLib
@@ -76,8 +84,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MiddleLayersInputDataSpecExtension.BIsValid(in ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MiddleLayersInputDataSpec)
   type: Method
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/MiddleLayersInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BIsValid
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\MiddleLayersInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/MiddleLayersInputDataSpec.cs
     startLine: 43
   assemblies:
   - ResourceDataManagementLib

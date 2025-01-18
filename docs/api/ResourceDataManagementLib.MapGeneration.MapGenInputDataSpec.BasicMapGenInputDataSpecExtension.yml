@@ -15,8 +15,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.BasicMapGenInputDataSpecExtension
   type: Class
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BasicMapGenInputDataSpecExtension
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\BasicMapGenInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
     startLine: 83
   assemblies:
   - ResourceDataManagementLib
@@ -47,8 +51,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.BasicMapGenInputDataSpecExtension.Init(ref ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.BasicMapGenInputDataSpec)
   type: Method
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: Init
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\BasicMapGenInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
     startLine: 85
   assemblies:
   - ResourceDataManagementLib
@@ -76,8 +84,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.BasicMapGenInputDataSpecExtension.BIsValid(in ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.BasicMapGenInputDataSpec)
   type: Method
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BIsValid
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\BasicMapGenInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/BasicMapGenInputDataSpec.cs
     startLine: 97
   assemblies:
   - ResourceDataManagementLib

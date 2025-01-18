@@ -15,8 +15,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension
   type: Class
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/RegionSelectionInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: RegionSelectionInputDataSpecExtension
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\RegionSelectionInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/RegionSelectionInputDataSpec.cs
     startLine: 80
   assemblies:
   - ResourceDataManagementLib
@@ -47,8 +51,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.Init(ref ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec)
   type: Method
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/RegionSelectionInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: Init
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\RegionSelectionInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/RegionSelectionInputDataSpec.cs
     startLine: 82
   assemblies:
   - ResourceDataManagementLib
@@ -76,8 +84,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.BIsValid(in ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec)
   type: Method
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/RegionSelectionInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BIsValid
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\RegionSelectionInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/RegionSelectionInputDataSpec.cs
     startLine: 89
   assemblies:
   - ResourceDataManagementLib

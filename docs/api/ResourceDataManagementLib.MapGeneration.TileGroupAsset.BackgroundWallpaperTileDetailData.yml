@@ -13,8 +13,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BackgroundWallpaperTileDetailData
   type: Struct
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BackgroundWallpaperTileDetailData
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 308
   assemblies:
   - ResourceDataManagementLib

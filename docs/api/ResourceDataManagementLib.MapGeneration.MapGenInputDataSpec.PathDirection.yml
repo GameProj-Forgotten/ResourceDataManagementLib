@@ -21,8 +21,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.PathDirection
   type: Enum
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: PathDirection
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\AbstractInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
     startLine: 11
   assemblies:
   - ResourceDataManagementLib
@@ -52,8 +56,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.PathDirection.None
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: None
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\AbstractInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
     startLine: 13
   assemblies:
   - ResourceDataManagementLib
@@ -74,8 +82,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.PathDirection.Origin
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: Origin
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\AbstractInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
     startLine: 14
   assemblies:
   - ResourceDataManagementLib
@@ -96,8 +108,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.PathDirection.Left
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: Left
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\AbstractInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
     startLine: 15
   assemblies:
   - ResourceDataManagementLib
@@ -118,8 +134,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.PathDirection.Right
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: Right
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\AbstractInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
     startLine: 16
   assemblies:
   - ResourceDataManagementLib
@@ -140,8 +160,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.PathDirection.Front
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: Front
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\AbstractInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
     startLine: 17
   assemblies:
   - ResourceDataManagementLib
@@ -162,8 +186,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.PathDirection.Back
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: Back
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\AbstractInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
     startLine: 18
   assemblies:
   - ResourceDataManagementLib
@@ -184,8 +212,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.PathDirection.Top
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: Top
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\AbstractInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
     startLine: 19
   assemblies:
   - ResourceDataManagementLib
@@ -206,8 +238,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.PathDirection.Bottom
   type: Field
   source:
+    remote:
+      path: Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: Bottom
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\AbstractInputDataSpec.cs
+    path: ../Public/Data/MapGenInputDataSpec/AbstractInputDataSpec.cs
     startLine: 20
   assemblies:
   - ResourceDataManagementLib

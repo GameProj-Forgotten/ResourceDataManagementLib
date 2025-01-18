@@ -69,6 +69,12 @@ references:
   commentId: F:ResourceDataManagementLib.GameSaveData.GameSaveMetadata.BIsFirstInited
   fullName: ResourceDataManagementLib.GameSaveData.GameSaveMetadata.BIsFirstInited
   nameWithType: GameSaveMetadata.BIsFirstInited
+- uid: ResourceDataManagementLib.GameSaveData.GameSaveMetadata.GameSeed
+  name: GameSeed
+  href: api/ResourceDataManagementLib.GameSaveData.GameSaveMetadata.html#ResourceDataManagementLib_GameSaveData_GameSaveMetadata_GameSeed
+  commentId: F:ResourceDataManagementLib.GameSaveData.GameSaveMetadata.GameSeed
+  fullName: ResourceDataManagementLib.GameSaveData.GameSaveMetadata.GameSeed
+  nameWithType: GameSaveMetadata.GameSeed
 - uid: ResourceDataManagementLib.GameSaveData.GameSaveMetadata.LastSaveTime
   name: LastSaveTime
   href: api/ResourceDataManagementLib.GameSaveData.GameSaveMetadata.html#ResourceDataManagementLib_GameSaveData_GameSaveMetadata_LastSaveTime

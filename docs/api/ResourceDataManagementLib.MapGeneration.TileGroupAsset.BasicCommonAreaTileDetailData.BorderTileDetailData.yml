@@ -17,8 +17,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.BorderTileDetailData
   type: Struct
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BorderTileDetailData
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 175
   assemblies:
   - ResourceDataManagementLib
@@ -55,8 +59,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.BorderTileDetailData.BorderMainTiles
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BorderMainTiles
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 178
   assemblies:
   - ResourceDataManagementLib
@@ -90,8 +98,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.BorderTileDetailData.BorderUpperHozirontalEdgyTiles
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BorderUpperHozirontalEdgyTiles
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 181
   assemblies:
   - ResourceDataManagementLib
@@ -125,8 +137,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.BorderTileDetailData.BorderLowerHorizontalEdgyTiles
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BorderLowerHorizontalEdgyTiles
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 182
   assemblies:
   - ResourceDataManagementLib
@@ -148,8 +164,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.BorderTileDetailData.BorderVerticalEdgyTiles
   type: Field
   source:
+    remote:
+      path: Public/Data/TileGroupAsset/TileGroup.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: BorderVerticalEdgyTiles
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    path: ../Public/Data/TileGroupAsset/TileGroup.cs
     startLine: 185
   assemblies:
   - ResourceDataManagementLib

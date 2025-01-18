@@ -17,8 +17,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenOutputResourceInterface
   type: Class
   source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenOutputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: MapGenOutputResourceInterface
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\MapGenOutputResourceInterface.cs
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenOutputResourceInterface.cs
     startLine: 13
   assemblies:
   - ResourceDataManagementLib
@@ -48,8 +52,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenOutputResourceInterface.GetMapActivePlaneTable()
   type: Method
   source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenOutputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: GetMapActivePlaneTable
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\MapGenOutputResourceInterface.cs
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenOutputResourceInterface.cs
     startLine: 15
   assemblies:
   - ResourceDataManagementLib
@@ -72,8 +80,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenOutputResourceInterface.GetRegionSelectionPlaneTable()
   type: Method
   source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenOutputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: GetRegionSelectionPlaneTable
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\MapGenOutputResourceInterface.cs
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenOutputResourceInterface.cs
     startLine: 19
   assemblies:
   - ResourceDataManagementLib
@@ -96,8 +108,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenOutputResourceInterface.GetMiddleLayerPlaneTable()
   type: Method
   source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenOutputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: GetMiddleLayerPlaneTable
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\MapGenOutputResourceInterface.cs
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenOutputResourceInterface.cs
     startLine: 23
   assemblies:
   - ResourceDataManagementLib
@@ -120,8 +136,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenOutputResourceInterface.GetTileKindPlaneTable()
   type: Method
   source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenOutputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: GetTileKindPlaneTable
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\MapGenOutputResourceInterface.cs
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenOutputResourceInterface.cs
     startLine: 27
   assemblies:
   - ResourceDataManagementLib

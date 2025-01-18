@@ -17,8 +17,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface
   type: Class
   source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: AbstractInputDataInterface
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\MapGenInputResourceInterface.cs
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
     startLine: 31
   assemblies:
   - ResourceDataManagementLib
@@ -48,8 +52,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.GetSingleChunkSize()
   type: Method
   source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: GetSingleChunkSize
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\MapGenInputResourceInterface.cs
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
     startLine: 34
   assemblies:
   - ResourceDataManagementLib
@@ -72,8 +80,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.GetMapSize()
   type: Method
   source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: GetMapSize
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\MapGenInputResourceInterface.cs
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
     startLine: 40
   assemblies:
   - ResourceDataManagementLib
@@ -96,8 +108,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.GetSingleRoomSize()
   type: Method
   source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: GetSingleRoomSize
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\MapGenInputResourceInterface.cs
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
     startLine: 46
   assemblies:
   - ResourceDataManagementLib
@@ -120,8 +136,12 @@ items:
   fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.GetAreaNameTable()
   type: Method
   source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
     id: GetAreaNameTable
-    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\MapGenInputResourceInterface.cs
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
     startLine: 52
   assemblies:
   - ResourceDataManagementLib
