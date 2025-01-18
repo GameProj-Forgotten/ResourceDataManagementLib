@@ -5,10 +5,17 @@ items:
   id: MapGenInputResourceInterface.AbstractInputDataInterface
   parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface
   children:
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.AddAreaName(System.Guid@,System.String@)
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.ClearAreaNameTable
   - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.GetAreaNameTable
   - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.GetMapSize
   - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.GetSingleChunkSize
   - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.GetSingleRoomSize
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.RemoveAreaName(System.Guid@)
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetAreaNameTable(System.Collections.Generic.Dictionary{System.Guid,System.String}@)
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetMapSize(UnityEngine.Vector3Int@)
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetSingleChunkSize(UnityEngine.Vector3Int@)
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetSingleRoomSize(UnityEngine.Vector2Int@)
   langs:
   - csharp
   - vb
@@ -152,6 +159,226 @@ items:
       type: System.Collections.Generic.Dictionary{System.Guid,System.String}
     content.vb: Public Shared Function GetAreaNameTable() As Dictionary(Of Guid, String)
   overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.GetAreaNameTable*
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetSingleChunkSize(UnityEngine.Vector3Int@)
+  commentId: M:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetSingleChunkSize(UnityEngine.Vector3Int@)
+  id: SetSingleChunkSize(UnityEngine.Vector3Int@)
+  parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface
+  langs:
+  - csharp
+  - vb
+  name: SetSingleChunkSize(in Vector3Int)
+  nameWithType: MapGenInputResourceInterface.AbstractInputDataInterface.SetSingleChunkSize(in Vector3Int)
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetSingleChunkSize(in UnityEngine.Vector3Int)
+  type: Method
+  source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
+    id: SetSingleChunkSize
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+    startLine: 62
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  syntax:
+    content: public static void SetSingleChunkSize(in Vector3Int singleChunkSize)
+    parameters:
+    - id: singleChunkSize
+      type: UnityEngine.Vector3Int
+    content.vb: Public Shared Sub SetSingleChunkSize(singleChunkSize As Vector3Int)
+  overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetSingleChunkSize*
+  nameWithType.vb: MapGenInputResourceInterface.AbstractInputDataInterface.SetSingleChunkSize(Vector3Int)
+  fullName.vb: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetSingleChunkSize(UnityEngine.Vector3Int)
+  name.vb: SetSingleChunkSize(Vector3Int)
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetMapSize(UnityEngine.Vector3Int@)
+  commentId: M:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetMapSize(UnityEngine.Vector3Int@)
+  id: SetMapSize(UnityEngine.Vector3Int@)
+  parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface
+  langs:
+  - csharp
+  - vb
+  name: SetMapSize(in Vector3Int)
+  nameWithType: MapGenInputResourceInterface.AbstractInputDataInterface.SetMapSize(in Vector3Int)
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetMapSize(in UnityEngine.Vector3Int)
+  type: Method
+  source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
+    id: SetMapSize
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+    startLine: 71
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  syntax:
+    content: public static void SetMapSize(in Vector3Int mapSize)
+    parameters:
+    - id: mapSize
+      type: UnityEngine.Vector3Int
+    content.vb: Public Shared Sub SetMapSize(mapSize As Vector3Int)
+  overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetMapSize*
+  nameWithType.vb: MapGenInputResourceInterface.AbstractInputDataInterface.SetMapSize(Vector3Int)
+  fullName.vb: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetMapSize(UnityEngine.Vector3Int)
+  name.vb: SetMapSize(Vector3Int)
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetSingleRoomSize(UnityEngine.Vector2Int@)
+  commentId: M:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetSingleRoomSize(UnityEngine.Vector2Int@)
+  id: SetSingleRoomSize(UnityEngine.Vector2Int@)
+  parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface
+  langs:
+  - csharp
+  - vb
+  name: SetSingleRoomSize(in Vector2Int)
+  nameWithType: MapGenInputResourceInterface.AbstractInputDataInterface.SetSingleRoomSize(in Vector2Int)
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetSingleRoomSize(in UnityEngine.Vector2Int)
+  type: Method
+  source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
+    id: SetSingleRoomSize
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+    startLine: 80
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  syntax:
+    content: public static void SetSingleRoomSize(in Vector2Int singleRoomSize)
+    parameters:
+    - id: singleRoomSize
+      type: UnityEngine.Vector2Int
+    content.vb: Public Shared Sub SetSingleRoomSize(singleRoomSize As Vector2Int)
+  overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetSingleRoomSize*
+  nameWithType.vb: MapGenInputResourceInterface.AbstractInputDataInterface.SetSingleRoomSize(Vector2Int)
+  fullName.vb: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetSingleRoomSize(UnityEngine.Vector2Int)
+  name.vb: SetSingleRoomSize(Vector2Int)
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetAreaNameTable(System.Collections.Generic.Dictionary{System.Guid,System.String}@)
+  commentId: M:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetAreaNameTable(System.Collections.Generic.Dictionary{System.Guid,System.String}@)
+  id: SetAreaNameTable(System.Collections.Generic.Dictionary{System.Guid,System.String}@)
+  parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface
+  langs:
+  - csharp
+  - vb
+  name: SetAreaNameTable(in Dictionary<Guid, string>)
+  nameWithType: MapGenInputResourceInterface.AbstractInputDataInterface.SetAreaNameTable(in Dictionary<Guid, string>)
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetAreaNameTable(in System.Collections.Generic.Dictionary<System.Guid, string>)
+  type: Method
+  source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
+    id: SetAreaNameTable
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+    startLine: 90
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  syntax:
+    content: public static void SetAreaNameTable(in Dictionary<Guid, string> areaNameTable)
+    parameters:
+    - id: areaNameTable
+      type: System.Collections.Generic.Dictionary{System.Guid,System.String}
+    content.vb: Public Shared Sub SetAreaNameTable(areaNameTable As Dictionary(Of Guid, String))
+  overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetAreaNameTable*
+  nameWithType.vb: MapGenInputResourceInterface.AbstractInputDataInterface.SetAreaNameTable(Dictionary(Of Guid, String))
+  fullName.vb: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetAreaNameTable(System.Collections.Generic.Dictionary(Of System.Guid, String))
+  name.vb: SetAreaNameTable(Dictionary(Of Guid, String))
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.AddAreaName(System.Guid@,System.String@)
+  commentId: M:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.AddAreaName(System.Guid@,System.String@)
+  id: AddAreaName(System.Guid@,System.String@)
+  parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface
+  langs:
+  - csharp
+  - vb
+  name: AddAreaName(in Guid, in string)
+  nameWithType: MapGenInputResourceInterface.AbstractInputDataInterface.AddAreaName(in Guid, in string)
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.AddAreaName(in System.Guid, in string)
+  type: Method
+  source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
+    id: AddAreaName
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+    startLine: 99
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  syntax:
+    content: public static void AddAreaName(in Guid areaID, in string areaName)
+    parameters:
+    - id: areaID
+      type: System.Guid
+    - id: areaName
+      type: System.String
+    content.vb: Public Shared Sub AddAreaName(areaID As Guid, areaName As String)
+  overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.AddAreaName*
+  nameWithType.vb: MapGenInputResourceInterface.AbstractInputDataInterface.AddAreaName(Guid, String)
+  fullName.vb: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.AddAreaName(System.Guid, String)
+  name.vb: AddAreaName(Guid, String)
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.RemoveAreaName(System.Guid@)
+  commentId: M:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.RemoveAreaName(System.Guid@)
+  id: RemoveAreaName(System.Guid@)
+  parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface
+  langs:
+  - csharp
+  - vb
+  name: RemoveAreaName(in Guid)
+  nameWithType: MapGenInputResourceInterface.AbstractInputDataInterface.RemoveAreaName(in Guid)
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.RemoveAreaName(in System.Guid)
+  type: Method
+  source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
+    id: RemoveAreaName
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+    startLine: 108
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  syntax:
+    content: public static void RemoveAreaName(in Guid areaID)
+    parameters:
+    - id: areaID
+      type: System.Guid
+    content.vb: Public Shared Sub RemoveAreaName(areaID As Guid)
+  overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.RemoveAreaName*
+  nameWithType.vb: MapGenInputResourceInterface.AbstractInputDataInterface.RemoveAreaName(Guid)
+  fullName.vb: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.RemoveAreaName(System.Guid)
+  name.vb: RemoveAreaName(Guid)
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.ClearAreaNameTable
+  commentId: M:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.ClearAreaNameTable
+  id: ClearAreaNameTable
+  parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface
+  langs:
+  - csharp
+  - vb
+  name: ClearAreaNameTable()
+  nameWithType: MapGenInputResourceInterface.AbstractInputDataInterface.ClearAreaNameTable()
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.ClearAreaNameTable()
+  type: Method
+  source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
+    id: ClearAreaNameTable
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+    startLine: 117
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  syntax:
+    content: public static void ClearAreaNameTable()
+    content.vb: Public Shared Sub ClearAreaNameTable()
+  overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.ClearAreaNameTable*
 references:
 - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface
   commentId: N:ResourceDataManagementLib.MapGeneration.DataAccessInterface
@@ -582,3 +809,64 @@ references:
     name: Generic
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetSingleChunkSize*
+  commentId: Overload:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetSingleChunkSize
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.html#ResourceDataManagementLib_MapGeneration_DataAccessInterface_MapGenInputResourceInterface_AbstractInputDataInterface_SetSingleChunkSize_UnityEngine_Vector3Int__
+  name: SetSingleChunkSize
+  nameWithType: MapGenInputResourceInterface.AbstractInputDataInterface.SetSingleChunkSize
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetSingleChunkSize
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetMapSize*
+  commentId: Overload:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetMapSize
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.html#ResourceDataManagementLib_MapGeneration_DataAccessInterface_MapGenInputResourceInterface_AbstractInputDataInterface_SetMapSize_UnityEngine_Vector3Int__
+  name: SetMapSize
+  nameWithType: MapGenInputResourceInterface.AbstractInputDataInterface.SetMapSize
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetMapSize
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetSingleRoomSize*
+  commentId: Overload:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetSingleRoomSize
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.html#ResourceDataManagementLib_MapGeneration_DataAccessInterface_MapGenInputResourceInterface_AbstractInputDataInterface_SetSingleRoomSize_UnityEngine_Vector2Int__
+  name: SetSingleRoomSize
+  nameWithType: MapGenInputResourceInterface.AbstractInputDataInterface.SetSingleRoomSize
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetSingleRoomSize
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetAreaNameTable*
+  commentId: Overload:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetAreaNameTable
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.html#ResourceDataManagementLib_MapGeneration_DataAccessInterface_MapGenInputResourceInterface_AbstractInputDataInterface_SetAreaNameTable_System_Collections_Generic_Dictionary_System_Guid_System_String___
+  name: SetAreaNameTable
+  nameWithType: MapGenInputResourceInterface.AbstractInputDataInterface.SetAreaNameTable
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.SetAreaNameTable
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.AddAreaName*
+  commentId: Overload:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.AddAreaName
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.html#ResourceDataManagementLib_MapGeneration_DataAccessInterface_MapGenInputResourceInterface_AbstractInputDataInterface_AddAreaName_System_Guid__System_String__
+  name: AddAreaName
+  nameWithType: MapGenInputResourceInterface.AbstractInputDataInterface.AddAreaName
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.AddAreaName
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.RemoveAreaName*
+  commentId: Overload:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.RemoveAreaName
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.html#ResourceDataManagementLib_MapGeneration_DataAccessInterface_MapGenInputResourceInterface_AbstractInputDataInterface_RemoveAreaName_System_Guid__
+  name: RemoveAreaName
+  nameWithType: MapGenInputResourceInterface.AbstractInputDataInterface.RemoveAreaName
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.RemoveAreaName
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.ClearAreaNameTable*
+  commentId: Overload:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.ClearAreaNameTable
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.html#ResourceDataManagementLib_MapGeneration_DataAccessInterface_MapGenInputResourceInterface_AbstractInputDataInterface_ClearAreaNameTable
+  name: ClearAreaNameTable
+  nameWithType: MapGenInputResourceInterface.AbstractInputDataInterface.ClearAreaNameTable
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.ClearAreaNameTable

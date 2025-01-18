@@ -11,6 +11,12 @@ items:
   - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetPenetratingWayCountRate
   - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetPenetratingWayFillPercent
   - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetSubWayFillPercent
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetBrushSize(System.Tuple{System.Int32,System.Int32}@)
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetMainWayFillPercent(System.Single@)
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetMaxTryCountRatio(System.Single@)
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetPenetratingWayCountRate(System.Single@)
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetPenetratingWayFillPercent(System.Single@)
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetSubWayFillPercent(System.Single@)
   langs:
   - csharp
   - vb
@@ -210,6 +216,198 @@ items:
       type: System.Single
     content.vb: Public Shared Function GetPenetratingWayFillPercent() As Single
   overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetPenetratingWayFillPercent*
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetMaxTryCountRatio(System.Single@)
+  commentId: M:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetMaxTryCountRatio(System.Single@)
+  id: SetMaxTryCountRatio(System.Single@)
+  parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface
+  langs:
+  - csharp
+  - vb
+  name: SetMaxTryCountRatio(in float)
+  nameWithType: MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetMaxTryCountRatio(in float)
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetMaxTryCountRatio(in float)
+  type: Method
+  source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
+    id: SetMaxTryCountRatio
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+    startLine: 182
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  syntax:
+    content: public static void SetMaxTryCountRatio(in float maxTryCountRatio)
+    parameters:
+    - id: maxTryCountRatio
+      type: System.Single
+    content.vb: Public Shared Sub SetMaxTryCountRatio(maxTryCountRatio As Single)
+  overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetMaxTryCountRatio*
+  nameWithType.vb: MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetMaxTryCountRatio(Single)
+  fullName.vb: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetMaxTryCountRatio(Single)
+  name.vb: SetMaxTryCountRatio(Single)
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetBrushSize(System.Tuple{System.Int32,System.Int32}@)
+  commentId: M:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetBrushSize(System.Tuple{System.Int32,System.Int32}@)
+  id: SetBrushSize(System.Tuple{System.Int32,System.Int32}@)
+  parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface
+  langs:
+  - csharp
+  - vb
+  name: SetBrushSize(in Tuple<int, int>)
+  nameWithType: MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetBrushSize(in Tuple<int, int>)
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetBrushSize(in System.Tuple<int, int>)
+  type: Method
+  source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
+    id: SetBrushSize
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+    startLine: 191
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  syntax:
+    content: public static void SetBrushSize(in Tuple<int, int> brushSize)
+    parameters:
+    - id: brushSize
+      type: System.Tuple{System.Int32,System.Int32}
+    content.vb: Public Shared Sub SetBrushSize(brushSize As Tuple(Of Integer, Integer))
+  overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetBrushSize*
+  nameWithType.vb: MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetBrushSize(Tuple(Of Integer, Integer))
+  fullName.vb: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetBrushSize(System.Tuple(Of Integer, Integer))
+  name.vb: SetBrushSize(Tuple(Of Integer, Integer))
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetMainWayFillPercent(System.Single@)
+  commentId: M:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetMainWayFillPercent(System.Single@)
+  id: SetMainWayFillPercent(System.Single@)
+  parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface
+  langs:
+  - csharp
+  - vb
+  name: SetMainWayFillPercent(in float)
+  nameWithType: MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetMainWayFillPercent(in float)
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetMainWayFillPercent(in float)
+  type: Method
+  source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
+    id: SetMainWayFillPercent
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+    startLine: 200
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  syntax:
+    content: public static void SetMainWayFillPercent(in float mainWayFillPercent)
+    parameters:
+    - id: mainWayFillPercent
+      type: System.Single
+    content.vb: Public Shared Sub SetMainWayFillPercent(mainWayFillPercent As Single)
+  overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetMainWayFillPercent*
+  nameWithType.vb: MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetMainWayFillPercent(Single)
+  fullName.vb: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetMainWayFillPercent(Single)
+  name.vb: SetMainWayFillPercent(Single)
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetSubWayFillPercent(System.Single@)
+  commentId: M:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetSubWayFillPercent(System.Single@)
+  id: SetSubWayFillPercent(System.Single@)
+  parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface
+  langs:
+  - csharp
+  - vb
+  name: SetSubWayFillPercent(in float)
+  nameWithType: MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetSubWayFillPercent(in float)
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetSubWayFillPercent(in float)
+  type: Method
+  source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
+    id: SetSubWayFillPercent
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+    startLine: 209
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  syntax:
+    content: public static void SetSubWayFillPercent(in float subWayFillPercent)
+    parameters:
+    - id: subWayFillPercent
+      type: System.Single
+    content.vb: Public Shared Sub SetSubWayFillPercent(subWayFillPercent As Single)
+  overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetSubWayFillPercent*
+  nameWithType.vb: MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetSubWayFillPercent(Single)
+  fullName.vb: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetSubWayFillPercent(Single)
+  name.vb: SetSubWayFillPercent(Single)
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetPenetratingWayCountRate(System.Single@)
+  commentId: M:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetPenetratingWayCountRate(System.Single@)
+  id: SetPenetratingWayCountRate(System.Single@)
+  parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface
+  langs:
+  - csharp
+  - vb
+  name: SetPenetratingWayCountRate(in float)
+  nameWithType: MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetPenetratingWayCountRate(in float)
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetPenetratingWayCountRate(in float)
+  type: Method
+  source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
+    id: SetPenetratingWayCountRate
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+    startLine: 218
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  syntax:
+    content: public static void SetPenetratingWayCountRate(in float penetratingWayCountRate)
+    parameters:
+    - id: penetratingWayCountRate
+      type: System.Single
+    content.vb: Public Shared Sub SetPenetratingWayCountRate(penetratingWayCountRate As Single)
+  overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetPenetratingWayCountRate*
+  nameWithType.vb: MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetPenetratingWayCountRate(Single)
+  fullName.vb: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetPenetratingWayCountRate(Single)
+  name.vb: SetPenetratingWayCountRate(Single)
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetPenetratingWayFillPercent(System.Single@)
+  commentId: M:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetPenetratingWayFillPercent(System.Single@)
+  id: SetPenetratingWayFillPercent(System.Single@)
+  parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface
+  langs:
+  - csharp
+  - vb
+  name: SetPenetratingWayFillPercent(in float)
+  nameWithType: MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetPenetratingWayFillPercent(in float)
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetPenetratingWayFillPercent(in float)
+  type: Method
+  source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
+    id: SetPenetratingWayFillPercent
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+    startLine: 227
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  syntax:
+    content: public static void SetPenetratingWayFillPercent(in float penetratingWayFillPercent)
+    parameters:
+    - id: penetratingWayFillPercent
+      type: System.Single
+    content.vb: Public Shared Sub SetPenetratingWayFillPercent(penetratingWayFillPercent As Single)
+  overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetPenetratingWayFillPercent*
+  nameWithType.vb: MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetPenetratingWayFillPercent(Single)
+  fullName.vb: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetPenetratingWayFillPercent(Single)
+  name.vb: SetPenetratingWayFillPercent(Single)
 references:
 - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface
   commentId: N:ResourceDataManagementLib.MapGeneration.DataAccessInterface
@@ -606,3 +804,39 @@ references:
   name: GetPenetratingWayFillPercent
   nameWithType: MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetPenetratingWayFillPercent
   fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetPenetratingWayFillPercent
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetMaxTryCountRatio*
+  commentId: Overload:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetMaxTryCountRatio
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.html#ResourceDataManagementLib_MapGeneration_DataAccessInterface_MapGenInputResourceInterface_BasicMapGenInputDataInterface_SetMaxTryCountRatio_System_Single__
+  name: SetMaxTryCountRatio
+  nameWithType: MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetMaxTryCountRatio
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetMaxTryCountRatio
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetBrushSize*
+  commentId: Overload:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetBrushSize
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.html#ResourceDataManagementLib_MapGeneration_DataAccessInterface_MapGenInputResourceInterface_BasicMapGenInputDataInterface_SetBrushSize_System_Tuple_System_Int32_System_Int32___
+  name: SetBrushSize
+  nameWithType: MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetBrushSize
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetBrushSize
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetMainWayFillPercent*
+  commentId: Overload:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetMainWayFillPercent
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.html#ResourceDataManagementLib_MapGeneration_DataAccessInterface_MapGenInputResourceInterface_BasicMapGenInputDataInterface_SetMainWayFillPercent_System_Single__
+  name: SetMainWayFillPercent
+  nameWithType: MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetMainWayFillPercent
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetMainWayFillPercent
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetSubWayFillPercent*
+  commentId: Overload:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetSubWayFillPercent
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.html#ResourceDataManagementLib_MapGeneration_DataAccessInterface_MapGenInputResourceInterface_BasicMapGenInputDataInterface_SetSubWayFillPercent_System_Single__
+  name: SetSubWayFillPercent
+  nameWithType: MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetSubWayFillPercent
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetSubWayFillPercent
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetPenetratingWayCountRate*
+  commentId: Overload:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetPenetratingWayCountRate
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.html#ResourceDataManagementLib_MapGeneration_DataAccessInterface_MapGenInputResourceInterface_BasicMapGenInputDataInterface_SetPenetratingWayCountRate_System_Single__
+  name: SetPenetratingWayCountRate
+  nameWithType: MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetPenetratingWayCountRate
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetPenetratingWayCountRate
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetPenetratingWayFillPercent*
+  commentId: Overload:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetPenetratingWayFillPercent
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.html#ResourceDataManagementLib_MapGeneration_DataAccessInterface_MapGenInputResourceInterface_BasicMapGenInputDataInterface_SetPenetratingWayFillPercent_System_Single__
+  name: SetPenetratingWayFillPercent
+  nameWithType: MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetPenetratingWayFillPercent
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.SetPenetratingWayFillPercent

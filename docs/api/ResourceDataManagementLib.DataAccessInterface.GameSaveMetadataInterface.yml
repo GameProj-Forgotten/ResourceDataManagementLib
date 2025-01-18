@@ -1,34 +1,33 @@
 ### YamlMime:ManagedReference
 items:
-- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface
-  commentId: T:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface
-  id: MapGenInputResourceInterface
-  parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+- uid: ResourceDataManagementLib.DataAccessInterface.GameSaveMetadataInterface
+  commentId: T:ResourceDataManagementLib.DataAccessInterface.GameSaveMetadataInterface
+  id: GameSaveMetadataInterface
+  parent: ResourceDataManagementLib.DataAccessInterface
   children:
-  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BGetIsAbstractInputDataLoaded
-  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BGetIsBasicMapGenInputDataLoaded
-  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BGetIsRegionSelectionInputDataLoaded
+  - ResourceDataManagementLib.DataAccessInterface.GameSaveMetadataInterface.BGetIsGameSaveMetadataLoaded
+  - ResourceDataManagementLib.DataAccessInterface.GameSaveMetadataInterface.GetGameSaveMetadataInstance
   langs:
   - csharp
   - vb
-  name: MapGenInputResourceInterface
-  nameWithType: MapGenInputResourceInterface
-  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface
+  name: GameSaveMetadataInterface
+  nameWithType: GameSaveMetadataInterface
+  fullName: ResourceDataManagementLib.DataAccessInterface.GameSaveMetadataInterface
   type: Class
   source:
     remote:
-      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      path: Public/Functor/MapGen/DataAccessInterface/GameSaveMetadataInterface.cs
       branch: master
       repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
-    id: MapGenInputResourceInterface
-    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
-    startLine: 14
+    id: GameSaveMetadataInterface
+    path: ../Public/Functor/MapGen/DataAccessInterface/GameSaveMetadataInterface.cs
+    startLine: 12
   assemblies:
   - ResourceDataManagementLib
-  namespace: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  namespace: ResourceDataManagementLib.DataAccessInterface
   syntax:
-    content: public static class MapGenInputResourceInterface
-    content.vb: Public Module MapGenInputResourceInterface
+    content: public static class GameSaveMetadataInterface
+    content.vb: Public Module GameSaveMetadataInterface
   inheritance:
   - System.Object
   inheritedMembers:
@@ -39,121 +38,85 @@ items:
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
-- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BGetIsAbstractInputDataLoaded
-  commentId: M:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BGetIsAbstractInputDataLoaded
-  id: BGetIsAbstractInputDataLoaded
-  parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface
+- uid: ResourceDataManagementLib.DataAccessInterface.GameSaveMetadataInterface.BGetIsGameSaveMetadataLoaded
+  commentId: M:ResourceDataManagementLib.DataAccessInterface.GameSaveMetadataInterface.BGetIsGameSaveMetadataLoaded
+  id: BGetIsGameSaveMetadataLoaded
+  parent: ResourceDataManagementLib.DataAccessInterface.GameSaveMetadataInterface
   langs:
   - csharp
   - vb
-  name: BGetIsAbstractInputDataLoaded()
-  nameWithType: MapGenInputResourceInterface.BGetIsAbstractInputDataLoaded()
-  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BGetIsAbstractInputDataLoaded()
+  name: BGetIsGameSaveMetadataLoaded()
+  nameWithType: GameSaveMetadataInterface.BGetIsGameSaveMetadataLoaded()
+  fullName: ResourceDataManagementLib.DataAccessInterface.GameSaveMetadataInterface.BGetIsGameSaveMetadataLoaded()
   type: Method
   source:
     remote:
-      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      path: Public/Functor/MapGen/DataAccessInterface/GameSaveMetadataInterface.cs
       branch: master
       repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
-    id: BGetIsAbstractInputDataLoaded
-    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
-    startLine: 17
+    id: BGetIsGameSaveMetadataLoaded
+    path: ../Public/Functor/MapGen/DataAccessInterface/GameSaveMetadataInterface.cs
+    startLine: 15
   assemblies:
   - ResourceDataManagementLib
-  namespace: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  namespace: ResourceDataManagementLib.DataAccessInterface
   syntax:
-    content: public static bool BGetIsAbstractInputDataLoaded()
+    content: public static bool BGetIsGameSaveMetadataLoaded()
     return:
       type: System.Boolean
-    content.vb: Public Shared Function BGetIsAbstractInputDataLoaded() As Boolean
-  overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BGetIsAbstractInputDataLoaded*
-- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BGetIsBasicMapGenInputDataLoaded
-  commentId: M:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BGetIsBasicMapGenInputDataLoaded
-  id: BGetIsBasicMapGenInputDataLoaded
-  parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface
+    content.vb: Public Shared Function BGetIsGameSaveMetadataLoaded() As Boolean
+  overload: ResourceDataManagementLib.DataAccessInterface.GameSaveMetadataInterface.BGetIsGameSaveMetadataLoaded*
+- uid: ResourceDataManagementLib.DataAccessInterface.GameSaveMetadataInterface.GetGameSaveMetadataInstance
+  commentId: M:ResourceDataManagementLib.DataAccessInterface.GameSaveMetadataInterface.GetGameSaveMetadataInstance
+  id: GetGameSaveMetadataInstance
+  parent: ResourceDataManagementLib.DataAccessInterface.GameSaveMetadataInterface
   langs:
   - csharp
   - vb
-  name: BGetIsBasicMapGenInputDataLoaded()
-  nameWithType: MapGenInputResourceInterface.BGetIsBasicMapGenInputDataLoaded()
-  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BGetIsBasicMapGenInputDataLoaded()
+  name: GetGameSaveMetadataInstance()
+  nameWithType: GameSaveMetadataInterface.GetGameSaveMetadataInstance()
+  fullName: ResourceDataManagementLib.DataAccessInterface.GameSaveMetadataInterface.GetGameSaveMetadataInstance()
   type: Method
   source:
     remote:
-      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      path: Public/Functor/MapGen/DataAccessInterface/GameSaveMetadataInterface.cs
       branch: master
       repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
-    id: BGetIsBasicMapGenInputDataLoaded
-    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+    id: GetGameSaveMetadataInstance
+    path: ../Public/Functor/MapGen/DataAccessInterface/GameSaveMetadataInterface.cs
     startLine: 21
   assemblies:
   - ResourceDataManagementLib
-  namespace: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  namespace: ResourceDataManagementLib.DataAccessInterface
   syntax:
-    content: public static bool BGetIsBasicMapGenInputDataLoaded()
+    content: public static GameSaveMetadata GetGameSaveMetadataInstance()
     return:
-      type: System.Boolean
-    content.vb: Public Shared Function BGetIsBasicMapGenInputDataLoaded() As Boolean
-  overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BGetIsBasicMapGenInputDataLoaded*
-- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BGetIsRegionSelectionInputDataLoaded
-  commentId: M:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BGetIsRegionSelectionInputDataLoaded
-  id: BGetIsRegionSelectionInputDataLoaded
-  parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface
-  langs:
-  - csharp
-  - vb
-  name: BGetIsRegionSelectionInputDataLoaded()
-  nameWithType: MapGenInputResourceInterface.BGetIsRegionSelectionInputDataLoaded()
-  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BGetIsRegionSelectionInputDataLoaded()
-  type: Method
-  source:
-    remote:
-      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
-      branch: master
-      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
-    id: BGetIsRegionSelectionInputDataLoaded
-    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
-    startLine: 25
-  assemblies:
-  - ResourceDataManagementLib
-  namespace: ResourceDataManagementLib.MapGeneration.DataAccessInterface
-  syntax:
-    content: public static bool BGetIsRegionSelectionInputDataLoaded()
-    return:
-      type: System.Boolean
-    content.vb: Public Shared Function BGetIsRegionSelectionInputDataLoaded() As Boolean
-  overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BGetIsRegionSelectionInputDataLoaded*
+      type: ResourceDataManagementLib.GameSaveData.GameSaveMetadata
+    content.vb: Public Shared Function GetGameSaveMetadataInstance() As GameSaveMetadata
+  overload: ResourceDataManagementLib.DataAccessInterface.GameSaveMetadataInterface.GetGameSaveMetadataInstance*
 references:
-- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface
-  commentId: N:ResourceDataManagementLib.MapGeneration.DataAccessInterface
+- uid: ResourceDataManagementLib.DataAccessInterface
+  commentId: N:ResourceDataManagementLib.DataAccessInterface
   href: ResourceDataManagementLib.html
-  name: ResourceDataManagementLib.MapGeneration.DataAccessInterface
-  nameWithType: ResourceDataManagementLib.MapGeneration.DataAccessInterface
-  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  name: ResourceDataManagementLib.DataAccessInterface
+  nameWithType: ResourceDataManagementLib.DataAccessInterface
+  fullName: ResourceDataManagementLib.DataAccessInterface
   spec.csharp:
   - uid: ResourceDataManagementLib
     name: ResourceDataManagementLib
     href: ResourceDataManagementLib.html
   - name: .
-  - uid: ResourceDataManagementLib.MapGeneration
-    name: MapGeneration
-    href: ResourceDataManagementLib.MapGeneration.html
-  - name: .
-  - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  - uid: ResourceDataManagementLib.DataAccessInterface
     name: DataAccessInterface
-    href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.html
+    href: ResourceDataManagementLib.DataAccessInterface.html
   spec.vb:
   - uid: ResourceDataManagementLib
     name: ResourceDataManagementLib
     href: ResourceDataManagementLib.html
   - name: .
-  - uid: ResourceDataManagementLib.MapGeneration
-    name: MapGeneration
-    href: ResourceDataManagementLib.MapGeneration.html
-  - name: .
-  - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  - uid: ResourceDataManagementLib.DataAccessInterface
     name: DataAccessInterface
-    href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.html
+    href: ResourceDataManagementLib.DataAccessInterface.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -391,12 +354,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BGetIsAbstractInputDataLoaded*
-  commentId: Overload:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BGetIsAbstractInputDataLoaded
-  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.html#ResourceDataManagementLib_MapGeneration_DataAccessInterface_MapGenInputResourceInterface_BGetIsAbstractInputDataLoaded
-  name: BGetIsAbstractInputDataLoaded
-  nameWithType: MapGenInputResourceInterface.BGetIsAbstractInputDataLoaded
-  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BGetIsAbstractInputDataLoaded
+- uid: ResourceDataManagementLib.DataAccessInterface.GameSaveMetadataInterface.BGetIsGameSaveMetadataLoaded*
+  commentId: Overload:ResourceDataManagementLib.DataAccessInterface.GameSaveMetadataInterface.BGetIsGameSaveMetadataLoaded
+  href: ResourceDataManagementLib.DataAccessInterface.GameSaveMetadataInterface.html#ResourceDataManagementLib_DataAccessInterface_GameSaveMetadataInterface_BGetIsGameSaveMetadataLoaded
+  name: BGetIsGameSaveMetadataLoaded
+  nameWithType: GameSaveMetadataInterface.BGetIsGameSaveMetadataLoaded
+  fullName: ResourceDataManagementLib.DataAccessInterface.GameSaveMetadataInterface.BGetIsGameSaveMetadataLoaded
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -408,15 +371,38 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
-- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BGetIsBasicMapGenInputDataLoaded*
-  commentId: Overload:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BGetIsBasicMapGenInputDataLoaded
-  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.html#ResourceDataManagementLib_MapGeneration_DataAccessInterface_MapGenInputResourceInterface_BGetIsBasicMapGenInputDataLoaded
-  name: BGetIsBasicMapGenInputDataLoaded
-  nameWithType: MapGenInputResourceInterface.BGetIsBasicMapGenInputDataLoaded
-  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BGetIsBasicMapGenInputDataLoaded
-- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BGetIsRegionSelectionInputDataLoaded*
-  commentId: Overload:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BGetIsRegionSelectionInputDataLoaded
-  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.html#ResourceDataManagementLib_MapGeneration_DataAccessInterface_MapGenInputResourceInterface_BGetIsRegionSelectionInputDataLoaded
-  name: BGetIsRegionSelectionInputDataLoaded
-  nameWithType: MapGenInputResourceInterface.BGetIsRegionSelectionInputDataLoaded
-  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BGetIsRegionSelectionInputDataLoaded
+- uid: ResourceDataManagementLib.DataAccessInterface.GameSaveMetadataInterface.GetGameSaveMetadataInstance*
+  commentId: Overload:ResourceDataManagementLib.DataAccessInterface.GameSaveMetadataInterface.GetGameSaveMetadataInstance
+  href: ResourceDataManagementLib.DataAccessInterface.GameSaveMetadataInterface.html#ResourceDataManagementLib_DataAccessInterface_GameSaveMetadataInterface_GetGameSaveMetadataInstance
+  name: GetGameSaveMetadataInstance
+  nameWithType: GameSaveMetadataInterface.GetGameSaveMetadataInstance
+  fullName: ResourceDataManagementLib.DataAccessInterface.GameSaveMetadataInterface.GetGameSaveMetadataInstance
+- uid: ResourceDataManagementLib.GameSaveData.GameSaveMetadata
+  commentId: T:ResourceDataManagementLib.GameSaveData.GameSaveMetadata
+  parent: ResourceDataManagementLib.GameSaveData
+  href: ResourceDataManagementLib.GameSaveData.GameSaveMetadata.html
+  name: GameSaveMetadata
+  nameWithType: GameSaveMetadata
+  fullName: ResourceDataManagementLib.GameSaveData.GameSaveMetadata
+- uid: ResourceDataManagementLib.GameSaveData
+  commentId: N:ResourceDataManagementLib.GameSaveData
+  href: ResourceDataManagementLib.html
+  name: ResourceDataManagementLib.GameSaveData
+  nameWithType: ResourceDataManagementLib.GameSaveData
+  fullName: ResourceDataManagementLib.GameSaveData
+  spec.csharp:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.GameSaveData
+    name: GameSaveData
+    href: ResourceDataManagementLib.GameSaveData.html
+  spec.vb:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.GameSaveData
+    name: GameSaveData
+    href: ResourceDataManagementLib.GameSaveData.html

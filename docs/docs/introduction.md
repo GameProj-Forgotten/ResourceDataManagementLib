@@ -50,6 +50,7 @@ MapGeneration
 │   │   ├── static class BasicMapGenInputDataInterface
 │   │   ├── static class RegionSelectionInputDataInterface
 │   │   └── static class MiddleLayersInputDataInterface
+│   ├── static class GameSaveMetadataInterface
 │   ├── static class MapGenOutputResourceInterface
 │   └── static class TileBaseResourceInterface
 └── DataSupplyAndSave

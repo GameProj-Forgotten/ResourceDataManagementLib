@@ -5,8 +5,13 @@ items:
   id: MapGenInputResourceInterface.RegionSelectionInputDataInterface
   parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface
   children:
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.AddSingleRegionData
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.ClearSingleRegionDatas
   - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.GetBaseColor
   - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.GetSingleRegionDatas
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.RemoveSingleRegionData(System.Int32@)
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.SetBaseColor(UnityEngine.Color@)
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.SetSingleRegionDatas(System.Collections.Generic.List{ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData}@)
   langs:
   - csharp
   - vb
@@ -94,6 +99,156 @@ items:
       type: System.Collections.Generic.List{ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData}
     content.vb: Public Shared Function GetSingleRegionDatas() As List(Of RegionSelectionInputDataSpec.SingleRegionData)
   overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.GetSingleRegionDatas*
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.SetBaseColor(UnityEngine.Color@)
+  commentId: M:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.SetBaseColor(UnityEngine.Color@)
+  id: SetBaseColor(UnityEngine.Color@)
+  parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface
+  langs:
+  - csharp
+  - vb
+  name: SetBaseColor(in Color)
+  nameWithType: MapGenInputResourceInterface.RegionSelectionInputDataInterface.SetBaseColor(in Color)
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.SetBaseColor(in UnityEngine.Color)
+  type: Method
+  source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
+    id: SetBaseColor
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+    startLine: 268
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  syntax:
+    content: public static void SetBaseColor(in Color baseColor)
+    parameters:
+    - id: baseColor
+      type: UnityEngine.Color
+    content.vb: Public Shared Sub SetBaseColor(baseColor As Color)
+  overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.SetBaseColor*
+  nameWithType.vb: MapGenInputResourceInterface.RegionSelectionInputDataInterface.SetBaseColor(Color)
+  fullName.vb: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.SetBaseColor(UnityEngine.Color)
+  name.vb: SetBaseColor(Color)
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.SetSingleRegionDatas(System.Collections.Generic.List{ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData}@)
+  commentId: M:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.SetSingleRegionDatas(System.Collections.Generic.List{ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData}@)
+  id: SetSingleRegionDatas(System.Collections.Generic.List{ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData}@)
+  parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface
+  langs:
+  - csharp
+  - vb
+  name: SetSingleRegionDatas(in List<SingleRegionData>)
+  nameWithType: MapGenInputResourceInterface.RegionSelectionInputDataInterface.SetSingleRegionDatas(in List<RegionSelectionInputDataSpec.SingleRegionData>)
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.SetSingleRegionDatas(in System.Collections.Generic.List<ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData>)
+  type: Method
+  source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
+    id: SetSingleRegionDatas
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+    startLine: 278
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  syntax:
+    content: public static void SetSingleRegionDatas(in List<RegionSelectionInputDataSpec.SingleRegionData> singleRegionDatas)
+    parameters:
+    - id: singleRegionDatas
+      type: System.Collections.Generic.List{ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData}
+    content.vb: Public Shared Sub SetSingleRegionDatas(singleRegionDatas As List(Of RegionSelectionInputDataSpec.SingleRegionData))
+  overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.SetSingleRegionDatas*
+  nameWithType.vb: MapGenInputResourceInterface.RegionSelectionInputDataInterface.SetSingleRegionDatas(List(Of RegionSelectionInputDataSpec.SingleRegionData))
+  fullName.vb: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.SetSingleRegionDatas(System.Collections.Generic.List(Of ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData))
+  name.vb: SetSingleRegionDatas(List(Of SingleRegionData))
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.AddSingleRegionData
+  commentId: M:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.AddSingleRegionData
+  id: AddSingleRegionData
+  parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface
+  langs:
+  - csharp
+  - vb
+  name: AddSingleRegionData()
+  nameWithType: MapGenInputResourceInterface.RegionSelectionInputDataInterface.AddSingleRegionData()
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.AddSingleRegionData()
+  type: Method
+  source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
+    id: AddSingleRegionData
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+    startLine: 287
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  syntax:
+    content: public static RegionSelectionInputDataSpec.SingleRegionData AddSingleRegionData()
+    return:
+      type: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData
+    content.vb: Public Shared Function AddSingleRegionData() As RegionSelectionInputDataSpec.SingleRegionData
+  overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.AddSingleRegionData*
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.RemoveSingleRegionData(System.Int32@)
+  commentId: M:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.RemoveSingleRegionData(System.Int32@)
+  id: RemoveSingleRegionData(System.Int32@)
+  parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface
+  langs:
+  - csharp
+  - vb
+  name: RemoveSingleRegionData(in int)
+  nameWithType: MapGenInputResourceInterface.RegionSelectionInputDataInterface.RemoveSingleRegionData(in int)
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.RemoveSingleRegionData(in int)
+  type: Method
+  source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
+    id: RemoveSingleRegionData
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+    startLine: 301
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  syntax:
+    content: public static void RemoveSingleRegionData(in int targetIndex)
+    parameters:
+    - id: targetIndex
+      type: System.Int32
+    content.vb: Public Shared Sub RemoveSingleRegionData(targetIndex As Integer)
+  overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.RemoveSingleRegionData*
+  nameWithType.vb: MapGenInputResourceInterface.RegionSelectionInputDataInterface.RemoveSingleRegionData(Integer)
+  fullName.vb: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.RemoveSingleRegionData(Integer)
+  name.vb: RemoveSingleRegionData(Integer)
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.ClearSingleRegionDatas
+  commentId: M:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.ClearSingleRegionDatas
+  id: ClearSingleRegionDatas
+  parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface
+  langs:
+  - csharp
+  - vb
+  name: ClearSingleRegionDatas()
+  nameWithType: MapGenInputResourceInterface.RegionSelectionInputDataInterface.ClearSingleRegionDatas()
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.ClearSingleRegionDatas()
+  type: Method
+  source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
+    id: ClearSingleRegionDatas
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+    startLine: 310
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  syntax:
+    content: public static void ClearSingleRegionDatas()
+    content.vb: Public Shared Sub ClearSingleRegionDatas()
+  overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.ClearSingleRegionDatas*
 references:
 - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface
   commentId: N:ResourceDataManagementLib.MapGeneration.DataAccessInterface
@@ -493,3 +648,97 @@ references:
     name: Generic
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.SetBaseColor*
+  commentId: Overload:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.SetBaseColor
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.html#ResourceDataManagementLib_MapGeneration_DataAccessInterface_MapGenInputResourceInterface_RegionSelectionInputDataInterface_SetBaseColor_UnityEngine_Color__
+  name: SetBaseColor
+  nameWithType: MapGenInputResourceInterface.RegionSelectionInputDataInterface.SetBaseColor
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.SetBaseColor
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.SetSingleRegionDatas*
+  commentId: Overload:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.SetSingleRegionDatas
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.html#ResourceDataManagementLib_MapGeneration_DataAccessInterface_MapGenInputResourceInterface_RegionSelectionInputDataInterface_SetSingleRegionDatas_System_Collections_Generic_List_ResourceDataManagementLib_MapGeneration_MapGenInputDataSpec_RegionSelectionInputDataSpec_SingleRegionData___
+  name: SetSingleRegionDatas
+  nameWithType: MapGenInputResourceInterface.RegionSelectionInputDataInterface.SetSingleRegionDatas
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.SetSingleRegionDatas
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.AddSingleRegionData*
+  commentId: Overload:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.AddSingleRegionData
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.html#ResourceDataManagementLib_MapGeneration_DataAccessInterface_MapGenInputResourceInterface_RegionSelectionInputDataInterface_AddSingleRegionData
+  name: AddSingleRegionData
+  nameWithType: MapGenInputResourceInterface.RegionSelectionInputDataInterface.AddSingleRegionData
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.AddSingleRegionData
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData
+  commentId: T:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData
+  parent: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.html
+  name: RegionSelectionInputDataSpec.SingleRegionData
+  nameWithType: RegionSelectionInputDataSpec.SingleRegionData
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec
+    name: RegionSelectionInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData
+    name: SingleRegionData
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData.html
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec
+    name: RegionSelectionInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData
+    name: SingleRegionData
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData.html
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  commentId: N:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  href: ResourceDataManagementLib.html
+  name: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  nameWithType: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  spec.csharp:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+    name: MapGenInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.html
+  spec.vb:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+    name: MapGenInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.html
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.RemoveSingleRegionData*
+  commentId: Overload:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.RemoveSingleRegionData
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.html#ResourceDataManagementLib_MapGeneration_DataAccessInterface_MapGenInputResourceInterface_RegionSelectionInputDataInterface_RemoveSingleRegionData_System_Int32__
+  name: RemoveSingleRegionData
+  nameWithType: MapGenInputResourceInterface.RegionSelectionInputDataInterface.RemoveSingleRegionData
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.RemoveSingleRegionData
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.ClearSingleRegionDatas*
+  commentId: Overload:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.ClearSingleRegionDatas
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.html#ResourceDataManagementLib_MapGeneration_DataAccessInterface_MapGenInputResourceInterface_RegionSelectionInputDataInterface_ClearSingleRegionDatas
+  name: ClearSingleRegionDatas
+  nameWithType: MapGenInputResourceInterface.RegionSelectionInputDataInterface.ClearSingleRegionDatas
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.ClearSingleRegionDatas

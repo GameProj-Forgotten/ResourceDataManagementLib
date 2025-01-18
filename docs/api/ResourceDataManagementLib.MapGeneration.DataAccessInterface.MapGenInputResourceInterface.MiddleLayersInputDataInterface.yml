@@ -7,6 +7,8 @@ items:
   children:
   - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface.GetColorStepForCurLayer
   - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface.GetCurLayerMiddleLayerDepth
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface.SetColorStepForCurLayer(UnityEngine.Color@)
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface.SetCurLayerMiddleLayerDepth(System.Int32@)
   langs:
   - csharp
   - vb
@@ -94,6 +96,70 @@ items:
       type: UnityEngine.Color
     content.vb: Public Shared Function GetColorStepForCurLayer() As Color
   overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface.GetColorStepForCurLayer*
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface.SetCurLayerMiddleLayerDepth(System.Int32@)
+  commentId: M:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface.SetCurLayerMiddleLayerDepth(System.Int32@)
+  id: SetCurLayerMiddleLayerDepth(System.Int32@)
+  parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface
+  langs:
+  - csharp
+  - vb
+  name: SetCurLayerMiddleLayerDepth(in int)
+  nameWithType: MapGenInputResourceInterface.MiddleLayersInputDataInterface.SetCurLayerMiddleLayerDepth(in int)
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface.SetCurLayerMiddleLayerDepth(in int)
+  type: Method
+  source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
+    id: SetCurLayerMiddleLayerDepth
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+    startLine: 351
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  syntax:
+    content: public static void SetCurLayerMiddleLayerDepth(in int curLayerMiddleLayerDepth)
+    parameters:
+    - id: curLayerMiddleLayerDepth
+      type: System.Int32
+    content.vb: Public Shared Sub SetCurLayerMiddleLayerDepth(curLayerMiddleLayerDepth As Integer)
+  overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface.SetCurLayerMiddleLayerDepth*
+  nameWithType.vb: MapGenInputResourceInterface.MiddleLayersInputDataInterface.SetCurLayerMiddleLayerDepth(Integer)
+  fullName.vb: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface.SetCurLayerMiddleLayerDepth(Integer)
+  name.vb: SetCurLayerMiddleLayerDepth(Integer)
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface.SetColorStepForCurLayer(UnityEngine.Color@)
+  commentId: M:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface.SetColorStepForCurLayer(UnityEngine.Color@)
+  id: SetColorStepForCurLayer(UnityEngine.Color@)
+  parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface
+  langs:
+  - csharp
+  - vb
+  name: SetColorStepForCurLayer(in Color)
+  nameWithType: MapGenInputResourceInterface.MiddleLayersInputDataInterface.SetColorStepForCurLayer(in Color)
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface.SetColorStepForCurLayer(in UnityEngine.Color)
+  type: Method
+  source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
+    id: SetColorStepForCurLayer
+    path: ../Public/Functor/MapGen/DataAccessInterface/MapGenInputResourceInterface.cs
+    startLine: 360
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  syntax:
+    content: public static void SetColorStepForCurLayer(in Color colorStepForCurLayer)
+    parameters:
+    - id: colorStepForCurLayer
+      type: UnityEngine.Color
+    content.vb: Public Shared Sub SetColorStepForCurLayer(colorStepForCurLayer As Color)
+  overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface.SetColorStepForCurLayer*
+  nameWithType.vb: MapGenInputResourceInterface.MiddleLayersInputDataInterface.SetColorStepForCurLayer(Color)
+  fullName.vb: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface.SetColorStepForCurLayer(UnityEngine.Color)
+  name.vb: SetColorStepForCurLayer(Color)
 references:
 - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface
   commentId: N:ResourceDataManagementLib.MapGeneration.DataAccessInterface
@@ -398,3 +464,15 @@ references:
   name: UnityEngine
   nameWithType: UnityEngine
   fullName: UnityEngine
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface.SetCurLayerMiddleLayerDepth*
+  commentId: Overload:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface.SetCurLayerMiddleLayerDepth
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface.html#ResourceDataManagementLib_MapGeneration_DataAccessInterface_MapGenInputResourceInterface_MiddleLayersInputDataInterface_SetCurLayerMiddleLayerDepth_System_Int32__
+  name: SetCurLayerMiddleLayerDepth
+  nameWithType: MapGenInputResourceInterface.MiddleLayersInputDataInterface.SetCurLayerMiddleLayerDepth
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface.SetCurLayerMiddleLayerDepth
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface.SetColorStepForCurLayer*
+  commentId: Overload:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface.SetColorStepForCurLayer
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface.html#ResourceDataManagementLib_MapGeneration_DataAccessInterface_MapGenInputResourceInterface_MiddleLayersInputDataInterface_SetColorStepForCurLayer_UnityEngine_Color__
+  name: SetColorStepForCurLayer
+  nameWithType: MapGenInputResourceInterface.MiddleLayersInputDataInterface.SetColorStepForCurLayer
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface.SetColorStepForCurLayer

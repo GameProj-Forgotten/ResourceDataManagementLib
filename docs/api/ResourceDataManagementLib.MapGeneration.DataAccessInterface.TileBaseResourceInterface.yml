@@ -5,6 +5,7 @@ items:
   id: TileBaseResourceInterface
   parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface
   children:
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.TileBaseResourceInterface.BGetIsTotalTileGroupLoaded
   - ResourceDataManagementLib.MapGeneration.DataAccessInterface.TileBaseResourceInterface.GetTotalTileGroupInstance
   langs:
   - csharp
@@ -37,6 +38,34 @@ items:
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.TileBaseResourceInterface.BGetIsTotalTileGroupLoaded
+  commentId: M:ResourceDataManagementLib.MapGeneration.DataAccessInterface.TileBaseResourceInterface.BGetIsTotalTileGroupLoaded
+  id: BGetIsTotalTileGroupLoaded
+  parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface.TileBaseResourceInterface
+  langs:
+  - csharp
+  - vb
+  name: BGetIsTotalTileGroupLoaded()
+  nameWithType: TileBaseResourceInterface.BGetIsTotalTileGroupLoaded()
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.TileBaseResourceInterface.BGetIsTotalTileGroupLoaded()
+  type: Method
+  source:
+    remote:
+      path: Public/Functor/MapGen/DataAccessInterface/TileBaseResourceInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourceDataManagementLib.git
+    id: BGetIsTotalTileGroupLoaded
+    path: ../Public/Functor/MapGen/DataAccessInterface/TileBaseResourceInterface.cs
+    startLine: 17
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  syntax:
+    content: public static bool BGetIsTotalTileGroupLoaded()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function BGetIsTotalTileGroupLoaded() As Boolean
+  overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.TileBaseResourceInterface.BGetIsTotalTileGroupLoaded*
 - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.TileBaseResourceInterface.GetTotalTileGroupInstance
   commentId: M:ResourceDataManagementLib.MapGeneration.DataAccessInterface.TileBaseResourceInterface.GetTotalTileGroupInstance
   id: GetTotalTileGroupInstance
@@ -333,6 +362,23 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.TileBaseResourceInterface.BGetIsTotalTileGroupLoaded*
+  commentId: Overload:ResourceDataManagementLib.MapGeneration.DataAccessInterface.TileBaseResourceInterface.BGetIsTotalTileGroupLoaded
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.TileBaseResourceInterface.html#ResourceDataManagementLib_MapGeneration_DataAccessInterface_TileBaseResourceInterface_BGetIsTotalTileGroupLoaded
+  name: BGetIsTotalTileGroupLoaded
+  nameWithType: TileBaseResourceInterface.BGetIsTotalTileGroupLoaded
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.TileBaseResourceInterface.BGetIsTotalTileGroupLoaded
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.TileBaseResourceInterface.GetTotalTileGroupInstance*
   commentId: Overload:ResourceDataManagementLib.MapGeneration.DataAccessInterface.TileBaseResourceInterface.GetTotalTileGroupInstance
   href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.TileBaseResourceInterface.html#ResourceDataManagementLib_MapGeneration_DataAccessInterface_TileBaseResourceInterface_GetTotalTileGroupInstance

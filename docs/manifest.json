@@ -12,6 +12,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.DataAccessInterface.GameSaveMetadataInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.DataAccessInterface.GameSaveMetadataInterface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.DataAccessInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.DataAccessInterface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ResourceDataManagementLib.DataSupplyAndSave.GameSaveMetadataSaver.yml",
       "output": {
         ".html": {

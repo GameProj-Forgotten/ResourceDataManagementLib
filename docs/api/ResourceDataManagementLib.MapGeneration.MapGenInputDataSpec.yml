@@ -98,6 +98,7 @@ references:
   fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec
 - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData
   commentId: T:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData
+  parent: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
   href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.html
   name: RegionSelectionInputDataSpec.SingleRegionData
   nameWithType: RegionSelectionInputDataSpec.SingleRegionData

@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: ResourceDataManagementLib.DataAccessInterface
+  commentId: N:ResourceDataManagementLib.DataAccessInterface
+  id: ResourceDataManagementLib.DataAccessInterface
+  children:
+  - ResourceDataManagementLib.DataAccessInterface.GameSaveMetadataInterface
+  langs:
+  - csharp
+  - vb
+  name: ResourceDataManagementLib.DataAccessInterface
+  nameWithType: ResourceDataManagementLib.DataAccessInterface
+  fullName: ResourceDataManagementLib.DataAccessInterface
+  type: Namespace
+  assemblies:
+  - ResourceDataManagementLib
+references:
+- uid: ResourceDataManagementLib.DataAccessInterface.GameSaveMetadataInterface
+  commentId: T:ResourceDataManagementLib.DataAccessInterface.GameSaveMetadataInterface
+  href: ResourceDataManagementLib.DataAccessInterface.GameSaveMetadataInterface.html
+  name: GameSaveMetadataInterface
+  nameWithType: GameSaveMetadataInterface
+  fullName: ResourceDataManagementLib.DataAccessInterface.GameSaveMetadataInterface

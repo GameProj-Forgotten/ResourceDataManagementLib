@@ -1,5 +1,10 @@
 ### YamlMime:TableOfContent
 items:
+- uid: ResourceDataManagementLib.DataAccessInterface
+  name: ResourceDataManagementLib.DataAccessInterface
+  items:
+  - uid: ResourceDataManagementLib.DataAccessInterface.GameSaveMetadataInterface
+    name: GameSaveMetadataInterface
 - uid: ResourceDataManagementLib.DataSupplyAndSave
   name: ResourceDataManagementLib.DataSupplyAndSave
   items:
