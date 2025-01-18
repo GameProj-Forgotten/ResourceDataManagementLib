@@ -1,0 +1,580 @@
+### YamlMime:ManagedReference
+items:
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface
+  commentId: T:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface
+  id: MapGenInputResourceInterface.BasicMapGenInputDataInterface
+  parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  children:
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetBrushSize
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetMainWayFillPercent
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetMaxTryCountRatio
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetPenetratingWayCountRate
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetPenetratingWayFillPercent
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetSubWayFillPercent
+  langs:
+  - csharp
+  - vb
+  name: MapGenInputResourceInterface.BasicMapGenInputDataInterface
+  nameWithType: MapGenInputResourceInterface.BasicMapGenInputDataInterface
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface
+  type: Class
+  source:
+    id: BasicMapGenInputDataInterface
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\MapGenInputResourceInterface.cs
+    startLine: 139
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  syntax:
+    content: public static class MapGenInputResourceInterface.BasicMapGenInputDataInterface
+    content.vb: Public Module MapGenInputResourceInterface.BasicMapGenInputDataInterface
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetMaxTryCountRatio
+  commentId: M:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetMaxTryCountRatio
+  id: GetMaxTryCountRatio
+  parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface
+  langs:
+  - csharp
+  - vb
+  name: GetMaxTryCountRatio()
+  nameWithType: MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetMaxTryCountRatio()
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetMaxTryCountRatio()
+  type: Method
+  source:
+    id: GetMaxTryCountRatio
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\MapGenInputResourceInterface.cs
+    startLine: 142
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  syntax:
+    content: public static float GetMaxTryCountRatio()
+    return:
+      type: System.Single
+    content.vb: Public Shared Function GetMaxTryCountRatio() As Single
+  overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetMaxTryCountRatio*
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetBrushSize
+  commentId: M:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetBrushSize
+  id: GetBrushSize
+  parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface
+  langs:
+  - csharp
+  - vb
+  name: GetBrushSize()
+  nameWithType: MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetBrushSize()
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetBrushSize()
+  type: Method
+  source:
+    id: GetBrushSize
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\MapGenInputResourceInterface.cs
+    startLine: 148
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  syntax:
+    content: public static Tuple<int, int> GetBrushSize()
+    return:
+      type: System.Tuple{System.Int32,System.Int32}
+    content.vb: Public Shared Function GetBrushSize() As Tuple(Of Integer, Integer)
+  overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetBrushSize*
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetMainWayFillPercent
+  commentId: M:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetMainWayFillPercent
+  id: GetMainWayFillPercent
+  parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface
+  langs:
+  - csharp
+  - vb
+  name: GetMainWayFillPercent()
+  nameWithType: MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetMainWayFillPercent()
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetMainWayFillPercent()
+  type: Method
+  source:
+    id: GetMainWayFillPercent
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\MapGenInputResourceInterface.cs
+    startLine: 154
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  syntax:
+    content: public static float GetMainWayFillPercent()
+    return:
+      type: System.Single
+    content.vb: Public Shared Function GetMainWayFillPercent() As Single
+  overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetMainWayFillPercent*
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetSubWayFillPercent
+  commentId: M:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetSubWayFillPercent
+  id: GetSubWayFillPercent
+  parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface
+  langs:
+  - csharp
+  - vb
+  name: GetSubWayFillPercent()
+  nameWithType: MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetSubWayFillPercent()
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetSubWayFillPercent()
+  type: Method
+  source:
+    id: GetSubWayFillPercent
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\MapGenInputResourceInterface.cs
+    startLine: 160
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  syntax:
+    content: public static float GetSubWayFillPercent()
+    return:
+      type: System.Single
+    content.vb: Public Shared Function GetSubWayFillPercent() As Single
+  overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetSubWayFillPercent*
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetPenetratingWayCountRate
+  commentId: M:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetPenetratingWayCountRate
+  id: GetPenetratingWayCountRate
+  parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface
+  langs:
+  - csharp
+  - vb
+  name: GetPenetratingWayCountRate()
+  nameWithType: MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetPenetratingWayCountRate()
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetPenetratingWayCountRate()
+  type: Method
+  source:
+    id: GetPenetratingWayCountRate
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\MapGenInputResourceInterface.cs
+    startLine: 166
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  syntax:
+    content: public static float GetPenetratingWayCountRate()
+    return:
+      type: System.Single
+    content.vb: Public Shared Function GetPenetratingWayCountRate() As Single
+  overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetPenetratingWayCountRate*
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetPenetratingWayFillPercent
+  commentId: M:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetPenetratingWayFillPercent
+  id: GetPenetratingWayFillPercent
+  parent: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface
+  langs:
+  - csharp
+  - vb
+  name: GetPenetratingWayFillPercent()
+  nameWithType: MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetPenetratingWayFillPercent()
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetPenetratingWayFillPercent()
+  type: Method
+  source:
+    id: GetPenetratingWayFillPercent
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataAccessInterface\MapGenInputResourceInterface.cs
+    startLine: 172
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  syntax:
+    content: public static float GetPenetratingWayFillPercent()
+    return:
+      type: System.Single
+    content.vb: Public Shared Function GetPenetratingWayFillPercent() As Single
+  overload: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetPenetratingWayFillPercent*
+references:
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  commentId: N:ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  href: ResourceDataManagementLib.html
+  name: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  nameWithType: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  spec.csharp:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+    name: DataAccessInterface
+    href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.html
+  spec.vb:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+    name: DataAccessInterface
+    href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetMaxTryCountRatio*
+  commentId: Overload:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetMaxTryCountRatio
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.html#ResourceDataManagementLib_MapGeneration_DataAccessInterface_MapGenInputResourceInterface_BasicMapGenInputDataInterface_GetMaxTryCountRatio
+  name: GetMaxTryCountRatio
+  nameWithType: MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetMaxTryCountRatio
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetMaxTryCountRatio
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetBrushSize*
+  commentId: Overload:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetBrushSize
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.html#ResourceDataManagementLib_MapGeneration_DataAccessInterface_MapGenInputResourceInterface_BasicMapGenInputDataInterface_GetBrushSize
+  name: GetBrushSize
+  nameWithType: MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetBrushSize
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetBrushSize
+- uid: System.Tuple{System.Int32,System.Int32}
+  commentId: T:System.Tuple{System.Int32,System.Int32}
+  parent: System
+  definition: System.Tuple`2
+  href: https://learn.microsoft.com/dotnet/api/system.tuple-2
+  name: Tuple<int, int>
+  nameWithType: Tuple<int, int>
+  fullName: System.Tuple<int, int>
+  nameWithType.vb: Tuple(Of Integer, Integer)
+  fullName.vb: System.Tuple(Of Integer, Integer)
+  name.vb: Tuple(Of Integer, Integer)
+  spec.csharp:
+  - uid: System.Tuple`2
+    name: Tuple
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.tuple-2
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Tuple`2
+    name: Tuple
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.tuple-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Tuple`2
+  commentId: T:System.Tuple`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.tuple-2
+  name: Tuple<T1, T2>
+  nameWithType: Tuple<T1, T2>
+  fullName: System.Tuple<T1, T2>
+  nameWithType.vb: Tuple(Of T1, T2)
+  fullName.vb: System.Tuple(Of T1, T2)
+  name.vb: Tuple(Of T1, T2)
+  spec.csharp:
+  - uid: System.Tuple`2
+    name: Tuple
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.tuple-2
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: '>'
+  spec.vb:
+  - uid: System.Tuple`2
+    name: Tuple
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.tuple-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetMainWayFillPercent*
+  commentId: Overload:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetMainWayFillPercent
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.html#ResourceDataManagementLib_MapGeneration_DataAccessInterface_MapGenInputResourceInterface_BasicMapGenInputDataInterface_GetMainWayFillPercent
+  name: GetMainWayFillPercent
+  nameWithType: MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetMainWayFillPercent
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetMainWayFillPercent
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetSubWayFillPercent*
+  commentId: Overload:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetSubWayFillPercent
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.html#ResourceDataManagementLib_MapGeneration_DataAccessInterface_MapGenInputResourceInterface_BasicMapGenInputDataInterface_GetSubWayFillPercent
+  name: GetSubWayFillPercent
+  nameWithType: MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetSubWayFillPercent
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetSubWayFillPercent
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetPenetratingWayCountRate*
+  commentId: Overload:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetPenetratingWayCountRate
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.html#ResourceDataManagementLib_MapGeneration_DataAccessInterface_MapGenInputResourceInterface_BasicMapGenInputDataInterface_GetPenetratingWayCountRate
+  name: GetPenetratingWayCountRate
+  nameWithType: MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetPenetratingWayCountRate
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetPenetratingWayCountRate
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetPenetratingWayFillPercent*
+  commentId: Overload:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetPenetratingWayFillPercent
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.html#ResourceDataManagementLib_MapGeneration_DataAccessInterface_MapGenInputResourceInterface_BasicMapGenInputDataInterface_GetPenetratingWayFillPercent
+  name: GetPenetratingWayFillPercent
+  nameWithType: MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetPenetratingWayFillPercent
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.GetPenetratingWayFillPercent

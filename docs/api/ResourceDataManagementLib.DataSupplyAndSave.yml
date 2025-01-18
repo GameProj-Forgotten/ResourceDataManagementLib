@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: ResourceDataManagementLib.DataSupplyAndSave
+  commentId: N:ResourceDataManagementLib.DataSupplyAndSave
+  id: ResourceDataManagementLib.DataSupplyAndSave
+  children:
+  - ResourceDataManagementLib.DataSupplyAndSave.GameSaveMetadataSaver
+  - ResourceDataManagementLib.DataSupplyAndSave.GameSaveMetadataSupplier
+  langs:
+  - csharp
+  - vb
+  name: ResourceDataManagementLib.DataSupplyAndSave
+  nameWithType: ResourceDataManagementLib.DataSupplyAndSave
+  fullName: ResourceDataManagementLib.DataSupplyAndSave
+  type: Namespace
+  assemblies:
+  - ResourceDataManagementLib
+references:
+- uid: ResourceDataManagementLib.DataSupplyAndSave.GameSaveMetadataSaver
+  commentId: T:ResourceDataManagementLib.DataSupplyAndSave.GameSaveMetadataSaver
+  href: ResourceDataManagementLib.DataSupplyAndSave.GameSaveMetadataSaver.html
+  name: GameSaveMetadataSaver
+  nameWithType: GameSaveMetadataSaver
+  fullName: ResourceDataManagementLib.DataSupplyAndSave.GameSaveMetadataSaver
+- uid: ResourceDataManagementLib.DataSupplyAndSave.GameSaveMetadataSupplier
+  commentId: T:ResourceDataManagementLib.DataSupplyAndSave.GameSaveMetadataSupplier
+  href: ResourceDataManagementLib.DataSupplyAndSave.GameSaveMetadataSupplier.html
+  name: GameSaveMetadataSupplier
+  nameWithType: GameSaveMetadataSupplier
+  fullName: ResourceDataManagementLib.DataSupplyAndSave.GameSaveMetadataSupplier

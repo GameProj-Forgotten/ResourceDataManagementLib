@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  commentId: N:ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  id: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  children:
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenOutputResourceInterface
+  - ResourceDataManagementLib.MapGeneration.DataAccessInterface.TileBaseResourceInterface
+  langs:
+  - csharp
+  - vb
+  name: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  nameWithType: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  type: Namespace
+  assemblies:
+  - ResourceDataManagementLib
+references:
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface
+  commentId: T:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.html
+  name: MapGenInputResourceInterface
+  nameWithType: MapGenInputResourceInterface
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface
+  commentId: T:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.html
+  name: MapGenInputResourceInterface.AbstractInputDataInterface
+  nameWithType: MapGenInputResourceInterface.AbstractInputDataInterface
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface
+    name: MapGenInputResourceInterface
+    href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface
+    name: AbstractInputDataInterface
+    href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.html
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface
+    name: MapGenInputResourceInterface
+    href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface
+    name: AbstractInputDataInterface
+    href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.html
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface
+  commentId: T:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.html
+  name: MapGenInputResourceInterface.BasicMapGenInputDataInterface
+  nameWithType: MapGenInputResourceInterface.BasicMapGenInputDataInterface
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface
+    name: MapGenInputResourceInterface
+    href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface
+    name: BasicMapGenInputDataInterface
+    href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.html
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface
+    name: MapGenInputResourceInterface
+    href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface
+    name: BasicMapGenInputDataInterface
+    href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.html
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface
+  commentId: T:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.html
+  name: MapGenInputResourceInterface.RegionSelectionInputDataInterface
+  nameWithType: MapGenInputResourceInterface.RegionSelectionInputDataInterface
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface
+    name: MapGenInputResourceInterface
+    href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface
+    name: RegionSelectionInputDataInterface
+    href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.html
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface
+    name: MapGenInputResourceInterface
+    href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface
+    name: RegionSelectionInputDataInterface
+    href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.html
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface
+  commentId: T:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.html
+  name: MapGenInputResourceInterface.MiddleLayersInputDataInterface
+  nameWithType: MapGenInputResourceInterface.MiddleLayersInputDataInterface
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface
+    name: MapGenInputResourceInterface
+    href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface
+    name: MiddleLayersInputDataInterface
+    href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface.html
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface
+    name: MapGenInputResourceInterface
+    href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface
+    name: MiddleLayersInputDataInterface
+    href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface.html
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenOutputResourceInterface
+  commentId: T:ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenOutputResourceInterface
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenOutputResourceInterface.html
+  name: MapGenOutputResourceInterface
+  nameWithType: MapGenOutputResourceInterface
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenOutputResourceInterface
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.TileBaseResourceInterface
+  commentId: T:ResourceDataManagementLib.MapGeneration.DataAccessInterface.TileBaseResourceInterface
+  href: ResourceDataManagementLib.MapGeneration.DataAccessInterface.TileBaseResourceInterface.html
+  name: TileBaseResourceInterface
+  nameWithType: TileBaseResourceInterface
+  fullName: ResourceDataManagementLib.MapGeneration.DataAccessInterface.TileBaseResourceInterface

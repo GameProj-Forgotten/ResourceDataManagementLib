@@ -1,0 +1,608 @@
+### YamlMime:ManagedReference
+items:
+- uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData
+  id: SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  children:
+  - ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.ArrawTrapTile
+  - ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.ChestTile
+  - ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.DoorTile
+  - ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.FallingTile
+  - ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.GlowTile
+  - ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.LadderTile
+  - ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.MovementTile
+  - ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.SpearTrapTile
+  - ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.SpikeTrapTile
+  langs:
+  - csharp
+  - vb
+  name: SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData
+  nameWithType: SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData
+  type: Struct
+  source:
+    id: FunctionalDetailData
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    startLine: 114
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData
+    content.vb: >-
+      <Serializable>
+
+      Public Structure SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.FallingTile
+  commentId: F:ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.FallingTile
+  id: FallingTile
+  parent: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData
+  langs:
+  - csharp
+  - vb
+  name: FallingTile
+  nameWithType: SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.FallingTile
+  fullName: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.FallingTile
+  type: Field
+  source:
+    id: FallingTile
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    startLine: 117
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: >-
+      [Header("Trap Tiles")]
+
+      public FallingTileDetailData FallingTile
+    return:
+      type: ResourceDataManagementLib.MapGeneration.FallingTileDetailData
+    content.vb: >-
+      <Header("Trap Tiles")>
+
+      Public FallingTile As FallingTileDetailData
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Trap Tiles
+- uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.ArrawTrapTile
+  commentId: F:ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.ArrawTrapTile
+  id: ArrawTrapTile
+  parent: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData
+  langs:
+  - csharp
+  - vb
+  name: ArrawTrapTile
+  nameWithType: SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.ArrawTrapTile
+  fullName: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.ArrawTrapTile
+  type: Field
+  source:
+    id: ArrawTrapTile
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    startLine: 118
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: public ArrawTrapTileDetailData ArrawTrapTile
+    return:
+      type: ResourceDataManagementLib.MapGeneration.ArrawTrapTileDetailData
+    content.vb: Public ArrawTrapTile As ArrawTrapTileDetailData
+- uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.SpearTrapTile
+  commentId: F:ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.SpearTrapTile
+  id: SpearTrapTile
+  parent: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData
+  langs:
+  - csharp
+  - vb
+  name: SpearTrapTile
+  nameWithType: SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.SpearTrapTile
+  fullName: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.SpearTrapTile
+  type: Field
+  source:
+    id: SpearTrapTile
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    startLine: 119
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: public SpearTrapTileDetailData SpearTrapTile
+    return:
+      type: ResourceDataManagementLib.MapGeneration.SpearTrapTileDetailData
+    content.vb: Public SpearTrapTile As SpearTrapTileDetailData
+- uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.SpikeTrapTile
+  commentId: F:ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.SpikeTrapTile
+  id: SpikeTrapTile
+  parent: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData
+  langs:
+  - csharp
+  - vb
+  name: SpikeTrapTile
+  nameWithType: SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.SpikeTrapTile
+  fullName: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.SpikeTrapTile
+  type: Field
+  source:
+    id: SpikeTrapTile
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    startLine: 120
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: public SpikeTrapTileDetailData SpikeTrapTile
+    return:
+      type: ResourceDataManagementLib.MapGeneration.SpikeTrapTileDetailData
+    content.vb: Public SpikeTrapTile As SpikeTrapTileDetailData
+- uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.ChestTile
+  commentId: F:ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.ChestTile
+  id: ChestTile
+  parent: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData
+  langs:
+  - csharp
+  - vb
+  name: ChestTile
+  nameWithType: SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.ChestTile
+  fullName: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.ChestTile
+  type: Field
+  source:
+    id: ChestTile
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    startLine: 123
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: >-
+      [Header("Convenience Feature Tiles")]
+
+      public ChestTileDetailData ChestTile
+    return:
+      type: ResourceDataManagementLib.MapGeneration.ChestTileDetailData
+    content.vb: >-
+      <Header("Convenience Feature Tiles")>
+
+      Public ChestTile As ChestTileDetailData
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Convenience Feature Tiles
+- uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.DoorTile
+  commentId: F:ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.DoorTile
+  id: DoorTile
+  parent: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData
+  langs:
+  - csharp
+  - vb
+  name: DoorTile
+  nameWithType: SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.DoorTile
+  fullName: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.DoorTile
+  type: Field
+  source:
+    id: DoorTile
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    startLine: 124
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: public DoorTileDetailData DoorTile
+    return:
+      type: ResourceDataManagementLib.MapGeneration.DoorTileDetailData
+    content.vb: Public DoorTile As DoorTileDetailData
+- uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.LadderTile
+  commentId: F:ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.LadderTile
+  id: LadderTile
+  parent: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData
+  langs:
+  - csharp
+  - vb
+  name: LadderTile
+  nameWithType: SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.LadderTile
+  fullName: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.LadderTile
+  type: Field
+  source:
+    id: LadderTile
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    startLine: 125
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: public LadderTileDetailData LadderTile
+    return:
+      type: ResourceDataManagementLib.MapGeneration.LadderTileDetailData
+    content.vb: Public LadderTile As LadderTileDetailData
+- uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.GlowTile
+  commentId: F:ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.GlowTile
+  id: GlowTile
+  parent: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData
+  langs:
+  - csharp
+  - vb
+  name: GlowTile
+  nameWithType: SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.GlowTile
+  fullName: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.GlowTile
+  type: Field
+  source:
+    id: GlowTile
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    startLine: 128
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: >-
+      [Header("Decoration Tiles")]
+
+      public GlowTileDetailData GlowTile
+    return:
+      type: ResourceDataManagementLib.MapGeneration.GlowTileDetailData
+    content.vb: >-
+      <Header("Decoration Tiles")>
+
+      Public GlowTile As GlowTileDetailData
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Decoration Tiles
+- uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.MovementTile
+  commentId: F:ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.MovementTile
+  id: MovementTile
+  parent: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData
+  langs:
+  - csharp
+  - vb
+  name: MovementTile
+  nameWithType: SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.MovementTile
+  fullName: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.MovementTile
+  type: Field
+  source:
+    id: MovementTile
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    startLine: 131
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: >-
+      [Header("Movement Tiles")]
+
+      public MovementTileDetailData MovementTile
+    return:
+      type: ResourceDataManagementLib.MapGeneration.MovementTileDetailData
+    content.vb: >-
+      <Header("Movement Tiles")>
+
+      Public MovementTile As MovementTileDetailData
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Movement Tiles
+references:
+- uid: ResourceDataManagementLib.MapGeneration
+  commentId: N:ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.html
+  name: ResourceDataManagementLib.MapGeneration
+  nameWithType: ResourceDataManagementLib.MapGeneration
+  fullName: ResourceDataManagementLib.MapGeneration
+  spec.csharp:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+  spec.vb:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ResourceDataManagementLib.MapGeneration.FallingTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.FallingTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.FallingTileDetailData.html
+  name: FallingTileDetailData
+  nameWithType: FallingTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.FallingTileDetailData
+- uid: ResourceDataManagementLib.MapGeneration.ArrawTrapTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.ArrawTrapTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.ArrawTrapTileDetailData.html
+  name: ArrawTrapTileDetailData
+  nameWithType: ArrawTrapTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.ArrawTrapTileDetailData
+- uid: ResourceDataManagementLib.MapGeneration.SpearTrapTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.SpearTrapTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.SpearTrapTileDetailData.html
+  name: SpearTrapTileDetailData
+  nameWithType: SpearTrapTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.SpearTrapTileDetailData
+- uid: ResourceDataManagementLib.MapGeneration.SpikeTrapTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.SpikeTrapTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.SpikeTrapTileDetailData.html
+  name: SpikeTrapTileDetailData
+  nameWithType: SpikeTrapTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.SpikeTrapTileDetailData
+- uid: ResourceDataManagementLib.MapGeneration.ChestTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.ChestTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.ChestTileDetailData.html
+  name: ChestTileDetailData
+  nameWithType: ChestTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.ChestTileDetailData
+- uid: ResourceDataManagementLib.MapGeneration.DoorTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.DoorTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.DoorTileDetailData.html
+  name: DoorTileDetailData
+  nameWithType: DoorTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.DoorTileDetailData
+- uid: ResourceDataManagementLib.MapGeneration.LadderTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.LadderTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.LadderTileDetailData.html
+  name: LadderTileDetailData
+  nameWithType: LadderTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.LadderTileDetailData
+- uid: ResourceDataManagementLib.MapGeneration.GlowTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.GlowTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.GlowTileDetailData.html
+  name: GlowTileDetailData
+  nameWithType: GlowTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.GlowTileDetailData
+- uid: ResourceDataManagementLib.MapGeneration.MovementTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.MovementTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.MovementTileDetailData.html
+  name: MovementTileDetailData
+  nameWithType: MovementTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.MovementTileDetailData

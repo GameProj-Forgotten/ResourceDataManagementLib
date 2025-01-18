@@ -1,0 +1,1318 @@
+{
+  "source_base_path": "C:/Storage/Libs/Forgotten/ResourceDataManagementLib/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.DataSupplyAndSave.GameSaveMetadataSaver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.DataSupplyAndSave.GameSaveMetadataSaver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.DataSupplyAndSave.GameSaveMetadataSupplier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.DataSupplyAndSave.GameSaveMetadataSupplier.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.DataSupplyAndSave.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.DataSupplyAndSave.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.GameSaveData.GameSaveMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.GameSaveData.GameSaveMetadata.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.GameSaveData.GameSaveMetadataExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.GameSaveData.GameSaveMetadataExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.GameSaveData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.GameSaveData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.GameSaveMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.GameSaveMetadata.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.GameSaveMetadataExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.GameSaveMetadataExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.GameSaveMetadataSaver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.GameSaveMetadataSaver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.GameSaveMetadataSupplier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.GameSaveMetadataSupplier.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.ArrawTrapTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.ArrawTrapTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.BackgroundWallpaperTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.BackgroundWallpaperTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BackgroundTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BackgroundTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BorderTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BorderTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.GateStairTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.GateStairTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.BasicDecorationAreaTileDetailData.BackgroundTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.BasicDecorationAreaTileDetailData.BackgroundTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.BasicDecorationAreaTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.BasicDecorationAreaTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.BasicMapGenInputDataSpec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.BasicMapGenInputDataSpec.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.BasicMapGenInputDataSpecExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.BasicMapGenInputDataSpecExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.ChestTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.ChestTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenOutputResourceInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenOutputResourceInterface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.DataAccessInterface.TileBaseResourceInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.DataAccessInterface.TileBaseResourceInterface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.DataAccessInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.DataAccessInterface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSaver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSaver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.DoorTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.DoorTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.FallingTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.FallingTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.FloatingDecorationPropTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.FloatingDecorationPropTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.GlowTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.GlowTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.LadderTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.LadderTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.MapActiveType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.MapActiveType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenDataSaver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenDataSaver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenDataSupplier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenDataSupplier.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.AbstractInputDataSpec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.AbstractInputDataSpec.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.AbstractInputDataSpecExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.AbstractInputDataSpecExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.BasicMapGenInputDataSpec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.BasicMapGenInputDataSpec.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.BasicMapGenInputDataSpecExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.BasicMapGenInputDataSpecExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapActiveType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapActiveType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MiddleLayersInputDataSpec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MiddleLayersInputDataSpec.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MiddleLayersInputDataSpecExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MiddleLayersInputDataSpecExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.PathDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.PathDirection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputDataType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputDataType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.AbstractInputDataInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.AbstractInputDataInterface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.BasicMapGenInputDataInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.BasicMapGenInputDataInterface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.MiddleLayersInputDataInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.MiddleLayersInputDataInterface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.RegionSelectionInputDataInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.RegionSelectionInputDataInterface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenOutputResourceInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.MapGenOutputResourceInterface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.MovementTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.MovementTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.PathDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.PathDirection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.PillarTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.PillarTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpecExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpecExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FundamentalDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FundamentalDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.SingleTileGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.SingleTileGroup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.SpearTrapTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.SpearTrapTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.SpikeTrapTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.SpikeTrapTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TileBaseResourceInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TileBaseResourceInterface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.ArrawTrapTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.ArrawTrapTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.BackgroundWallpaperTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.BackgroundWallpaperTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.BackgroundTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.BackgroundTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.BorderTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.BorderTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.GateStairTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.GateStairTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicDecorationAreaTileDetailData.BackgroundTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicDecorationAreaTileDetailData.BackgroundTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicDecorationAreaTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicDecorationAreaTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.ChestTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.ChestTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.DoorTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.DoorTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.FallingTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.FallingTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.FloatingDecorationPropTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.FloatingDecorationPropTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.GlowTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.GlowTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.LadderTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.LadderTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.MovementTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.MovementTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.PillarTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.PillarTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MainLayerTileGroupData.FundamentalDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MainLayerTileGroupData.FundamentalDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MainLayerTileGroupData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MainLayerTileGroupData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.SpearTrapTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.SpearTrapTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.SpikeTrapTileDetailData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.SpikeTrapTileDetailData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.TileKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.TileKind.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.TotalTileGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.TotalTileGroup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TileGroupAsset.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TileKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TileKind.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.TotalTileGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.TotalTileGroup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.MapGeneration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.MapGeneration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.SerializableType.SerializableVector2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.SerializableType.SerializableVector2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.SerializableType.SerializableVector3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.SerializableType.SerializableVector3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.SerializableType.SerializableVector4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.SerializableType.SerializableVector4.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.SerializableType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.SerializableType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.SerializableVector2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.SerializableVector2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.SerializableVector3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.SerializableVector3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.SerializableVector4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.SerializableVector4.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceDataManagementLib.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceDataManagementLib.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

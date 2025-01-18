@@ -1,0 +1,576 @@
+### YamlMime:ManagedReference
+items:
+- uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData
+  id: BasicCommonAreaTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  children:
+  - ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BackgroundTileData
+  - ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BorderTileData
+  - ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.GateStairTileData
+  - ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoBackLayerGateTileData
+  - ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileData
+  langs:
+  - csharp
+  - vb
+  name: BasicCommonAreaTileDetailData
+  nameWithType: BasicCommonAreaTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData
+  type: Struct
+  source:
+    id: BasicCommonAreaTileDetailData
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    startLine: 173
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct BasicCommonAreaTileDetailData
+    content.vb: >-
+      <Serializable>
+
+      Public Structure BasicCommonAreaTileDetailData
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BorderTileData
+  commentId: F:ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BorderTileData
+  id: BorderTileData
+  parent: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData
+  langs:
+  - csharp
+  - vb
+  name: BorderTileData
+  nameWithType: BasicCommonAreaTileDetailData.BorderTileData
+  fullName: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BorderTileData
+  type: Field
+  source:
+    id: BorderTileData
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    startLine: 231
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: >-
+      [Header("Border")]
+
+      public BasicCommonAreaTileDetailData.BorderTileDetailData BorderTileData
+    return:
+      type: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BorderTileDetailData
+    content.vb: >-
+      <Header("Border")>
+
+      Public BorderTileData As BasicCommonAreaTileDetailData.BorderTileDetailData
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Border
+- uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BackgroundTileData
+  commentId: F:ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BackgroundTileData
+  id: BackgroundTileData
+  parent: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData
+  langs:
+  - csharp
+  - vb
+  name: BackgroundTileData
+  nameWithType: BasicCommonAreaTileDetailData.BackgroundTileData
+  fullName: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BackgroundTileData
+  type: Field
+  source:
+    id: BackgroundTileData
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    startLine: 234
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: >-
+      [Header("Background")]
+
+      public BasicCommonAreaTileDetailData.BackgroundTileDetailData BackgroundTileData
+    return:
+      type: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BackgroundTileDetailData
+    content.vb: >-
+      <Header("Background")>
+
+      Public BackgroundTileData As BasicCommonAreaTileDetailData.BackgroundTileDetailData
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Background
+- uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoBackLayerGateTileData
+  commentId: F:ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoBackLayerGateTileData
+  id: ToGoBackLayerGateTileData
+  parent: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData
+  langs:
+  - csharp
+  - vb
+  name: ToGoBackLayerGateTileData
+  nameWithType: BasicCommonAreaTileDetailData.ToGoBackLayerGateTileData
+  fullName: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoBackLayerGateTileData
+  type: Field
+  source:
+    id: ToGoBackLayerGateTileData
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    startLine: 237
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: >-
+      [Header("To Go Back Layer Gate")]
+
+      public BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData ToGoBackLayerGateTileData
+    return:
+      type: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData
+    content.vb: >-
+      <Header("To Go Back Layer Gate")>
+
+      Public ToGoBackLayerGateTileData As BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: To Go Back Layer Gate
+- uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileData
+  commentId: F:ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileData
+  id: ToGoFrontLayerGateTileData
+  parent: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData
+  langs:
+  - csharp
+  - vb
+  name: ToGoFrontLayerGateTileData
+  nameWithType: BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileData
+  fullName: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileData
+  type: Field
+  source:
+    id: ToGoFrontLayerGateTileData
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    startLine: 240
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: >-
+      [Header("To Go Front Layer Gate")]
+
+      public BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData ToGoFrontLayerGateTileData
+    return:
+      type: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData
+    content.vb: >-
+      <Header("To Go Front Layer Gate")>
+
+      Public ToGoFrontLayerGateTileData As BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: To Go Front Layer Gate
+- uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.GateStairTileData
+  commentId: F:ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.GateStairTileData
+  id: GateStairTileData
+  parent: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData
+  langs:
+  - csharp
+  - vb
+  name: GateStairTileData
+  nameWithType: BasicCommonAreaTileDetailData.GateStairTileData
+  fullName: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.GateStairTileData
+  type: Field
+  source:
+    id: GateStairTileData
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    startLine: 243
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: >-
+      [Header("Gate Stair Tile")]
+
+      public BasicCommonAreaTileDetailData.GateStairTileDetailData GateStairTileData
+    return:
+      type: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.GateStairTileDetailData
+    content.vb: >-
+      <Header("Gate Stair Tile")>
+
+      Public GateStairTileData As BasicCommonAreaTileDetailData.GateStairTileDetailData
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Gate Stair Tile
+references:
+- uid: ResourceDataManagementLib.MapGeneration
+  commentId: N:ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.html
+  name: ResourceDataManagementLib.MapGeneration
+  nameWithType: ResourceDataManagementLib.MapGeneration
+  fullName: ResourceDataManagementLib.MapGeneration
+  spec.csharp:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+  spec.vb:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BorderTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BorderTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.html
+  name: BasicCommonAreaTileDetailData.BorderTileDetailData
+  nameWithType: BasicCommonAreaTileDetailData.BorderTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BorderTileDetailData
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData
+    name: BasicCommonAreaTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BorderTileDetailData
+    name: BorderTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BorderTileDetailData.html
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData
+    name: BasicCommonAreaTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BorderTileDetailData
+    name: BorderTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BorderTileDetailData.html
+- uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BackgroundTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BackgroundTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.html
+  name: BasicCommonAreaTileDetailData.BackgroundTileDetailData
+  nameWithType: BasicCommonAreaTileDetailData.BackgroundTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BackgroundTileDetailData
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData
+    name: BasicCommonAreaTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BackgroundTileDetailData
+    name: BackgroundTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BackgroundTileDetailData.html
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData
+    name: BasicCommonAreaTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BackgroundTileDetailData
+    name: BackgroundTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BackgroundTileDetailData.html
+- uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.html
+  name: BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData
+  nameWithType: BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData
+    name: BasicCommonAreaTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData
+    name: ToGoBackLayerGateTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData.html
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData
+    name: BasicCommonAreaTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData
+    name: ToGoBackLayerGateTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData.html
+- uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.html
+  name: BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData
+  nameWithType: BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData
+    name: BasicCommonAreaTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData
+    name: ToGoFrontLayerGateTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData.html
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData
+    name: BasicCommonAreaTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData
+    name: ToGoFrontLayerGateTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData.html
+- uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.GateStairTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.GateStairTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.html
+  name: BasicCommonAreaTileDetailData.GateStairTileDetailData
+  nameWithType: BasicCommonAreaTileDetailData.GateStairTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.GateStairTileDetailData
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData
+    name: BasicCommonAreaTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.GateStairTileDetailData
+    name: GateStairTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.GateStairTileDetailData.html
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData
+    name: BasicCommonAreaTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.GateStairTileDetailData
+    name: GateStairTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.GateStairTileDetailData.html

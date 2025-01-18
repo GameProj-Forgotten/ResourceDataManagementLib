@@ -1,0 +1,138 @@
+### YamlMime:TableOfContent
+items:
+- uid: ResourceDataManagementLib.DataSupplyAndSave
+  name: ResourceDataManagementLib.DataSupplyAndSave
+  items:
+  - uid: ResourceDataManagementLib.DataSupplyAndSave.GameSaveMetadataSaver
+    name: GameSaveMetadataSaver
+  - uid: ResourceDataManagementLib.DataSupplyAndSave.GameSaveMetadataSupplier
+    name: GameSaveMetadataSupplier
+- uid: ResourceDataManagementLib.GameSaveData
+  name: ResourceDataManagementLib.GameSaveData
+  items:
+  - uid: ResourceDataManagementLib.GameSaveData.GameSaveMetadata
+    name: GameSaveMetadata
+  - uid: ResourceDataManagementLib.GameSaveData.GameSaveMetadataExtension
+    name: GameSaveMetadataExtension
+- uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  name: ResourceDataManagementLib.MapGeneration.DataAccessInterface
+  items:
+  - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface
+    name: MapGenInputResourceInterface
+  - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.AbstractInputDataInterface
+    name: MapGenInputResourceInterface.AbstractInputDataInterface
+  - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.BasicMapGenInputDataInterface
+    name: MapGenInputResourceInterface.BasicMapGenInputDataInterface
+  - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.MiddleLayersInputDataInterface
+    name: MapGenInputResourceInterface.MiddleLayersInputDataInterface
+  - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenInputResourceInterface.RegionSelectionInputDataInterface
+    name: MapGenInputResourceInterface.RegionSelectionInputDataInterface
+  - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.MapGenOutputResourceInterface
+    name: MapGenOutputResourceInterface
+  - uid: ResourceDataManagementLib.MapGeneration.DataAccessInterface.TileBaseResourceInterface
+    name: TileBaseResourceInterface
+- uid: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave
+  name: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave
+  items:
+  - uid: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSaver
+    name: MapGenDataSaver
+  - uid: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier
+    name: MapGenDataSupplier
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  name: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  items:
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.AbstractInputDataSpec
+    name: AbstractInputDataSpec
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.AbstractInputDataSpecExtension
+    name: AbstractInputDataSpecExtension
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.BasicMapGenInputDataSpec
+    name: BasicMapGenInputDataSpec
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.BasicMapGenInputDataSpecExtension
+    name: BasicMapGenInputDataSpecExtension
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapActiveType
+    name: MapActiveType
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType
+    name: MapGenInputDataType
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MiddleLayersInputDataSpec
+    name: MiddleLayersInputDataSpec
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MiddleLayersInputDataSpecExtension
+    name: MiddleLayersInputDataSpecExtension
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.PathDirection
+    name: PathDirection
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec
+    name: RegionSelectionInputDataSpec
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData
+    name: RegionSelectionInputDataSpec.SingleRegionData
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension
+    name: RegionSelectionInputDataSpecExtension
+- uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset
+  name: ResourceDataManagementLib.MapGeneration.TileGroupAsset
+  items:
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.ArrawTrapTileDetailData
+    name: ArrawTrapTileDetailData
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BackgroundWallpaperTileDetailData
+    name: BackgroundWallpaperTileDetailData
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData
+    name: BasicCommonAreaTileDetailData
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.BackgroundTileDetailData
+    name: BasicCommonAreaTileDetailData.BackgroundTileDetailData
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.BorderTileDetailData
+    name: BasicCommonAreaTileDetailData.BorderTileDetailData
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.GateStairTileDetailData
+    name: BasicCommonAreaTileDetailData.GateStairTileDetailData
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData
+    name: BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData
+    name: BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicDecorationAreaTileDetailData
+    name: BasicDecorationAreaTileDetailData
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicDecorationAreaTileDetailData.BackgroundTileDetailData
+    name: BasicDecorationAreaTileDetailData.BackgroundTileDetailData
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.ChestTileDetailData
+    name: ChestTileDetailData
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.DoorTileDetailData
+    name: DoorTileDetailData
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.FallingTileDetailData
+    name: FallingTileDetailData
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.FloatingDecorationPropTileDetailData
+    name: FloatingDecorationPropTileDetailData
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.GlowTileDetailData
+    name: GlowTileDetailData
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.LadderTileDetailData
+    name: LadderTileDetailData
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.MovementTileDetailData
+    name: MovementTileDetailData
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.PillarTileDetailData
+    name: PillarTileDetailData
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup
+    name: SingleTileGroup
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MainLayerTileGroupData
+    name: SingleTileGroup.MainLayerTileGroupData
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData
+    name: SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MainLayerTileGroupData.FundamentalDetailData
+    name: SingleTileGroup.MainLayerTileGroupData.FundamentalDetailData
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData
+    name: SingleTileGroup.MiddleLayerTileGroupData
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerDetailData
+    name: SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerDetailData
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerDetailData
+    name: SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerDetailData
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SpearTrapTileDetailData
+    name: SpearTrapTileDetailData
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SpikeTrapTileDetailData
+    name: SpikeTrapTileDetailData
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.TileKind
+    name: TileKind
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.TotalTileGroup
+    name: TotalTileGroup
+- uid: ResourceDataManagementLib.SerializableType
+  name: ResourceDataManagementLib.SerializableType
+  items:
+  - uid: ResourceDataManagementLib.SerializableType.SerializableVector2
+    name: SerializableVector2
+  - uid: ResourceDataManagementLib.SerializableType.SerializableVector3
+    name: SerializableVector3
+  - uid: ResourceDataManagementLib.SerializableType.SerializableVector4
+    name: SerializableVector4
+memberLayout: SamePage

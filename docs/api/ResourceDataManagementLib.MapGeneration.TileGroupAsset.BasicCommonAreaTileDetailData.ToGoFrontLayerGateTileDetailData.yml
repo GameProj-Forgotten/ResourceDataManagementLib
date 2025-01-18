@@ -1,0 +1,519 @@
+### YamlMime:ManagedReference
+items:
+- uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData
+  id: BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration.TileGroupAsset
+  children:
+  - ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData.GateLowerHorizontalEdgyTiles
+  - ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData.GateMainTiles
+  - ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData.GateUpperHorizontalEdgtTiles
+  - ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData.GateVerticalEdgyTiles
+  langs:
+  - csharp
+  - vb
+  name: BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData
+  nameWithType: BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData
+  type: Struct
+  source:
+    id: ToGoFrontLayerGateTileDetailData
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    startLine: 211
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.TileGroupAsset
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData
+    content.vb: >-
+      <Serializable>
+
+      Public Structure BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData.GateMainTiles
+  commentId: F:ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData.GateMainTiles
+  id: GateMainTiles
+  parent: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData
+  langs:
+  - csharp
+  - vb
+  name: GateMainTiles
+  nameWithType: BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData.GateMainTiles
+  fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData.GateMainTiles
+  type: Field
+  source:
+    id: GateMainTiles
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    startLine: 214
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.TileGroupAsset
+  syntax:
+    content: >-
+      [Header("To Go Front Layer Gate Main Tiles")]
+
+      public List<TileBase> GateMainTiles
+    return:
+      type: System.Collections.Generic.List{UnityEngine.Tilemaps.TileBase}
+    content.vb: >-
+      <Header("To Go Front Layer Gate Main Tiles")>
+
+      Public GateMainTiles As List(Of TileBase)
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: To Go Front Layer Gate Main Tiles
+- uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData.GateUpperHorizontalEdgtTiles
+  commentId: F:ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData.GateUpperHorizontalEdgtTiles
+  id: GateUpperHorizontalEdgtTiles
+  parent: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData
+  langs:
+  - csharp
+  - vb
+  name: GateUpperHorizontalEdgtTiles
+  nameWithType: BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData.GateUpperHorizontalEdgtTiles
+  fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData.GateUpperHorizontalEdgtTiles
+  type: Field
+  source:
+    id: GateUpperHorizontalEdgtTiles
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    startLine: 217
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.TileGroupAsset
+  syntax:
+    content: >-
+      [Header("To Go Front Layer Gate Edgy Tiles - Horizontal")]
+
+      public List<TileBase> GateUpperHorizontalEdgtTiles
+    return:
+      type: System.Collections.Generic.List{UnityEngine.Tilemaps.TileBase}
+    content.vb: >-
+      <Header("To Go Front Layer Gate Edgy Tiles - Horizontal")>
+
+      Public GateUpperHorizontalEdgtTiles As List(Of TileBase)
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: To Go Front Layer Gate Edgy Tiles - Horizontal
+- uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData.GateLowerHorizontalEdgyTiles
+  commentId: F:ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData.GateLowerHorizontalEdgyTiles
+  id: GateLowerHorizontalEdgyTiles
+  parent: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData
+  langs:
+  - csharp
+  - vb
+  name: GateLowerHorizontalEdgyTiles
+  nameWithType: BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData.GateLowerHorizontalEdgyTiles
+  fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData.GateLowerHorizontalEdgyTiles
+  type: Field
+  source:
+    id: GateLowerHorizontalEdgyTiles
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    startLine: 218
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.TileGroupAsset
+  syntax:
+    content: public List<TileBase> GateLowerHorizontalEdgyTiles
+    return:
+      type: System.Collections.Generic.List{UnityEngine.Tilemaps.TileBase}
+    content.vb: Public GateLowerHorizontalEdgyTiles As List(Of TileBase)
+- uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData.GateVerticalEdgyTiles
+  commentId: F:ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData.GateVerticalEdgyTiles
+  id: GateVerticalEdgyTiles
+  parent: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData
+  langs:
+  - csharp
+  - vb
+  name: GateVerticalEdgyTiles
+  nameWithType: BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData.GateVerticalEdgyTiles
+  fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData.GateVerticalEdgyTiles
+  type: Field
+  source:
+    id: GateVerticalEdgyTiles
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    startLine: 221
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.TileGroupAsset
+  syntax:
+    content: >-
+      [Header("To Go Front Layer Gate Edgy Tiles - Vertical")]
+
+      public List<TileBase> GateVerticalEdgyTiles
+    return:
+      type: System.Collections.Generic.List{UnityEngine.Tilemaps.TileBase}
+    content.vb: >-
+      <Header("To Go Front Layer Gate Edgy Tiles - Vertical")>
+
+      Public GateVerticalEdgyTiles As List(Of TileBase)
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: To Go Front Layer Gate Edgy Tiles - Vertical
+references:
+- uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset
+  commentId: N:ResourceDataManagementLib.MapGeneration.TileGroupAsset
+  href: ResourceDataManagementLib.html
+  name: ResourceDataManagementLib.MapGeneration.TileGroupAsset
+  nameWithType: ResourceDataManagementLib.MapGeneration.TileGroupAsset
+  fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset
+  spec.csharp:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset
+    name: TileGroupAsset
+    href: ResourceDataManagementLib.MapGeneration.TileGroupAsset.html
+  spec.vb:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset
+    name: TileGroupAsset
+    href: ResourceDataManagementLib.MapGeneration.TileGroupAsset.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.List{UnityEngine.Tilemaps.TileBase}
+  commentId: T:System.Collections.Generic.List{UnityEngine.Tilemaps.TileBase}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<TileBase>
+  nameWithType: List<TileBase>
+  fullName: System.Collections.Generic.List<UnityEngine.Tilemaps.TileBase>
+  nameWithType.vb: List(Of TileBase)
+  fullName.vb: System.Collections.Generic.List(Of UnityEngine.Tilemaps.TileBase)
+  name.vb: List(Of TileBase)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: UnityEngine.Tilemaps.TileBase
+    name: TileBase
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEngine.Tilemaps.TileBase
+    name: TileBase
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

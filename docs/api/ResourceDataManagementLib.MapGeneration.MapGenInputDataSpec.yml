@@ -1,0 +1,157 @@
+### YamlMime:ManagedReference
+items:
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  commentId: N:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  id: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  children:
+  - ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.AbstractInputDataSpec
+  - ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.AbstractInputDataSpecExtension
+  - ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.BasicMapGenInputDataSpec
+  - ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.BasicMapGenInputDataSpecExtension
+  - ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapActiveType
+  - ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType
+  - ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MiddleLayersInputDataSpec
+  - ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MiddleLayersInputDataSpecExtension
+  - ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.PathDirection
+  - ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec
+  - ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData
+  - ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension
+  langs:
+  - csharp
+  - vb
+  name: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  nameWithType: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  type: Namespace
+  assemblies:
+  - ResourceDataManagementLib
+references:
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType
+  commentId: T:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType
+  parent: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType.html
+  name: MapGenInputDataType
+  nameWithType: MapGenInputDataType
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MiddleLayersInputDataSpec
+  commentId: T:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MiddleLayersInputDataSpec
+  parent: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MiddleLayersInputDataSpec.html
+  name: MiddleLayersInputDataSpec
+  nameWithType: MiddleLayersInputDataSpec
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MiddleLayersInputDataSpec
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MiddleLayersInputDataSpecExtension
+  commentId: T:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MiddleLayersInputDataSpecExtension
+  parent: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MiddleLayersInputDataSpecExtension.html
+  name: MiddleLayersInputDataSpecExtension
+  nameWithType: MiddleLayersInputDataSpecExtension
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MiddleLayersInputDataSpecExtension
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.PathDirection
+  commentId: T:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.PathDirection
+  parent: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.PathDirection.html
+  name: PathDirection
+  nameWithType: PathDirection
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.PathDirection
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.AbstractInputDataSpec
+  commentId: T:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.AbstractInputDataSpec
+  parent: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.AbstractInputDataSpec.html
+  name: AbstractInputDataSpec
+  nameWithType: AbstractInputDataSpec
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.AbstractInputDataSpec
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.AbstractInputDataSpecExtension
+  commentId: T:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.AbstractInputDataSpecExtension
+  parent: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.AbstractInputDataSpecExtension.html
+  name: AbstractInputDataSpecExtension
+  nameWithType: AbstractInputDataSpecExtension
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.AbstractInputDataSpecExtension
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapActiveType
+  commentId: T:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapActiveType
+  parent: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapActiveType.html
+  name: MapActiveType
+  nameWithType: MapActiveType
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapActiveType
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.BasicMapGenInputDataSpec
+  commentId: T:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.BasicMapGenInputDataSpec
+  parent: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.BasicMapGenInputDataSpec.html
+  name: BasicMapGenInputDataSpec
+  nameWithType: BasicMapGenInputDataSpec
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.BasicMapGenInputDataSpec
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.BasicMapGenInputDataSpecExtension
+  commentId: T:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.BasicMapGenInputDataSpecExtension
+  parent: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.BasicMapGenInputDataSpecExtension.html
+  name: BasicMapGenInputDataSpecExtension
+  nameWithType: BasicMapGenInputDataSpecExtension
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.BasicMapGenInputDataSpecExtension
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec
+  commentId: T:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec
+  parent: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.html
+  name: RegionSelectionInputDataSpec
+  nameWithType: RegionSelectionInputDataSpec
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData
+  commentId: T:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData
+  href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.html
+  name: RegionSelectionInputDataSpec.SingleRegionData
+  nameWithType: RegionSelectionInputDataSpec.SingleRegionData
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec
+    name: RegionSelectionInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData
+    name: SingleRegionData
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData.html
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec
+    name: RegionSelectionInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData
+    name: SingleRegionData
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData.html
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension
+  commentId: T:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension
+  parent: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.html
+  name: RegionSelectionInputDataSpecExtension
+  nameWithType: RegionSelectionInputDataSpecExtension
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  commentId: N:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  href: ResourceDataManagementLib.html
+  name: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  nameWithType: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  spec.csharp:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+    name: MapGenInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.html
+  spec.vb:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+    name: MapGenInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.html

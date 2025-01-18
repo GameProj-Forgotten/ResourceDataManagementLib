@@ -1,0 +1,225 @@
+### YamlMime:ManagedReference
+items:
+- uid: ResourceDataManagementLib.MapGeneration.MapActiveType
+  commentId: T:ResourceDataManagementLib.MapGeneration.MapActiveType
+  id: MapActiveType
+  parent: ResourceDataManagementLib.MapGeneration
+  children:
+  - ResourceDataManagementLib.MapGeneration.MapActiveType.BIsNodeActive
+  - ResourceDataManagementLib.MapGeneration.MapActiveType.BIsNodeIsBottomEdge
+  - ResourceDataManagementLib.MapGeneration.MapActiveType.BIsNodeIsGateBottomEdge
+  - ResourceDataManagementLib.MapGeneration.MapActiveType.BIsNodeIsGateToBack
+  - ResourceDataManagementLib.MapGeneration.MapActiveType.BIsNodeIsLeftEdge
+  - ResourceDataManagementLib.MapGeneration.MapActiveType.BIsNodeIsRightEdge
+  - ResourceDataManagementLib.MapGeneration.MapActiveType.BIsNodeIsTopEdge
+  langs:
+  - csharp
+  - vb
+  name: MapActiveType
+  nameWithType: MapActiveType
+  fullName: ResourceDataManagementLib.MapGeneration.MapActiveType
+  type: Enum
+  source:
+    id: MapActiveType
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\BasicMapGenInputDataSpec.cs
+    startLine: 11
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum MapActiveType : byte
+    content.vb: >-
+      <Flags>
+
+      Public Enum MapActiveType As Byte
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: ResourceDataManagementLib.MapGeneration.MapActiveType.BIsNodeActive
+  commentId: F:ResourceDataManagementLib.MapGeneration.MapActiveType.BIsNodeActive
+  id: BIsNodeActive
+  parent: ResourceDataManagementLib.MapGeneration.MapActiveType
+  langs:
+  - csharp
+  - vb
+  name: BIsNodeActive
+  nameWithType: MapActiveType.BIsNodeActive
+  fullName: ResourceDataManagementLib.MapGeneration.MapActiveType.BIsNodeActive
+  type: Field
+  source:
+    id: BIsNodeActive
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\BasicMapGenInputDataSpec.cs
+    startLine: 13
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: BIsNodeActive = 1
+    return:
+      type: ResourceDataManagementLib.MapGeneration.MapActiveType
+- uid: ResourceDataManagementLib.MapGeneration.MapActiveType.BIsNodeIsGateToBack
+  commentId: F:ResourceDataManagementLib.MapGeneration.MapActiveType.BIsNodeIsGateToBack
+  id: BIsNodeIsGateToBack
+  parent: ResourceDataManagementLib.MapGeneration.MapActiveType
+  langs:
+  - csharp
+  - vb
+  name: BIsNodeIsGateToBack
+  nameWithType: MapActiveType.BIsNodeIsGateToBack
+  fullName: ResourceDataManagementLib.MapGeneration.MapActiveType.BIsNodeIsGateToBack
+  type: Field
+  source:
+    id: BIsNodeIsGateToBack
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\BasicMapGenInputDataSpec.cs
+    startLine: 15
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: BIsNodeIsGateToBack = 2
+    return:
+      type: ResourceDataManagementLib.MapGeneration.MapActiveType
+- uid: ResourceDataManagementLib.MapGeneration.MapActiveType.BIsNodeIsTopEdge
+  commentId: F:ResourceDataManagementLib.MapGeneration.MapActiveType.BIsNodeIsTopEdge
+  id: BIsNodeIsTopEdge
+  parent: ResourceDataManagementLib.MapGeneration.MapActiveType
+  langs:
+  - csharp
+  - vb
+  name: BIsNodeIsTopEdge
+  nameWithType: MapActiveType.BIsNodeIsTopEdge
+  fullName: ResourceDataManagementLib.MapGeneration.MapActiveType.BIsNodeIsTopEdge
+  type: Field
+  source:
+    id: BIsNodeIsTopEdge
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\BasicMapGenInputDataSpec.cs
+    startLine: 17
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: BIsNodeIsTopEdge = 4
+    return:
+      type: ResourceDataManagementLib.MapGeneration.MapActiveType
+- uid: ResourceDataManagementLib.MapGeneration.MapActiveType.BIsNodeIsBottomEdge
+  commentId: F:ResourceDataManagementLib.MapGeneration.MapActiveType.BIsNodeIsBottomEdge
+  id: BIsNodeIsBottomEdge
+  parent: ResourceDataManagementLib.MapGeneration.MapActiveType
+  langs:
+  - csharp
+  - vb
+  name: BIsNodeIsBottomEdge
+  nameWithType: MapActiveType.BIsNodeIsBottomEdge
+  fullName: ResourceDataManagementLib.MapGeneration.MapActiveType.BIsNodeIsBottomEdge
+  type: Field
+  source:
+    id: BIsNodeIsBottomEdge
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\BasicMapGenInputDataSpec.cs
+    startLine: 18
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: BIsNodeIsBottomEdge = 8
+    return:
+      type: ResourceDataManagementLib.MapGeneration.MapActiveType
+- uid: ResourceDataManagementLib.MapGeneration.MapActiveType.BIsNodeIsLeftEdge
+  commentId: F:ResourceDataManagementLib.MapGeneration.MapActiveType.BIsNodeIsLeftEdge
+  id: BIsNodeIsLeftEdge
+  parent: ResourceDataManagementLib.MapGeneration.MapActiveType
+  langs:
+  - csharp
+  - vb
+  name: BIsNodeIsLeftEdge
+  nameWithType: MapActiveType.BIsNodeIsLeftEdge
+  fullName: ResourceDataManagementLib.MapGeneration.MapActiveType.BIsNodeIsLeftEdge
+  type: Field
+  source:
+    id: BIsNodeIsLeftEdge
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\BasicMapGenInputDataSpec.cs
+    startLine: 19
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: BIsNodeIsLeftEdge = 16
+    return:
+      type: ResourceDataManagementLib.MapGeneration.MapActiveType
+- uid: ResourceDataManagementLib.MapGeneration.MapActiveType.BIsNodeIsRightEdge
+  commentId: F:ResourceDataManagementLib.MapGeneration.MapActiveType.BIsNodeIsRightEdge
+  id: BIsNodeIsRightEdge
+  parent: ResourceDataManagementLib.MapGeneration.MapActiveType
+  langs:
+  - csharp
+  - vb
+  name: BIsNodeIsRightEdge
+  nameWithType: MapActiveType.BIsNodeIsRightEdge
+  fullName: ResourceDataManagementLib.MapGeneration.MapActiveType.BIsNodeIsRightEdge
+  type: Field
+  source:
+    id: BIsNodeIsRightEdge
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\BasicMapGenInputDataSpec.cs
+    startLine: 20
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: BIsNodeIsRightEdge = 32
+    return:
+      type: ResourceDataManagementLib.MapGeneration.MapActiveType
+- uid: ResourceDataManagementLib.MapGeneration.MapActiveType.BIsNodeIsGateBottomEdge
+  commentId: F:ResourceDataManagementLib.MapGeneration.MapActiveType.BIsNodeIsGateBottomEdge
+  id: BIsNodeIsGateBottomEdge
+  parent: ResourceDataManagementLib.MapGeneration.MapActiveType
+  langs:
+  - csharp
+  - vb
+  name: BIsNodeIsGateBottomEdge
+  nameWithType: MapActiveType.BIsNodeIsGateBottomEdge
+  fullName: ResourceDataManagementLib.MapGeneration.MapActiveType.BIsNodeIsGateBottomEdge
+  type: Field
+  source:
+    id: BIsNodeIsGateBottomEdge
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\BasicMapGenInputDataSpec.cs
+    startLine: 22
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: BIsNodeIsGateBottomEdge = 64
+    return:
+      type: ResourceDataManagementLib.MapGeneration.MapActiveType
+references:
+- uid: ResourceDataManagementLib.MapGeneration
+  commentId: N:ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.html
+  name: ResourceDataManagementLib.MapGeneration
+  nameWithType: ResourceDataManagementLib.MapGeneration
+  fullName: ResourceDataManagementLib.MapGeneration
+  spec.csharp:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+  spec.vb:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+- uid: ResourceDataManagementLib.MapGeneration.MapActiveType
+  commentId: T:ResourceDataManagementLib.MapGeneration.MapActiveType
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.MapActiveType.html
+  name: MapActiveType
+  nameWithType: MapActiveType
+  fullName: ResourceDataManagementLib.MapGeneration.MapActiveType

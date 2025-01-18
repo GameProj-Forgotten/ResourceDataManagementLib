@@ -1,0 +1,635 @@
+### YamlMime:ManagedReference
+items:
+- uid: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec
+  commentId: T:ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec
+  id: AbstractInputDataSpec
+  parent: ResourceDataManagementLib.MapGeneration
+  children:
+  - ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec.AreaNameTable
+  - ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec.MapSize
+  - ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec.SingleChunkSize
+  - ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec.SingleRoomSize
+  langs:
+  - csharp
+  - vb
+  name: AbstractInputDataSpec
+  nameWithType: AbstractInputDataSpec
+  fullName: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec
+  type: Struct
+  source:
+    id: AbstractInputDataSpec
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\AbstractInputDataSpec.cs
+    startLine: 23
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: public struct AbstractInputDataSpec
+    content.vb: Public Structure AbstractInputDataSpec
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  extensionMethods:
+  - ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec.ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.BIsValid
+  - ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec.ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.Init
+- uid: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec.SingleChunkSize
+  commentId: F:ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec.SingleChunkSize
+  id: SingleChunkSize
+  parent: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec
+  langs:
+  - csharp
+  - vb
+  name: SingleChunkSize
+  nameWithType: AbstractInputDataSpec.SingleChunkSize
+  fullName: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec.SingleChunkSize
+  type: Field
+  source:
+    id: SingleChunkSize
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\AbstractInputDataSpec.cs
+    startLine: 25
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: public Vector3Int SingleChunkSize
+    return:
+      type: UnityEngine.Vector3Int
+    content.vb: Public SingleChunkSize As Vector3Int
+- uid: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec.MapSize
+  commentId: F:ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec.MapSize
+  id: MapSize
+  parent: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec
+  langs:
+  - csharp
+  - vb
+  name: MapSize
+  nameWithType: AbstractInputDataSpec.MapSize
+  fullName: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec.MapSize
+  type: Field
+  source:
+    id: MapSize
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\AbstractInputDataSpec.cs
+    startLine: 25
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: public Vector3Int MapSize
+    return:
+      type: UnityEngine.Vector3Int
+    content.vb: Public MapSize As Vector3Int
+- uid: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec.SingleRoomSize
+  commentId: F:ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec.SingleRoomSize
+  id: SingleRoomSize
+  parent: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec
+  langs:
+  - csharp
+  - vb
+  name: SingleRoomSize
+  nameWithType: AbstractInputDataSpec.SingleRoomSize
+  fullName: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec.SingleRoomSize
+  type: Field
+  source:
+    id: SingleRoomSize
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\AbstractInputDataSpec.cs
+    startLine: 26
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: public Vector2Int SingleRoomSize
+    return:
+      type: UnityEngine.Vector2Int
+    content.vb: Public SingleRoomSize As Vector2Int
+- uid: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec.AreaNameTable
+  commentId: F:ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec.AreaNameTable
+  id: AreaNameTable
+  parent: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec
+  langs:
+  - csharp
+  - vb
+  name: AreaNameTable
+  nameWithType: AbstractInputDataSpec.AreaNameTable
+  fullName: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec.AreaNameTable
+  type: Field
+  source:
+    id: AreaNameTable
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\AbstractInputDataSpec.cs
+    startLine: 28
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: public Dictionary<Guid, string> AreaNameTable
+    return:
+      type: System.Collections.Generic.Dictionary{System.Guid,System.String}
+    content.vb: Public AreaNameTable As Dictionary(Of Guid, String)
+references:
+- uid: ResourceDataManagementLib.MapGeneration
+  commentId: N:ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.html
+  name: ResourceDataManagementLib.MapGeneration
+  nameWithType: ResourceDataManagementLib.MapGeneration
+  fullName: ResourceDataManagementLib.MapGeneration
+  spec.csharp:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+  spec.vb:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec.ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.BIsValid
+  commentId: M:ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.BIsValid(ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec@)
+  parent: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension
+  definition: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.BIsValid(ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec@)
+  href: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_AbstractInputDataSpecExtension_BIsValid_ResourceDataManagementLib_MapGeneration_AbstractInputDataSpec__
+  name: BIsValid(in AbstractInputDataSpec)
+  nameWithType: AbstractInputDataSpecExtension.BIsValid(in AbstractInputDataSpec)
+  fullName: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.BIsValid(in ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec)
+  nameWithType.vb: AbstractInputDataSpecExtension.BIsValid(AbstractInputDataSpec)
+  fullName.vb: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.BIsValid(ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec)
+  name.vb: BIsValid(AbstractInputDataSpec)
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.BIsValid(ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec@)
+    name: BIsValid
+    href: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_AbstractInputDataSpecExtension_BIsValid_ResourceDataManagementLib_MapGeneration_AbstractInputDataSpec__
+  - name: (
+  - name: in
+  - name: " "
+  - uid: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec
+    name: AbstractInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec.html
+  - name: )
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.BIsValid(ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec@)
+    name: BIsValid
+    href: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_AbstractInputDataSpecExtension_BIsValid_ResourceDataManagementLib_MapGeneration_AbstractInputDataSpec__
+  - name: (
+  - uid: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec
+    name: AbstractInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec.html
+  - name: )
+- uid: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec.ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.Init
+  commentId: M:ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.Init(ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec@)
+  parent: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension
+  definition: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.Init(ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec@)
+  href: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_AbstractInputDataSpecExtension_Init_ResourceDataManagementLib_MapGeneration_AbstractInputDataSpec__
+  name: Init(ref AbstractInputDataSpec)
+  nameWithType: AbstractInputDataSpecExtension.Init(ref AbstractInputDataSpec)
+  fullName: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.Init(ref ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec)
+  nameWithType.vb: AbstractInputDataSpecExtension.Init(AbstractInputDataSpec)
+  fullName.vb: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.Init(ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec)
+  name.vb: Init(AbstractInputDataSpec)
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.Init(ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec@)
+    name: Init
+    href: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_AbstractInputDataSpecExtension_Init_ResourceDataManagementLib_MapGeneration_AbstractInputDataSpec__
+  - name: (
+  - name: ref
+  - name: " "
+  - uid: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec
+    name: AbstractInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec.html
+  - name: )
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.Init(ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec@)
+    name: Init
+    href: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_AbstractInputDataSpecExtension_Init_ResourceDataManagementLib_MapGeneration_AbstractInputDataSpec__
+  - name: (
+  - uid: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec
+    name: AbstractInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec.html
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.BIsValid(ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec@)
+  commentId: M:ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.BIsValid(ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec@)
+  href: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_AbstractInputDataSpecExtension_BIsValid_ResourceDataManagementLib_MapGeneration_AbstractInputDataSpec__
+  name: BIsValid(in AbstractInputDataSpec)
+  nameWithType: AbstractInputDataSpecExtension.BIsValid(in AbstractInputDataSpec)
+  fullName: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.BIsValid(in ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec)
+  nameWithType.vb: AbstractInputDataSpecExtension.BIsValid(AbstractInputDataSpec)
+  fullName.vb: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.BIsValid(ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec)
+  name.vb: BIsValid(AbstractInputDataSpec)
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.BIsValid(ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec@)
+    name: BIsValid
+    href: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_AbstractInputDataSpecExtension_BIsValid_ResourceDataManagementLib_MapGeneration_AbstractInputDataSpec__
+  - name: (
+  - name: in
+  - name: " "
+  - uid: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec
+    name: AbstractInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec.html
+  - name: )
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.BIsValid(ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec@)
+    name: BIsValid
+    href: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_AbstractInputDataSpecExtension_BIsValid_ResourceDataManagementLib_MapGeneration_AbstractInputDataSpec__
+  - name: (
+  - uid: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec
+    name: AbstractInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec.html
+  - name: )
+- uid: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension
+  commentId: T:ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.html
+  name: AbstractInputDataSpecExtension
+  nameWithType: AbstractInputDataSpecExtension
+  fullName: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension
+- uid: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.Init(ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec@)
+  commentId: M:ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.Init(ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec@)
+  href: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_AbstractInputDataSpecExtension_Init_ResourceDataManagementLib_MapGeneration_AbstractInputDataSpec__
+  name: Init(ref AbstractInputDataSpec)
+  nameWithType: AbstractInputDataSpecExtension.Init(ref AbstractInputDataSpec)
+  fullName: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.Init(ref ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec)
+  nameWithType.vb: AbstractInputDataSpecExtension.Init(AbstractInputDataSpec)
+  fullName.vb: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.Init(ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec)
+  name.vb: Init(AbstractInputDataSpec)
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.Init(ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec@)
+    name: Init
+    href: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_AbstractInputDataSpecExtension_Init_ResourceDataManagementLib_MapGeneration_AbstractInputDataSpec__
+  - name: (
+  - name: ref
+  - name: " "
+  - uid: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec
+    name: AbstractInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec.html
+  - name: )
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.Init(ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec@)
+    name: Init
+    href: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_AbstractInputDataSpecExtension_Init_ResourceDataManagementLib_MapGeneration_AbstractInputDataSpec__
+  - name: (
+  - uid: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec
+    name: AbstractInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.Vector3Int
+  commentId: T:UnityEngine.Vector3Int
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3Int
+  nameWithType: Vector3Int
+  fullName: UnityEngine.Vector3Int
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEngine.Vector2Int
+  commentId: T:UnityEngine.Vector2Int
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2Int
+  nameWithType: Vector2Int
+  fullName: UnityEngine.Vector2Int
+- uid: System.Collections.Generic.Dictionary{System.Guid,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.Guid,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<Guid, string>
+  nameWithType: Dictionary<Guid, string>
+  fullName: System.Collections.Generic.Dictionary<System.Guid, string>
+  nameWithType.vb: Dictionary(Of Guid, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.Guid, String)
+  name.vb: Dictionary(Of Guid, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

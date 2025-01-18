@@ -1,0 +1,473 @@
+### YamlMime:ManagedReference
+items:
+- uid: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec
+  commentId: T:ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec
+  id: MiddleLayersInputDataSpec
+  parent: ResourceDataManagementLib.MapGeneration
+  children:
+  - ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec.ColorStepForCurLayer
+  - ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec.CurLayerMiddleLayerDepth
+  langs:
+  - csharp
+  - vb
+  name: MiddleLayersInputDataSpec
+  nameWithType: MiddleLayersInputDataSpec
+  fullName: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec
+  type: Struct
+  source:
+    id: MiddleLayersInputDataSpec
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\MiddleLayersInputDataSpec.cs
+    startLine: 11
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: public struct MiddleLayersInputDataSpec
+    content.vb: Public Structure MiddleLayersInputDataSpec
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  extensionMethods:
+  - ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec.ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.BIsValid
+  - ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec.ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.Init
+- uid: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec.CurLayerMiddleLayerDepth
+  commentId: F:ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec.CurLayerMiddleLayerDepth
+  id: CurLayerMiddleLayerDepth
+  parent: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec
+  langs:
+  - csharp
+  - vb
+  name: CurLayerMiddleLayerDepth
+  nameWithType: MiddleLayersInputDataSpec.CurLayerMiddleLayerDepth
+  fullName: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec.CurLayerMiddleLayerDepth
+  type: Field
+  source:
+    id: CurLayerMiddleLayerDepth
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\MiddleLayersInputDataSpec.cs
+    startLine: 13
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: public int CurLayerMiddleLayerDepth
+    return:
+      type: System.Int32
+    content.vb: Public CurLayerMiddleLayerDepth As Integer
+- uid: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec.ColorStepForCurLayer
+  commentId: F:ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec.ColorStepForCurLayer
+  id: ColorStepForCurLayer
+  parent: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec
+  langs:
+  - csharp
+  - vb
+  name: ColorStepForCurLayer
+  nameWithType: MiddleLayersInputDataSpec.ColorStepForCurLayer
+  fullName: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec.ColorStepForCurLayer
+  type: Field
+  source:
+    id: ColorStepForCurLayer
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\MiddleLayersInputDataSpec.cs
+    startLine: 15
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: public Color ColorStepForCurLayer
+    return:
+      type: UnityEngine.Color
+    content.vb: Public ColorStepForCurLayer As Color
+references:
+- uid: ResourceDataManagementLib.MapGeneration
+  commentId: N:ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.html
+  name: ResourceDataManagementLib.MapGeneration
+  nameWithType: ResourceDataManagementLib.MapGeneration
+  fullName: ResourceDataManagementLib.MapGeneration
+  spec.csharp:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+  spec.vb:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec.ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.BIsValid
+  commentId: M:ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.BIsValid(ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec@)
+  parent: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension
+  definition: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.BIsValid(ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec@)
+  href: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_MiddleLayersInputDataSpecExtension_BIsValid_ResourceDataManagementLib_MapGeneration_MiddleLayersInputDataSpec__
+  name: BIsValid(in MiddleLayersInputDataSpec)
+  nameWithType: MiddleLayersInputDataSpecExtension.BIsValid(in MiddleLayersInputDataSpec)
+  fullName: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.BIsValid(in ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec)
+  nameWithType.vb: MiddleLayersInputDataSpecExtension.BIsValid(MiddleLayersInputDataSpec)
+  fullName.vb: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.BIsValid(ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec)
+  name.vb: BIsValid(MiddleLayersInputDataSpec)
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.BIsValid(ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec@)
+    name: BIsValid
+    href: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_MiddleLayersInputDataSpecExtension_BIsValid_ResourceDataManagementLib_MapGeneration_MiddleLayersInputDataSpec__
+  - name: (
+  - name: in
+  - name: " "
+  - uid: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec
+    name: MiddleLayersInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec.html
+  - name: )
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.BIsValid(ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec@)
+    name: BIsValid
+    href: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_MiddleLayersInputDataSpecExtension_BIsValid_ResourceDataManagementLib_MapGeneration_MiddleLayersInputDataSpec__
+  - name: (
+  - uid: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec
+    name: MiddleLayersInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec.html
+  - name: )
+- uid: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec.ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.Init
+  commentId: M:ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.Init(ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec@)
+  parent: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension
+  definition: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.Init(ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec@)
+  href: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_MiddleLayersInputDataSpecExtension_Init_ResourceDataManagementLib_MapGeneration_MiddleLayersInputDataSpec__
+  name: Init(ref MiddleLayersInputDataSpec)
+  nameWithType: MiddleLayersInputDataSpecExtension.Init(ref MiddleLayersInputDataSpec)
+  fullName: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.Init(ref ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec)
+  nameWithType.vb: MiddleLayersInputDataSpecExtension.Init(MiddleLayersInputDataSpec)
+  fullName.vb: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.Init(ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec)
+  name.vb: Init(MiddleLayersInputDataSpec)
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.Init(ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec@)
+    name: Init
+    href: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_MiddleLayersInputDataSpecExtension_Init_ResourceDataManagementLib_MapGeneration_MiddleLayersInputDataSpec__
+  - name: (
+  - name: ref
+  - name: " "
+  - uid: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec
+    name: MiddleLayersInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec.html
+  - name: )
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.Init(ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec@)
+    name: Init
+    href: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_MiddleLayersInputDataSpecExtension_Init_ResourceDataManagementLib_MapGeneration_MiddleLayersInputDataSpec__
+  - name: (
+  - uid: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec
+    name: MiddleLayersInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec.html
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.BIsValid(ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec@)
+  commentId: M:ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.BIsValid(ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec@)
+  href: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_MiddleLayersInputDataSpecExtension_BIsValid_ResourceDataManagementLib_MapGeneration_MiddleLayersInputDataSpec__
+  name: BIsValid(in MiddleLayersInputDataSpec)
+  nameWithType: MiddleLayersInputDataSpecExtension.BIsValid(in MiddleLayersInputDataSpec)
+  fullName: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.BIsValid(in ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec)
+  nameWithType.vb: MiddleLayersInputDataSpecExtension.BIsValid(MiddleLayersInputDataSpec)
+  fullName.vb: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.BIsValid(ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec)
+  name.vb: BIsValid(MiddleLayersInputDataSpec)
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.BIsValid(ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec@)
+    name: BIsValid
+    href: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_MiddleLayersInputDataSpecExtension_BIsValid_ResourceDataManagementLib_MapGeneration_MiddleLayersInputDataSpec__
+  - name: (
+  - name: in
+  - name: " "
+  - uid: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec
+    name: MiddleLayersInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec.html
+  - name: )
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.BIsValid(ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec@)
+    name: BIsValid
+    href: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_MiddleLayersInputDataSpecExtension_BIsValid_ResourceDataManagementLib_MapGeneration_MiddleLayersInputDataSpec__
+  - name: (
+  - uid: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec
+    name: MiddleLayersInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec.html
+  - name: )
+- uid: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension
+  commentId: T:ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.html
+  name: MiddleLayersInputDataSpecExtension
+  nameWithType: MiddleLayersInputDataSpecExtension
+  fullName: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension
+- uid: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.Init(ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec@)
+  commentId: M:ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.Init(ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec@)
+  href: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_MiddleLayersInputDataSpecExtension_Init_ResourceDataManagementLib_MapGeneration_MiddleLayersInputDataSpec__
+  name: Init(ref MiddleLayersInputDataSpec)
+  nameWithType: MiddleLayersInputDataSpecExtension.Init(ref MiddleLayersInputDataSpec)
+  fullName: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.Init(ref ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec)
+  nameWithType.vb: MiddleLayersInputDataSpecExtension.Init(MiddleLayersInputDataSpec)
+  fullName.vb: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.Init(ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec)
+  name.vb: Init(MiddleLayersInputDataSpec)
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.Init(ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec@)
+    name: Init
+    href: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_MiddleLayersInputDataSpecExtension_Init_ResourceDataManagementLib_MapGeneration_MiddleLayersInputDataSpec__
+  - name: (
+  - name: ref
+  - name: " "
+  - uid: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec
+    name: MiddleLayersInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec.html
+  - name: )
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.Init(ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec@)
+    name: Init
+    href: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_MiddleLayersInputDataSpecExtension_Init_ResourceDataManagementLib_MapGeneration_MiddleLayersInputDataSpec__
+  - name: (
+  - uid: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec
+    name: MiddleLayersInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: UnityEngine.Color
+  commentId: T:UnityEngine.Color
+  parent: UnityEngine
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: UnityEngine.Color
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine

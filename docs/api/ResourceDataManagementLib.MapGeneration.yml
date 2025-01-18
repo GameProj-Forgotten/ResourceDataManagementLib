@@ -1,0 +1,730 @@
+### YamlMime:ManagedReference
+items:
+- uid: ResourceDataManagementLib.MapGeneration
+  commentId: N:ResourceDataManagementLib.MapGeneration
+  id: ResourceDataManagementLib.MapGeneration
+  children:
+  - ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec
+  - ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension
+  - ResourceDataManagementLib.MapGeneration.ArrawTrapTileDetailData
+  - ResourceDataManagementLib.MapGeneration.BackgroundWallpaperTileDetailData
+  - ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData
+  - ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BackgroundTileDetailData
+  - ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BorderTileDetailData
+  - ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.GateStairTileDetailData
+  - ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData
+  - ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData
+  - ResourceDataManagementLib.MapGeneration.BasicDecorationAreaTileDetailData
+  - ResourceDataManagementLib.MapGeneration.BasicDecorationAreaTileDetailData.BackgroundTileDetailData
+  - ResourceDataManagementLib.MapGeneration.BasicMapGenInputDataSpec
+  - ResourceDataManagementLib.MapGeneration.BasicMapGenInputDataSpecExtension
+  - ResourceDataManagementLib.MapGeneration.ChestTileDetailData
+  - ResourceDataManagementLib.MapGeneration.DoorTileDetailData
+  - ResourceDataManagementLib.MapGeneration.FallingTileDetailData
+  - ResourceDataManagementLib.MapGeneration.FloatingDecorationPropTileDetailData
+  - ResourceDataManagementLib.MapGeneration.GlowTileDetailData
+  - ResourceDataManagementLib.MapGeneration.LadderTileDetailData
+  - ResourceDataManagementLib.MapGeneration.MapActiveType
+  - ResourceDataManagementLib.MapGeneration.MapGenDataSaver
+  - ResourceDataManagementLib.MapGeneration.MapGenDataSupplier
+  - ResourceDataManagementLib.MapGeneration.MapGenInputDataType
+  - ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface
+  - ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.AbstractInputDataInterface
+  - ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.BasicMapGenInputDataInterface
+  - ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.MiddleLayersInputDataInterface
+  - ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.RegionSelectionInputDataInterface
+  - ResourceDataManagementLib.MapGeneration.MapGenOutputResourceInterface
+  - ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec
+  - ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension
+  - ResourceDataManagementLib.MapGeneration.MovementTileDetailData
+  - ResourceDataManagementLib.MapGeneration.PathDirection
+  - ResourceDataManagementLib.MapGeneration.PillarTileDetailData
+  - ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec
+  - ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData
+  - ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpecExtension
+  - ResourceDataManagementLib.MapGeneration.SingleTileGroup
+  - ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData
+  - ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData
+  - ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FundamentalDetailData
+  - ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData
+  - ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerDetailData
+  - ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerDetailData
+  - ResourceDataManagementLib.MapGeneration.SpearTrapTileDetailData
+  - ResourceDataManagementLib.MapGeneration.SpikeTrapTileDetailData
+  - ResourceDataManagementLib.MapGeneration.TileBaseResourceInterface
+  - ResourceDataManagementLib.MapGeneration.TileKind
+  - ResourceDataManagementLib.MapGeneration.TotalTileGroup
+  langs:
+  - csharp
+  - vb
+  name: ResourceDataManagementLib.MapGeneration
+  nameWithType: ResourceDataManagementLib.MapGeneration
+  fullName: ResourceDataManagementLib.MapGeneration
+  type: Namespace
+  assemblies:
+  - ResourceDataManagementLib
+references:
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataType
+  commentId: T:ResourceDataManagementLib.MapGeneration.MapGenInputDataType
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.MapGenInputDataType.html
+  name: MapGenInputDataType
+  nameWithType: MapGenInputDataType
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataType
+- uid: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec
+  commentId: T:ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec.html
+  name: MiddleLayersInputDataSpec
+  nameWithType: MiddleLayersInputDataSpec
+  fullName: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpec
+- uid: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension
+  commentId: T:ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension.html
+  name: MiddleLayersInputDataSpecExtension
+  nameWithType: MiddleLayersInputDataSpecExtension
+  fullName: ResourceDataManagementLib.MapGeneration.MiddleLayersInputDataSpecExtension
+- uid: ResourceDataManagementLib.MapGeneration.TileKind
+  commentId: T:ResourceDataManagementLib.MapGeneration.TileKind
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.TileKind.html
+  name: TileKind
+  nameWithType: TileKind
+  fullName: ResourceDataManagementLib.MapGeneration.TileKind
+- uid: ResourceDataManagementLib.MapGeneration.TotalTileGroup
+  commentId: T:ResourceDataManagementLib.MapGeneration.TotalTileGroup
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.TotalTileGroup.html
+  name: TotalTileGroup
+  nameWithType: TotalTileGroup
+  fullName: ResourceDataManagementLib.MapGeneration.TotalTileGroup
+- uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup
+  commentId: T:ResourceDataManagementLib.MapGeneration.SingleTileGroup
+  href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.html
+  name: SingleTileGroup
+  nameWithType: SingleTileGroup
+  fullName: ResourceDataManagementLib.MapGeneration.SingleTileGroup
+- uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData
+  commentId: T:ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.html
+  name: SingleTileGroup.MainLayerTileGroupData
+  nameWithType: SingleTileGroup.MainLayerTileGroupData
+  fullName: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup
+    name: SingleTileGroup
+    href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData
+    name: MainLayerTileGroupData
+    href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.html
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup
+    name: SingleTileGroup
+    href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData
+    name: MainLayerTileGroupData
+    href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.html
+- uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FundamentalDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FundamentalDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.html
+  name: SingleTileGroup.MainLayerTileGroupData.FundamentalDetailData
+  nameWithType: SingleTileGroup.MainLayerTileGroupData.FundamentalDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FundamentalDetailData
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup
+    name: SingleTileGroup
+    href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData
+    name: MainLayerTileGroupData
+    href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FundamentalDetailData
+    name: FundamentalDetailData
+    href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FundamentalDetailData.html
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup
+    name: SingleTileGroup
+    href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData
+    name: MainLayerTileGroupData
+    href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FundamentalDetailData
+    name: FundamentalDetailData
+    href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FundamentalDetailData.html
+- uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.html
+  name: SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData
+  nameWithType: SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup
+    name: SingleTileGroup
+    href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData
+    name: MainLayerTileGroupData
+    href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData
+    name: FunctionalDetailData
+    href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.html
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup
+    name: SingleTileGroup
+    href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData
+    name: MainLayerTileGroupData
+    href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData
+    name: FunctionalDetailData
+    href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MainLayerTileGroupData.FunctionalDetailData.html
+- uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData
+  commentId: T:ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.html
+  name: SingleTileGroup.MiddleLayerTileGroupData
+  nameWithType: SingleTileGroup.MiddleLayerTileGroupData
+  fullName: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup
+    name: SingleTileGroup
+    href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData
+    name: MiddleLayerTileGroupData
+    href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData.html
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup
+    name: SingleTileGroup
+    href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData
+    name: MiddleLayerTileGroupData
+    href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData.html
+- uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.html
+  name: SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerDetailData
+  nameWithType: SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerDetailData
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup
+    name: SingleTileGroup
+    href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData
+    name: MiddleLayerTileGroupData
+    href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerDetailData
+    name: OnMiddleLayerDetailData
+    href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerDetailData.html
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup
+    name: SingleTileGroup
+    href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData
+    name: MiddleLayerTileGroupData
+    href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerDetailData
+    name: OnMiddleLayerDetailData
+    href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerDetailData.html
+- uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.html
+  name: SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerDetailData
+  nameWithType: SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerDetailData
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup
+    name: SingleTileGroup
+    href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData
+    name: MiddleLayerTileGroupData
+    href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerDetailData
+    name: BetweenTheMiddleLayerDetailData
+    href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerDetailData.html
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup
+    name: SingleTileGroup
+    href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData
+    name: MiddleLayerTileGroupData
+    href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerDetailData
+    name: BetweenTheMiddleLayerDetailData
+    href: ResourceDataManagementLib.MapGeneration.SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerDetailData.html
+- uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.html
+  name: BasicCommonAreaTileDetailData
+  nameWithType: BasicCommonAreaTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData
+- uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BorderTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BorderTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.html
+  name: BasicCommonAreaTileDetailData.BorderTileDetailData
+  nameWithType: BasicCommonAreaTileDetailData.BorderTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BorderTileDetailData
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData
+    name: BasicCommonAreaTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BorderTileDetailData
+    name: BorderTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BorderTileDetailData.html
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData
+    name: BasicCommonAreaTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BorderTileDetailData
+    name: BorderTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BorderTileDetailData.html
+- uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BackgroundTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BackgroundTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.html
+  name: BasicCommonAreaTileDetailData.BackgroundTileDetailData
+  nameWithType: BasicCommonAreaTileDetailData.BackgroundTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BackgroundTileDetailData
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData
+    name: BasicCommonAreaTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BackgroundTileDetailData
+    name: BackgroundTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BackgroundTileDetailData.html
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData
+    name: BasicCommonAreaTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BackgroundTileDetailData
+    name: BackgroundTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.BackgroundTileDetailData.html
+- uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.html
+  name: BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData
+  nameWithType: BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData
+    name: BasicCommonAreaTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData
+    name: ToGoBackLayerGateTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData.html
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData
+    name: BasicCommonAreaTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData
+    name: ToGoBackLayerGateTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoBackLayerGateTileDetailData.html
+- uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.html
+  name: BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData
+  nameWithType: BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData
+    name: BasicCommonAreaTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData
+    name: ToGoFrontLayerGateTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData.html
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData
+    name: BasicCommonAreaTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData
+    name: ToGoFrontLayerGateTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.ToGoFrontLayerGateTileDetailData.html
+- uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.GateStairTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.GateStairTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.html
+  name: BasicCommonAreaTileDetailData.GateStairTileDetailData
+  nameWithType: BasicCommonAreaTileDetailData.GateStairTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.GateStairTileDetailData
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData
+    name: BasicCommonAreaTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.GateStairTileDetailData
+    name: GateStairTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.GateStairTileDetailData.html
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData
+    name: BasicCommonAreaTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.GateStairTileDetailData
+    name: GateStairTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicCommonAreaTileDetailData.GateStairTileDetailData.html
+- uid: ResourceDataManagementLib.MapGeneration.BasicDecorationAreaTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.BasicDecorationAreaTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.BasicDecorationAreaTileDetailData.html
+  name: BasicDecorationAreaTileDetailData
+  nameWithType: BasicDecorationAreaTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.BasicDecorationAreaTileDetailData
+- uid: ResourceDataManagementLib.MapGeneration.BasicDecorationAreaTileDetailData.BackgroundTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.BasicDecorationAreaTileDetailData.BackgroundTileDetailData
+  href: ResourceDataManagementLib.MapGeneration.BasicDecorationAreaTileDetailData.html
+  name: BasicDecorationAreaTileDetailData.BackgroundTileDetailData
+  nameWithType: BasicDecorationAreaTileDetailData.BackgroundTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.BasicDecorationAreaTileDetailData.BackgroundTileDetailData
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.BasicDecorationAreaTileDetailData
+    name: BasicDecorationAreaTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicDecorationAreaTileDetailData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.BasicDecorationAreaTileDetailData.BackgroundTileDetailData
+    name: BackgroundTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicDecorationAreaTileDetailData.BackgroundTileDetailData.html
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.BasicDecorationAreaTileDetailData
+    name: BasicDecorationAreaTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicDecorationAreaTileDetailData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.BasicDecorationAreaTileDetailData.BackgroundTileDetailData
+    name: BackgroundTileDetailData
+    href: ResourceDataManagementLib.MapGeneration.BasicDecorationAreaTileDetailData.BackgroundTileDetailData.html
+- uid: ResourceDataManagementLib.MapGeneration.FallingTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.FallingTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.FallingTileDetailData.html
+  name: FallingTileDetailData
+  nameWithType: FallingTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.FallingTileDetailData
+- uid: ResourceDataManagementLib.MapGeneration.ArrawTrapTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.ArrawTrapTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.ArrawTrapTileDetailData.html
+  name: ArrawTrapTileDetailData
+  nameWithType: ArrawTrapTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.ArrawTrapTileDetailData
+- uid: ResourceDataManagementLib.MapGeneration.SpearTrapTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.SpearTrapTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.SpearTrapTileDetailData.html
+  name: SpearTrapTileDetailData
+  nameWithType: SpearTrapTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.SpearTrapTileDetailData
+- uid: ResourceDataManagementLib.MapGeneration.SpikeTrapTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.SpikeTrapTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.SpikeTrapTileDetailData.html
+  name: SpikeTrapTileDetailData
+  nameWithType: SpikeTrapTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.SpikeTrapTileDetailData
+- uid: ResourceDataManagementLib.MapGeneration.ChestTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.ChestTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.ChestTileDetailData.html
+  name: ChestTileDetailData
+  nameWithType: ChestTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.ChestTileDetailData
+- uid: ResourceDataManagementLib.MapGeneration.DoorTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.DoorTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.DoorTileDetailData.html
+  name: DoorTileDetailData
+  nameWithType: DoorTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.DoorTileDetailData
+- uid: ResourceDataManagementLib.MapGeneration.LadderTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.LadderTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.LadderTileDetailData.html
+  name: LadderTileDetailData
+  nameWithType: LadderTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.LadderTileDetailData
+- uid: ResourceDataManagementLib.MapGeneration.GlowTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.GlowTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.GlowTileDetailData.html
+  name: GlowTileDetailData
+  nameWithType: GlowTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.GlowTileDetailData
+- uid: ResourceDataManagementLib.MapGeneration.MovementTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.MovementTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.MovementTileDetailData.html
+  name: MovementTileDetailData
+  nameWithType: MovementTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.MovementTileDetailData
+- uid: ResourceDataManagementLib.MapGeneration.PillarTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.PillarTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.PillarTileDetailData.html
+  name: PillarTileDetailData
+  nameWithType: PillarTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.PillarTileDetailData
+- uid: ResourceDataManagementLib.MapGeneration.BackgroundWallpaperTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.BackgroundWallpaperTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.BackgroundWallpaperTileDetailData.html
+  name: BackgroundWallpaperTileDetailData
+  nameWithType: BackgroundWallpaperTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.BackgroundWallpaperTileDetailData
+- uid: ResourceDataManagementLib.MapGeneration.FloatingDecorationPropTileDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.FloatingDecorationPropTileDetailData
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.FloatingDecorationPropTileDetailData.html
+  name: FloatingDecorationPropTileDetailData
+  nameWithType: FloatingDecorationPropTileDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.FloatingDecorationPropTileDetailData
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface
+  commentId: T:ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface
+  href: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.html
+  name: MapGenInputResourceInterface
+  nameWithType: MapGenInputResourceInterface
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.AbstractInputDataInterface
+  commentId: T:ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.AbstractInputDataInterface
+  href: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.html
+  name: MapGenInputResourceInterface.AbstractInputDataInterface
+  nameWithType: MapGenInputResourceInterface.AbstractInputDataInterface
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.AbstractInputDataInterface
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface
+    name: MapGenInputResourceInterface
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.AbstractInputDataInterface
+    name: AbstractInputDataInterface
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.AbstractInputDataInterface.html
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface
+    name: MapGenInputResourceInterface
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.AbstractInputDataInterface
+    name: AbstractInputDataInterface
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.AbstractInputDataInterface.html
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.BasicMapGenInputDataInterface
+  commentId: T:ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.BasicMapGenInputDataInterface
+  href: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.html
+  name: MapGenInputResourceInterface.BasicMapGenInputDataInterface
+  nameWithType: MapGenInputResourceInterface.BasicMapGenInputDataInterface
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.BasicMapGenInputDataInterface
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface
+    name: MapGenInputResourceInterface
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.BasicMapGenInputDataInterface
+    name: BasicMapGenInputDataInterface
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.BasicMapGenInputDataInterface.html
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface
+    name: MapGenInputResourceInterface
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.BasicMapGenInputDataInterface
+    name: BasicMapGenInputDataInterface
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.BasicMapGenInputDataInterface.html
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.RegionSelectionInputDataInterface
+  commentId: T:ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.RegionSelectionInputDataInterface
+  href: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.html
+  name: MapGenInputResourceInterface.RegionSelectionInputDataInterface
+  nameWithType: MapGenInputResourceInterface.RegionSelectionInputDataInterface
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.RegionSelectionInputDataInterface
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface
+    name: MapGenInputResourceInterface
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.RegionSelectionInputDataInterface
+    name: RegionSelectionInputDataInterface
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.RegionSelectionInputDataInterface.html
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface
+    name: MapGenInputResourceInterface
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.RegionSelectionInputDataInterface
+    name: RegionSelectionInputDataInterface
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.RegionSelectionInputDataInterface.html
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.MiddleLayersInputDataInterface
+  commentId: T:ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.MiddleLayersInputDataInterface
+  href: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.html
+  name: MapGenInputResourceInterface.MiddleLayersInputDataInterface
+  nameWithType: MapGenInputResourceInterface.MiddleLayersInputDataInterface
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.MiddleLayersInputDataInterface
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface
+    name: MapGenInputResourceInterface
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.MiddleLayersInputDataInterface
+    name: MiddleLayersInputDataInterface
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.MiddleLayersInputDataInterface.html
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface
+    name: MapGenInputResourceInterface
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.MiddleLayersInputDataInterface
+    name: MiddleLayersInputDataInterface
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputResourceInterface.MiddleLayersInputDataInterface.html
+- uid: ResourceDataManagementLib.MapGeneration.PathDirection
+  commentId: T:ResourceDataManagementLib.MapGeneration.PathDirection
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.PathDirection.html
+  name: PathDirection
+  nameWithType: PathDirection
+  fullName: ResourceDataManagementLib.MapGeneration.PathDirection
+- uid: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec
+  commentId: T:ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec.html
+  name: AbstractInputDataSpec
+  nameWithType: AbstractInputDataSpec
+  fullName: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpec
+- uid: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension
+  commentId: T:ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension.html
+  name: AbstractInputDataSpecExtension
+  nameWithType: AbstractInputDataSpecExtension
+  fullName: ResourceDataManagementLib.MapGeneration.AbstractInputDataSpecExtension
+- uid: ResourceDataManagementLib.MapGeneration.MapActiveType
+  commentId: T:ResourceDataManagementLib.MapGeneration.MapActiveType
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.MapActiveType.html
+  name: MapActiveType
+  nameWithType: MapActiveType
+  fullName: ResourceDataManagementLib.MapGeneration.MapActiveType
+- uid: ResourceDataManagementLib.MapGeneration.BasicMapGenInputDataSpec
+  commentId: T:ResourceDataManagementLib.MapGeneration.BasicMapGenInputDataSpec
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.BasicMapGenInputDataSpec.html
+  name: BasicMapGenInputDataSpec
+  nameWithType: BasicMapGenInputDataSpec
+  fullName: ResourceDataManagementLib.MapGeneration.BasicMapGenInputDataSpec
+- uid: ResourceDataManagementLib.MapGeneration.BasicMapGenInputDataSpecExtension
+  commentId: T:ResourceDataManagementLib.MapGeneration.BasicMapGenInputDataSpecExtension
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.BasicMapGenInputDataSpecExtension.html
+  name: BasicMapGenInputDataSpecExtension
+  nameWithType: BasicMapGenInputDataSpecExtension
+  fullName: ResourceDataManagementLib.MapGeneration.BasicMapGenInputDataSpecExtension
+- uid: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec
+  commentId: T:ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.html
+  name: RegionSelectionInputDataSpec
+  nameWithType: RegionSelectionInputDataSpec
+  fullName: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec
+- uid: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData
+  commentId: T:ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData
+  href: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.html
+  name: RegionSelectionInputDataSpec.SingleRegionData
+  nameWithType: RegionSelectionInputDataSpec.SingleRegionData
+  fullName: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec
+    name: RegionSelectionInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData
+    name: SingleRegionData
+    href: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData.html
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec
+    name: RegionSelectionInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData
+    name: SingleRegionData
+    href: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData.html
+- uid: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpecExtension
+  commentId: T:ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpecExtension
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpecExtension.html
+  name: RegionSelectionInputDataSpecExtension
+  nameWithType: RegionSelectionInputDataSpecExtension
+  fullName: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpecExtension
+- uid: ResourceDataManagementLib.MapGeneration.MapGenOutputResourceInterface
+  commentId: T:ResourceDataManagementLib.MapGeneration.MapGenOutputResourceInterface
+  href: ResourceDataManagementLib.MapGeneration.MapGenOutputResourceInterface.html
+  name: MapGenOutputResourceInterface
+  nameWithType: MapGenOutputResourceInterface
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenOutputResourceInterface
+- uid: ResourceDataManagementLib.MapGeneration.TileBaseResourceInterface
+  commentId: T:ResourceDataManagementLib.MapGeneration.TileBaseResourceInterface
+  href: ResourceDataManagementLib.MapGeneration.TileBaseResourceInterface.html
+  name: TileBaseResourceInterface
+  nameWithType: TileBaseResourceInterface
+  fullName: ResourceDataManagementLib.MapGeneration.TileBaseResourceInterface
+- uid: ResourceDataManagementLib.MapGeneration.MapGenDataSaver
+  commentId: T:ResourceDataManagementLib.MapGeneration.MapGenDataSaver
+  href: ResourceDataManagementLib.MapGeneration.MapGenDataSaver.html
+  name: MapGenDataSaver
+  nameWithType: MapGenDataSaver
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenDataSaver
+- uid: ResourceDataManagementLib.MapGeneration.MapGenDataSupplier
+  commentId: T:ResourceDataManagementLib.MapGeneration.MapGenDataSupplier
+  href: ResourceDataManagementLib.MapGeneration.MapGenDataSupplier.html
+  name: MapGenDataSupplier
+  nameWithType: MapGenDataSupplier
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenDataSupplier
+- uid: ResourceDataManagementLib.MapGeneration
+  commentId: N:ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.html
+  name: ResourceDataManagementLib.MapGeneration
+  nameWithType: ResourceDataManagementLib.MapGeneration
+  fullName: ResourceDataManagementLib.MapGeneration
+  spec.csharp:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+  spec.vb:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html

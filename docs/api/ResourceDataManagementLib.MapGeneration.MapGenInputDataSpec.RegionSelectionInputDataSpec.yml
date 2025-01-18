@@ -1,0 +1,576 @@
+### YamlMime:ManagedReference
+items:
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec
+  commentId: T:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec
+  id: RegionSelectionInputDataSpec
+  parent: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  children:
+  - ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.BaseColor
+  - ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionDatas
+  langs:
+  - csharp
+  - vb
+  name: RegionSelectionInputDataSpec
+  nameWithType: RegionSelectionInputDataSpec
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec
+  type: Struct
+  source:
+    id: RegionSelectionInputDataSpec
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\RegionSelectionInputDataSpec.cs
+    startLine: 13
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  syntax:
+    content: public struct RegionSelectionInputDataSpec
+    content.vb: Public Structure RegionSelectionInputDataSpec
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  extensionMethods:
+  - ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.BIsValid
+  - ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.Init
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.BaseColor
+  commentId: F:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.BaseColor
+  id: BaseColor
+  parent: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec
+  langs:
+  - csharp
+  - vb
+  name: BaseColor
+  nameWithType: RegionSelectionInputDataSpec.BaseColor
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.BaseColor
+  type: Field
+  source:
+    id: BaseColor
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\RegionSelectionInputDataSpec.cs
+    startLine: 59
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  syntax:
+    content: public Color BaseColor
+    return:
+      type: UnityEngine.Color
+    content.vb: Public BaseColor As Color
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionDatas
+  commentId: F:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionDatas
+  id: SingleRegionDatas
+  parent: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec
+  langs:
+  - csharp
+  - vb
+  name: SingleRegionDatas
+  nameWithType: RegionSelectionInputDataSpec.SingleRegionDatas
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionDatas
+  type: Field
+  source:
+    id: SingleRegionDatas
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\RegionSelectionInputDataSpec.cs
+    startLine: 61
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  syntax:
+    content: public List<RegionSelectionInputDataSpec.SingleRegionData> SingleRegionDatas
+    return:
+      type: System.Collections.Generic.List{ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData}
+    content.vb: Public SingleRegionDatas As List(Of RegionSelectionInputDataSpec.SingleRegionData)
+references:
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  commentId: N:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  href: ResourceDataManagementLib.html
+  name: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  nameWithType: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  spec.csharp:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+    name: MapGenInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.html
+  spec.vb:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+    name: MapGenInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.BIsValid
+  commentId: M:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.BIsValid(ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec@)
+  parent: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension
+  definition: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.BIsValid(ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec@)
+  href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_MapGenInputDataSpec_RegionSelectionInputDataSpecExtension_BIsValid_ResourceDataManagementLib_MapGeneration_MapGenInputDataSpec_RegionSelectionInputDataSpec__
+  name: BIsValid(in RegionSelectionInputDataSpec)
+  nameWithType: RegionSelectionInputDataSpecExtension.BIsValid(in RegionSelectionInputDataSpec)
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.BIsValid(in ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec)
+  nameWithType.vb: RegionSelectionInputDataSpecExtension.BIsValid(RegionSelectionInputDataSpec)
+  fullName.vb: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.BIsValid(ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec)
+  name.vb: BIsValid(RegionSelectionInputDataSpec)
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.BIsValid(ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec@)
+    name: BIsValid
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_MapGenInputDataSpec_RegionSelectionInputDataSpecExtension_BIsValid_ResourceDataManagementLib_MapGeneration_MapGenInputDataSpec_RegionSelectionInputDataSpec__
+  - name: (
+  - name: in
+  - name: " "
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec
+    name: RegionSelectionInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.html
+  - name: )
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.BIsValid(ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec@)
+    name: BIsValid
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_MapGenInputDataSpec_RegionSelectionInputDataSpecExtension_BIsValid_ResourceDataManagementLib_MapGeneration_MapGenInputDataSpec_RegionSelectionInputDataSpec__
+  - name: (
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec
+    name: RegionSelectionInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.html
+  - name: )
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.Init
+  commentId: M:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.Init(ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec@)
+  parent: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension
+  definition: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.Init(ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec@)
+  href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_MapGenInputDataSpec_RegionSelectionInputDataSpecExtension_Init_ResourceDataManagementLib_MapGeneration_MapGenInputDataSpec_RegionSelectionInputDataSpec__
+  name: Init(ref RegionSelectionInputDataSpec)
+  nameWithType: RegionSelectionInputDataSpecExtension.Init(ref RegionSelectionInputDataSpec)
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.Init(ref ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec)
+  nameWithType.vb: RegionSelectionInputDataSpecExtension.Init(RegionSelectionInputDataSpec)
+  fullName.vb: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.Init(ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec)
+  name.vb: Init(RegionSelectionInputDataSpec)
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.Init(ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec@)
+    name: Init
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_MapGenInputDataSpec_RegionSelectionInputDataSpecExtension_Init_ResourceDataManagementLib_MapGeneration_MapGenInputDataSpec_RegionSelectionInputDataSpec__
+  - name: (
+  - name: ref
+  - name: " "
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec
+    name: RegionSelectionInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.html
+  - name: )
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.Init(ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec@)
+    name: Init
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_MapGenInputDataSpec_RegionSelectionInputDataSpecExtension_Init_ResourceDataManagementLib_MapGeneration_MapGenInputDataSpec_RegionSelectionInputDataSpec__
+  - name: (
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec
+    name: RegionSelectionInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.html
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.BIsValid(ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec@)
+  commentId: M:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.BIsValid(ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec@)
+  href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_MapGenInputDataSpec_RegionSelectionInputDataSpecExtension_BIsValid_ResourceDataManagementLib_MapGeneration_MapGenInputDataSpec_RegionSelectionInputDataSpec__
+  name: BIsValid(in RegionSelectionInputDataSpec)
+  nameWithType: RegionSelectionInputDataSpecExtension.BIsValid(in RegionSelectionInputDataSpec)
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.BIsValid(in ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec)
+  nameWithType.vb: RegionSelectionInputDataSpecExtension.BIsValid(RegionSelectionInputDataSpec)
+  fullName.vb: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.BIsValid(ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec)
+  name.vb: BIsValid(RegionSelectionInputDataSpec)
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.BIsValid(ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec@)
+    name: BIsValid
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_MapGenInputDataSpec_RegionSelectionInputDataSpecExtension_BIsValid_ResourceDataManagementLib_MapGeneration_MapGenInputDataSpec_RegionSelectionInputDataSpec__
+  - name: (
+  - name: in
+  - name: " "
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec
+    name: RegionSelectionInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.html
+  - name: )
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.BIsValid(ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec@)
+    name: BIsValid
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_MapGenInputDataSpec_RegionSelectionInputDataSpecExtension_BIsValid_ResourceDataManagementLib_MapGeneration_MapGenInputDataSpec_RegionSelectionInputDataSpec__
+  - name: (
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec
+    name: RegionSelectionInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.html
+  - name: )
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension
+  commentId: T:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension
+  parent: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.html
+  name: RegionSelectionInputDataSpecExtension
+  nameWithType: RegionSelectionInputDataSpecExtension
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.Init(ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec@)
+  commentId: M:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.Init(ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec@)
+  href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_MapGenInputDataSpec_RegionSelectionInputDataSpecExtension_Init_ResourceDataManagementLib_MapGeneration_MapGenInputDataSpec_RegionSelectionInputDataSpec__
+  name: Init(ref RegionSelectionInputDataSpec)
+  nameWithType: RegionSelectionInputDataSpecExtension.Init(ref RegionSelectionInputDataSpec)
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.Init(ref ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec)
+  nameWithType.vb: RegionSelectionInputDataSpecExtension.Init(RegionSelectionInputDataSpec)
+  fullName.vb: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.Init(ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec)
+  name.vb: Init(RegionSelectionInputDataSpec)
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.Init(ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec@)
+    name: Init
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_MapGenInputDataSpec_RegionSelectionInputDataSpecExtension_Init_ResourceDataManagementLib_MapGeneration_MapGenInputDataSpec_RegionSelectionInputDataSpec__
+  - name: (
+  - name: ref
+  - name: " "
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec
+    name: RegionSelectionInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.html
+  - name: )
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.Init(ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec@)
+    name: Init
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpecExtension.html#ResourceDataManagementLib_MapGeneration_MapGenInputDataSpec_RegionSelectionInputDataSpecExtension_Init_ResourceDataManagementLib_MapGeneration_MapGenInputDataSpec_RegionSelectionInputDataSpec__
+  - name: (
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec
+    name: RegionSelectionInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.Color
+  commentId: T:UnityEngine.Color
+  parent: UnityEngine
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: UnityEngine.Color
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Collections.Generic.List{ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData}
+  commentId: T:System.Collections.Generic.List{ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<RegionSelectionInputDataSpec.SingleRegionData>
+  nameWithType: List<RegionSelectionInputDataSpec.SingleRegionData>
+  fullName: System.Collections.Generic.List<ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData>
+  nameWithType.vb: List(Of RegionSelectionInputDataSpec.SingleRegionData)
+  fullName.vb: System.Collections.Generic.List(Of ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData)
+  name.vb: List(Of RegionSelectionInputDataSpec.SingleRegionData)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec
+    name: RegionSelectionInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData
+    name: SingleRegionData
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec
+    name: RegionSelectionInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData
+    name: SingleRegionData
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.RegionSelectionInputDataSpec.SingleRegionData.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

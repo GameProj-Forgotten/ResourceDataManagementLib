@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave
+  commentId: N:ResourceDataManagementLib.MapGeneration.DataSupplyAndSave
+  id: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave
+  children:
+  - ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSaver
+  - ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier
+  langs:
+  - csharp
+  - vb
+  name: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave
+  nameWithType: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave
+  fullName: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave
+  type: Namespace
+  assemblies:
+  - ResourceDataManagementLib
+references:
+- uid: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSaver
+  commentId: T:ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSaver
+  href: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSaver.html
+  name: MapGenDataSaver
+  nameWithType: MapGenDataSaver
+  fullName: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSaver
+- uid: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier
+  commentId: T:ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier
+  href: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier.html
+  name: MapGenDataSupplier
+  nameWithType: MapGenDataSupplier
+  fullName: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier

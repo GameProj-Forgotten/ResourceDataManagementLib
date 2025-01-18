@@ -1,0 +1,46 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../",
+          "files": [
+            "*.csproj"
+          ]
+        }
+      ],
+      "dest": "api"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images\\Logo.png"
+        ]
+      }
+    ],
+    "output": "./",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "globalMetadata": {
+      "_appName": "ResourceDataManagementLib",
+      "_appTitle": "ResourceDataManagementLib",
+      "_appLogoPath": "Images\\Logo.png",
+      "_enableSearch": true,
+      "pdf": true
+    }
+  }
+}

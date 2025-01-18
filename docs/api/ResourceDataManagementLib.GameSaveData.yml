@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: ResourceDataManagementLib.GameSaveData
+  commentId: N:ResourceDataManagementLib.GameSaveData
+  id: ResourceDataManagementLib.GameSaveData
+  children:
+  - ResourceDataManagementLib.GameSaveData.GameSaveMetadata
+  - ResourceDataManagementLib.GameSaveData.GameSaveMetadataExtension
+  langs:
+  - csharp
+  - vb
+  name: ResourceDataManagementLib.GameSaveData
+  nameWithType: ResourceDataManagementLib.GameSaveData
+  fullName: ResourceDataManagementLib.GameSaveData
+  type: Namespace
+  assemblies:
+  - ResourceDataManagementLib
+references:
+- uid: ResourceDataManagementLib.GameSaveData.GameSaveMetadata
+  commentId: T:ResourceDataManagementLib.GameSaveData.GameSaveMetadata
+  parent: ResourceDataManagementLib.GameSaveData
+  href: ResourceDataManagementLib.GameSaveData.GameSaveMetadata.html
+  name: GameSaveMetadata
+  nameWithType: GameSaveMetadata
+  fullName: ResourceDataManagementLib.GameSaveData.GameSaveMetadata
+- uid: ResourceDataManagementLib.GameSaveData.GameSaveMetadataExtension
+  commentId: T:ResourceDataManagementLib.GameSaveData.GameSaveMetadataExtension
+  parent: ResourceDataManagementLib.GameSaveData
+  href: ResourceDataManagementLib.GameSaveData.GameSaveMetadataExtension.html
+  name: GameSaveMetadataExtension
+  nameWithType: GameSaveMetadataExtension
+  fullName: ResourceDataManagementLib.GameSaveData.GameSaveMetadataExtension
+- uid: ResourceDataManagementLib.GameSaveData
+  commentId: N:ResourceDataManagementLib.GameSaveData
+  href: ResourceDataManagementLib.html
+  name: ResourceDataManagementLib.GameSaveData
+  nameWithType: ResourceDataManagementLib.GameSaveData
+  fullName: ResourceDataManagementLib.GameSaveData
+  spec.csharp:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.GameSaveData
+    name: GameSaveData
+    href: ResourceDataManagementLib.GameSaveData.html
+  spec.vb:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.GameSaveData
+    name: GameSaveData
+    href: ResourceDataManagementLib.GameSaveData.html

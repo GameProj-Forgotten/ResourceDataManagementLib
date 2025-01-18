@@ -1,0 +1,248 @@
+### YamlMime:ManagedReference
+items:
+- uid: ResourceDataManagementLib.MapGeneration.PathDirection
+  commentId: T:ResourceDataManagementLib.MapGeneration.PathDirection
+  id: PathDirection
+  parent: ResourceDataManagementLib.MapGeneration
+  children:
+  - ResourceDataManagementLib.MapGeneration.PathDirection.Back
+  - ResourceDataManagementLib.MapGeneration.PathDirection.Bottom
+  - ResourceDataManagementLib.MapGeneration.PathDirection.Front
+  - ResourceDataManagementLib.MapGeneration.PathDirection.Left
+  - ResourceDataManagementLib.MapGeneration.PathDirection.None
+  - ResourceDataManagementLib.MapGeneration.PathDirection.Origin
+  - ResourceDataManagementLib.MapGeneration.PathDirection.Right
+  - ResourceDataManagementLib.MapGeneration.PathDirection.Top
+  langs:
+  - csharp
+  - vb
+  name: PathDirection
+  nameWithType: PathDirection
+  fullName: ResourceDataManagementLib.MapGeneration.PathDirection
+  type: Enum
+  source:
+    id: PathDirection
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\AbstractInputDataSpec.cs
+    startLine: 11
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum PathDirection : byte
+    content.vb: >-
+      <Flags>
+
+      Public Enum PathDirection As Byte
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: ResourceDataManagementLib.MapGeneration.PathDirection.None
+  commentId: F:ResourceDataManagementLib.MapGeneration.PathDirection.None
+  id: None
+  parent: ResourceDataManagementLib.MapGeneration.PathDirection
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: PathDirection.None
+  fullName: ResourceDataManagementLib.MapGeneration.PathDirection.None
+  type: Field
+  source:
+    id: None
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\AbstractInputDataSpec.cs
+    startLine: 13
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: None = 0
+    return:
+      type: ResourceDataManagementLib.MapGeneration.PathDirection
+- uid: ResourceDataManagementLib.MapGeneration.PathDirection.Origin
+  commentId: F:ResourceDataManagementLib.MapGeneration.PathDirection.Origin
+  id: Origin
+  parent: ResourceDataManagementLib.MapGeneration.PathDirection
+  langs:
+  - csharp
+  - vb
+  name: Origin
+  nameWithType: PathDirection.Origin
+  fullName: ResourceDataManagementLib.MapGeneration.PathDirection.Origin
+  type: Field
+  source:
+    id: Origin
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\AbstractInputDataSpec.cs
+    startLine: 14
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: Origin = 1
+    return:
+      type: ResourceDataManagementLib.MapGeneration.PathDirection
+- uid: ResourceDataManagementLib.MapGeneration.PathDirection.Left
+  commentId: F:ResourceDataManagementLib.MapGeneration.PathDirection.Left
+  id: Left
+  parent: ResourceDataManagementLib.MapGeneration.PathDirection
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: PathDirection.Left
+  fullName: ResourceDataManagementLib.MapGeneration.PathDirection.Left
+  type: Field
+  source:
+    id: Left
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\AbstractInputDataSpec.cs
+    startLine: 15
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: Left = 2
+    return:
+      type: ResourceDataManagementLib.MapGeneration.PathDirection
+- uid: ResourceDataManagementLib.MapGeneration.PathDirection.Right
+  commentId: F:ResourceDataManagementLib.MapGeneration.PathDirection.Right
+  id: Right
+  parent: ResourceDataManagementLib.MapGeneration.PathDirection
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: PathDirection.Right
+  fullName: ResourceDataManagementLib.MapGeneration.PathDirection.Right
+  type: Field
+  source:
+    id: Right
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\AbstractInputDataSpec.cs
+    startLine: 16
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: Right = 4
+    return:
+      type: ResourceDataManagementLib.MapGeneration.PathDirection
+- uid: ResourceDataManagementLib.MapGeneration.PathDirection.Front
+  commentId: F:ResourceDataManagementLib.MapGeneration.PathDirection.Front
+  id: Front
+  parent: ResourceDataManagementLib.MapGeneration.PathDirection
+  langs:
+  - csharp
+  - vb
+  name: Front
+  nameWithType: PathDirection.Front
+  fullName: ResourceDataManagementLib.MapGeneration.PathDirection.Front
+  type: Field
+  source:
+    id: Front
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\AbstractInputDataSpec.cs
+    startLine: 17
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: Front = 8
+    return:
+      type: ResourceDataManagementLib.MapGeneration.PathDirection
+- uid: ResourceDataManagementLib.MapGeneration.PathDirection.Back
+  commentId: F:ResourceDataManagementLib.MapGeneration.PathDirection.Back
+  id: Back
+  parent: ResourceDataManagementLib.MapGeneration.PathDirection
+  langs:
+  - csharp
+  - vb
+  name: Back
+  nameWithType: PathDirection.Back
+  fullName: ResourceDataManagementLib.MapGeneration.PathDirection.Back
+  type: Field
+  source:
+    id: Back
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\AbstractInputDataSpec.cs
+    startLine: 18
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: Back = 16
+    return:
+      type: ResourceDataManagementLib.MapGeneration.PathDirection
+- uid: ResourceDataManagementLib.MapGeneration.PathDirection.Top
+  commentId: F:ResourceDataManagementLib.MapGeneration.PathDirection.Top
+  id: Top
+  parent: ResourceDataManagementLib.MapGeneration.PathDirection
+  langs:
+  - csharp
+  - vb
+  name: Top
+  nameWithType: PathDirection.Top
+  fullName: ResourceDataManagementLib.MapGeneration.PathDirection.Top
+  type: Field
+  source:
+    id: Top
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\AbstractInputDataSpec.cs
+    startLine: 19
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: Top = 32
+    return:
+      type: ResourceDataManagementLib.MapGeneration.PathDirection
+- uid: ResourceDataManagementLib.MapGeneration.PathDirection.Bottom
+  commentId: F:ResourceDataManagementLib.MapGeneration.PathDirection.Bottom
+  id: Bottom
+  parent: ResourceDataManagementLib.MapGeneration.PathDirection
+  langs:
+  - csharp
+  - vb
+  name: Bottom
+  nameWithType: PathDirection.Bottom
+  fullName: ResourceDataManagementLib.MapGeneration.PathDirection.Bottom
+  type: Field
+  source:
+    id: Bottom
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\AbstractInputDataSpec.cs
+    startLine: 20
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: Bottom = 64
+    return:
+      type: ResourceDataManagementLib.MapGeneration.PathDirection
+references:
+- uid: ResourceDataManagementLib.MapGeneration
+  commentId: N:ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.html
+  name: ResourceDataManagementLib.MapGeneration
+  nameWithType: ResourceDataManagementLib.MapGeneration
+  fullName: ResourceDataManagementLib.MapGeneration
+  spec.csharp:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+  spec.vb:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+- uid: ResourceDataManagementLib.MapGeneration.PathDirection
+  commentId: T:ResourceDataManagementLib.MapGeneration.PathDirection
+  parent: ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.MapGeneration.PathDirection.html
+  name: PathDirection
+  nameWithType: PathDirection
+  fullName: ResourceDataManagementLib.MapGeneration.PathDirection

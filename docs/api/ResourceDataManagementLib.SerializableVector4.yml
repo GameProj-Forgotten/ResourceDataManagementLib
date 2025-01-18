@@ -1,0 +1,593 @@
+### YamlMime:ManagedReference
+items:
+- uid: ResourceDataManagementLib.SerializableVector4
+  commentId: T:ResourceDataManagementLib.SerializableVector4
+  id: SerializableVector4
+  parent: ResourceDataManagementLib
+  children:
+  - ResourceDataManagementLib.SerializableVector4.#ctor(System.Single@,System.Single@,System.Single@,System.Single@)
+  - ResourceDataManagementLib.SerializableVector4.#ctor(UnityEngine.Vector4@)
+  - ResourceDataManagementLib.SerializableVector4.W
+  - ResourceDataManagementLib.SerializableVector4.X
+  - ResourceDataManagementLib.SerializableVector4.Y
+  - ResourceDataManagementLib.SerializableVector4.Z
+  - ResourceDataManagementLib.SerializableVector4.one
+  - ResourceDataManagementLib.SerializableVector4.op_Implicit(ResourceDataManagementLib.SerializableVector4@)~UnityEngine.Vector4
+  - ResourceDataManagementLib.SerializableVector4.op_Implicit(UnityEngine.Vector4@)~ResourceDataManagementLib.SerializableVector4
+  - ResourceDataManagementLib.SerializableVector4.zero
+  langs:
+  - csharp
+  - vb
+  name: SerializableVector4
+  nameWithType: SerializableVector4
+  fullName: ResourceDataManagementLib.SerializableVector4
+  type: Struct
+  source:
+    id: SerializableVector4
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\SerializableType\SerializableVector.cs
+    startLine: 93
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib
+  syntax:
+    content: public struct SerializableVector4
+    content.vb: Public Structure SerializableVector4
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+- uid: ResourceDataManagementLib.SerializableVector4.X
+  commentId: F:ResourceDataManagementLib.SerializableVector4.X
+  id: X
+  parent: ResourceDataManagementLib.SerializableVector4
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: SerializableVector4.X
+  fullName: ResourceDataManagementLib.SerializableVector4.X
+  type: Field
+  source:
+    id: X
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\SerializableType\SerializableVector.cs
+    startLine: 95
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib
+  syntax:
+    content: public float X
+    return:
+      type: System.Single
+    content.vb: Public X As Single
+- uid: ResourceDataManagementLib.SerializableVector4.Y
+  commentId: F:ResourceDataManagementLib.SerializableVector4.Y
+  id: Y
+  parent: ResourceDataManagementLib.SerializableVector4
+  langs:
+  - csharp
+  - vb
+  name: Y
+  nameWithType: SerializableVector4.Y
+  fullName: ResourceDataManagementLib.SerializableVector4.Y
+  type: Field
+  source:
+    id: Y
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\SerializableType\SerializableVector.cs
+    startLine: 95
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib
+  syntax:
+    content: public float Y
+    return:
+      type: System.Single
+    content.vb: Public Y As Single
+- uid: ResourceDataManagementLib.SerializableVector4.Z
+  commentId: F:ResourceDataManagementLib.SerializableVector4.Z
+  id: Z
+  parent: ResourceDataManagementLib.SerializableVector4
+  langs:
+  - csharp
+  - vb
+  name: Z
+  nameWithType: SerializableVector4.Z
+  fullName: ResourceDataManagementLib.SerializableVector4.Z
+  type: Field
+  source:
+    id: Z
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\SerializableType\SerializableVector.cs
+    startLine: 95
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib
+  syntax:
+    content: public float Z
+    return:
+      type: System.Single
+    content.vb: Public Z As Single
+- uid: ResourceDataManagementLib.SerializableVector4.W
+  commentId: F:ResourceDataManagementLib.SerializableVector4.W
+  id: W
+  parent: ResourceDataManagementLib.SerializableVector4
+  langs:
+  - csharp
+  - vb
+  name: W
+  nameWithType: SerializableVector4.W
+  fullName: ResourceDataManagementLib.SerializableVector4.W
+  type: Field
+  source:
+    id: W
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\SerializableType\SerializableVector.cs
+    startLine: 95
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib
+  syntax:
+    content: public float W
+    return:
+      type: System.Single
+    content.vb: Public W As Single
+- uid: ResourceDataManagementLib.SerializableVector4.#ctor(UnityEngine.Vector4@)
+  commentId: M:ResourceDataManagementLib.SerializableVector4.#ctor(UnityEngine.Vector4@)
+  id: '#ctor(UnityEngine.Vector4@)'
+  parent: ResourceDataManagementLib.SerializableVector4
+  langs:
+  - csharp
+  - vb
+  name: SerializableVector4(in Vector4)
+  nameWithType: SerializableVector4.SerializableVector4(in Vector4)
+  fullName: ResourceDataManagementLib.SerializableVector4.SerializableVector4(in UnityEngine.Vector4)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\SerializableType\SerializableVector.cs
+    startLine: 98
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib
+  syntax:
+    content: public SerializableVector4(in Vector4 vector)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector4
+    content.vb: Public Sub New(vector As Vector4)
+  overload: ResourceDataManagementLib.SerializableVector4.#ctor*
+  nameWithType.vb: SerializableVector4.New(Vector4)
+  fullName.vb: ResourceDataManagementLib.SerializableVector4.New(UnityEngine.Vector4)
+  name.vb: New(Vector4)
+- uid: ResourceDataManagementLib.SerializableVector4.#ctor(System.Single@,System.Single@,System.Single@,System.Single@)
+  commentId: M:ResourceDataManagementLib.SerializableVector4.#ctor(System.Single@,System.Single@,System.Single@,System.Single@)
+  id: '#ctor(System.Single@,System.Single@,System.Single@,System.Single@)'
+  parent: ResourceDataManagementLib.SerializableVector4
+  langs:
+  - csharp
+  - vb
+  name: SerializableVector4(in float, in float, in float, in float)
+  nameWithType: SerializableVector4.SerializableVector4(in float, in float, in float, in float)
+  fullName: ResourceDataManagementLib.SerializableVector4.SerializableVector4(in float, in float, in float, in float)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\SerializableType\SerializableVector.cs
+    startLine: 105
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib
+  syntax:
+    content: public SerializableVector4(in float x, in float y, in float z, in float w)
+    parameters:
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    - id: z
+      type: System.Single
+    - id: w
+      type: System.Single
+    content.vb: Public Sub New(x As Single, y As Single, z As Single, w As Single)
+  overload: ResourceDataManagementLib.SerializableVector4.#ctor*
+  nameWithType.vb: SerializableVector4.New(Single, Single, Single, Single)
+  fullName.vb: ResourceDataManagementLib.SerializableVector4.New(Single, Single, Single, Single)
+  name.vb: New(Single, Single, Single, Single)
+- uid: ResourceDataManagementLib.SerializableVector4.op_Implicit(ResourceDataManagementLib.SerializableVector4@)~UnityEngine.Vector4
+  commentId: M:ResourceDataManagementLib.SerializableVector4.op_Implicit(ResourceDataManagementLib.SerializableVector4@)~UnityEngine.Vector4
+  id: op_Implicit(ResourceDataManagementLib.SerializableVector4@)~UnityEngine.Vector4
+  parent: ResourceDataManagementLib.SerializableVector4
+  langs:
+  - csharp
+  - vb
+  name: implicit operator Vector4(in SerializableVector4)
+  nameWithType: SerializableVector4.implicit operator Vector4(in SerializableVector4)
+  fullName: ResourceDataManagementLib.SerializableVector4.implicit operator UnityEngine.Vector4(in ResourceDataManagementLib.SerializableVector4)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\SerializableType\SerializableVector.cs
+    startLine: 113
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib
+  syntax:
+    content: public static implicit operator Vector4(in SerializableVector4 serializableVector)
+    parameters:
+    - id: serializableVector
+      type: ResourceDataManagementLib.SerializableVector4
+    return:
+      type: UnityEngine.Vector4
+    content.vb: Public Shared Widening Operator CType(serializableVector As SerializableVector4) As Vector4
+  overload: ResourceDataManagementLib.SerializableVector4.op_Implicit*
+  nameWithType.vb: SerializableVector4.CType(SerializableVector4)
+  fullName.vb: ResourceDataManagementLib.SerializableVector4.CType(ResourceDataManagementLib.SerializableVector4)
+  name.vb: CType(SerializableVector4)
+- uid: ResourceDataManagementLib.SerializableVector4.op_Implicit(UnityEngine.Vector4@)~ResourceDataManagementLib.SerializableVector4
+  commentId: M:ResourceDataManagementLib.SerializableVector4.op_Implicit(UnityEngine.Vector4@)~ResourceDataManagementLib.SerializableVector4
+  id: op_Implicit(UnityEngine.Vector4@)~ResourceDataManagementLib.SerializableVector4
+  parent: ResourceDataManagementLib.SerializableVector4
+  langs:
+  - csharp
+  - vb
+  name: implicit operator SerializableVector4(in Vector4)
+  nameWithType: SerializableVector4.implicit operator SerializableVector4(in Vector4)
+  fullName: ResourceDataManagementLib.SerializableVector4.implicit operator ResourceDataManagementLib.SerializableVector4(in UnityEngine.Vector4)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\SerializableType\SerializableVector.cs
+    startLine: 117
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib
+  syntax:
+    content: public static implicit operator SerializableVector4(in Vector4 vector)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector4
+    return:
+      type: ResourceDataManagementLib.SerializableVector4
+    content.vb: Public Shared Widening Operator CType(vector As Vector4) As SerializableVector4
+  overload: ResourceDataManagementLib.SerializableVector4.op_Implicit*
+  nameWithType.vb: SerializableVector4.CType(Vector4)
+  fullName.vb: ResourceDataManagementLib.SerializableVector4.CType(UnityEngine.Vector4)
+  name.vb: CType(Vector4)
+- uid: ResourceDataManagementLib.SerializableVector4.zero
+  commentId: P:ResourceDataManagementLib.SerializableVector4.zero
+  id: zero
+  parent: ResourceDataManagementLib.SerializableVector4
+  langs:
+  - csharp
+  - vb
+  name: zero
+  nameWithType: SerializableVector4.zero
+  fullName: ResourceDataManagementLib.SerializableVector4.zero
+  type: Property
+  source:
+    id: zero
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\SerializableType\SerializableVector.cs
+    startLine: 122
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib
+  syntax:
+    content: public static SerializableVector4 zero { get; }
+    parameters: []
+    return:
+      type: ResourceDataManagementLib.SerializableVector4
+    content.vb: Public Shared ReadOnly Property zero As SerializableVector4
+  overload: ResourceDataManagementLib.SerializableVector4.zero*
+- uid: ResourceDataManagementLib.SerializableVector4.one
+  commentId: P:ResourceDataManagementLib.SerializableVector4.one
+  id: one
+  parent: ResourceDataManagementLib.SerializableVector4
+  langs:
+  - csharp
+  - vb
+  name: one
+  nameWithType: SerializableVector4.one
+  fullName: ResourceDataManagementLib.SerializableVector4.one
+  type: Property
+  source:
+    id: one
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\SerializableType\SerializableVector.cs
+    startLine: 129
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib
+  syntax:
+    content: public static SerializableVector4 one { get; }
+    parameters: []
+    return:
+      type: ResourceDataManagementLib.SerializableVector4
+    content.vb: Public Shared ReadOnly Property one As SerializableVector4
+  overload: ResourceDataManagementLib.SerializableVector4.one*
+references:
+- uid: ResourceDataManagementLib
+  commentId: N:ResourceDataManagementLib
+  href: ResourceDataManagementLib.html
+  name: ResourceDataManagementLib
+  nameWithType: ResourceDataManagementLib
+  fullName: ResourceDataManagementLib
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: ResourceDataManagementLib.SerializableVector4.#ctor*
+  commentId: Overload:ResourceDataManagementLib.SerializableVector4.#ctor
+  href: ResourceDataManagementLib.SerializableVector4.html#ResourceDataManagementLib_SerializableVector4__ctor_UnityEngine_Vector4__
+  name: SerializableVector4
+  nameWithType: SerializableVector4.SerializableVector4
+  fullName: ResourceDataManagementLib.SerializableVector4.SerializableVector4
+  nameWithType.vb: SerializableVector4.New
+  fullName.vb: ResourceDataManagementLib.SerializableVector4.New
+  name.vb: New
+- uid: UnityEngine.Vector4
+  commentId: T:UnityEngine.Vector4
+  parent: UnityEngine
+  isExternal: true
+  name: Vector4
+  nameWithType: Vector4
+  fullName: UnityEngine.Vector4
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: ResourceDataManagementLib.SerializableVector4.op_Implicit*
+  commentId: Overload:ResourceDataManagementLib.SerializableVector4.op_Implicit
+  name: implicit operator
+  nameWithType: SerializableVector4.implicit operator
+  fullName: ResourceDataManagementLib.SerializableVector4.implicit operator
+  nameWithType.vb: SerializableVector4.CType
+  fullName.vb: ResourceDataManagementLib.SerializableVector4.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: ResourceDataManagementLib.SerializableVector4
+  commentId: T:ResourceDataManagementLib.SerializableVector4
+  parent: ResourceDataManagementLib
+  href: ResourceDataManagementLib.SerializableVector4.html
+  name: SerializableVector4
+  nameWithType: SerializableVector4
+  fullName: ResourceDataManagementLib.SerializableVector4
+- uid: ResourceDataManagementLib.SerializableVector4.zero*
+  commentId: Overload:ResourceDataManagementLib.SerializableVector4.zero
+  href: ResourceDataManagementLib.SerializableVector4.html#ResourceDataManagementLib_SerializableVector4_zero
+  name: zero
+  nameWithType: SerializableVector4.zero
+  fullName: ResourceDataManagementLib.SerializableVector4.zero
+- uid: ResourceDataManagementLib.SerializableVector4.one*
+  commentId: Overload:ResourceDataManagementLib.SerializableVector4.one
+  href: ResourceDataManagementLib.SerializableVector4.html#ResourceDataManagementLib_SerializableVector4_one
+  name: one
+  nameWithType: SerializableVector4.one
+  fullName: ResourceDataManagementLib.SerializableVector4.one

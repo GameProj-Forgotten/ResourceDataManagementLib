@@ -1,0 +1,164 @@
+### YamlMime:ManagedReference
+items:
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType
+  commentId: T:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType
+  id: MapGenInputDataType
+  parent: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  children:
+  - ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType.AbstractInputData
+  - ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType.BasicMapGenInputData
+  - ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType.MiddleLayersInputData
+  - ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType.RegionSelectionInputData
+  langs:
+  - csharp
+  - vb
+  name: MapGenInputDataType
+  nameWithType: MapGenInputDataType
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType
+  type: Enum
+  source:
+    id: MapGenInputDataType
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\MapGenInputDataType.cs
+    startLine: 9
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum MapGenInputDataType : byte
+    content.vb: >-
+      <Flags>
+
+      Public Enum MapGenInputDataType As Byte
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType.AbstractInputData
+  commentId: F:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType.AbstractInputData
+  id: AbstractInputData
+  parent: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType
+  langs:
+  - csharp
+  - vb
+  name: AbstractInputData
+  nameWithType: MapGenInputDataType.AbstractInputData
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType.AbstractInputData
+  type: Field
+  source:
+    id: AbstractInputData
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\MapGenInputDataType.cs
+    startLine: 11
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  syntax:
+    content: AbstractInputData = 1
+    return:
+      type: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType.BasicMapGenInputData
+  commentId: F:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType.BasicMapGenInputData
+  id: BasicMapGenInputData
+  parent: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType
+  langs:
+  - csharp
+  - vb
+  name: BasicMapGenInputData
+  nameWithType: MapGenInputDataType.BasicMapGenInputData
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType.BasicMapGenInputData
+  type: Field
+  source:
+    id: BasicMapGenInputData
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\MapGenInputDataType.cs
+    startLine: 12
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  syntax:
+    content: BasicMapGenInputData = 2
+    return:
+      type: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType.RegionSelectionInputData
+  commentId: F:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType.RegionSelectionInputData
+  id: RegionSelectionInputData
+  parent: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType
+  langs:
+  - csharp
+  - vb
+  name: RegionSelectionInputData
+  nameWithType: MapGenInputDataType.RegionSelectionInputData
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType.RegionSelectionInputData
+  type: Field
+  source:
+    id: RegionSelectionInputData
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\MapGenInputDataType.cs
+    startLine: 13
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  syntax:
+    content: RegionSelectionInputData = 4
+    return:
+      type: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType.MiddleLayersInputData
+  commentId: F:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType.MiddleLayersInputData
+  id: MiddleLayersInputData
+  parent: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType
+  langs:
+  - csharp
+  - vb
+  name: MiddleLayersInputData
+  nameWithType: MapGenInputDataType.MiddleLayersInputData
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType.MiddleLayersInputData
+  type: Field
+  source:
+    id: MiddleLayersInputData
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\MapGenInputDataType.cs
+    startLine: 14
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  syntax:
+    content: MiddleLayersInputData = 8
+    return:
+      type: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType
+references:
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  commentId: N:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  href: ResourceDataManagementLib.html
+  name: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  nameWithType: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  spec.csharp:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+    name: MapGenInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.html
+  spec.vb:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+    name: MapGenInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.html
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType
+  commentId: T:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType
+  parent: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType.html
+  name: MapGenInputDataType
+  nameWithType: MapGenInputDataType
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType

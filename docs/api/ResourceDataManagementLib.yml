@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: ResourceDataManagementLib
+  commentId: N:ResourceDataManagementLib
+  id: ResourceDataManagementLib
+  children:
+  - ResourceDataManagementLib.GameSaveMetadata
+  - ResourceDataManagementLib.GameSaveMetadataExtension
+  - ResourceDataManagementLib.GameSaveMetadataSaver
+  - ResourceDataManagementLib.GameSaveMetadataSupplier
+  - ResourceDataManagementLib.SerializableVector2
+  - ResourceDataManagementLib.SerializableVector3
+  - ResourceDataManagementLib.SerializableVector4
+  langs:
+  - csharp
+  - vb
+  name: ResourceDataManagementLib
+  nameWithType: ResourceDataManagementLib
+  fullName: ResourceDataManagementLib
+  type: Namespace
+  assemblies:
+  - ResourceDataManagementLib
+references:
+- uid: ResourceDataManagementLib.GameSaveMetadata
+  commentId: T:ResourceDataManagementLib.GameSaveMetadata
+  parent: ResourceDataManagementLib
+  href: ResourceDataManagementLib.GameSaveMetadata.html
+  name: GameSaveMetadata
+  nameWithType: GameSaveMetadata
+  fullName: ResourceDataManagementLib.GameSaveMetadata
+- uid: ResourceDataManagementLib.GameSaveMetadataExtension
+  commentId: T:ResourceDataManagementLib.GameSaveMetadataExtension
+  parent: ResourceDataManagementLib
+  href: ResourceDataManagementLib.GameSaveMetadataExtension.html
+  name: GameSaveMetadataExtension
+  nameWithType: GameSaveMetadataExtension
+  fullName: ResourceDataManagementLib.GameSaveMetadataExtension
+- uid: ResourceDataManagementLib.SerializableVector2
+  commentId: T:ResourceDataManagementLib.SerializableVector2
+  parent: ResourceDataManagementLib
+  href: ResourceDataManagementLib.SerializableVector2.html
+  name: SerializableVector2
+  nameWithType: SerializableVector2
+  fullName: ResourceDataManagementLib.SerializableVector2
+- uid: ResourceDataManagementLib.SerializableVector3
+  commentId: T:ResourceDataManagementLib.SerializableVector3
+  parent: ResourceDataManagementLib
+  href: ResourceDataManagementLib.SerializableVector3.html
+  name: SerializableVector3
+  nameWithType: SerializableVector3
+  fullName: ResourceDataManagementLib.SerializableVector3
+- uid: ResourceDataManagementLib.SerializableVector4
+  commentId: T:ResourceDataManagementLib.SerializableVector4
+  parent: ResourceDataManagementLib
+  href: ResourceDataManagementLib.SerializableVector4.html
+  name: SerializableVector4
+  nameWithType: SerializableVector4
+  fullName: ResourceDataManagementLib.SerializableVector4
+- uid: ResourceDataManagementLib.GameSaveMetadataSaver
+  commentId: T:ResourceDataManagementLib.GameSaveMetadataSaver
+  href: ResourceDataManagementLib.GameSaveMetadataSaver.html
+  name: GameSaveMetadataSaver
+  nameWithType: GameSaveMetadataSaver
+  fullName: ResourceDataManagementLib.GameSaveMetadataSaver
+- uid: ResourceDataManagementLib.GameSaveMetadataSupplier
+  commentId: T:ResourceDataManagementLib.GameSaveMetadataSupplier
+  href: ResourceDataManagementLib.GameSaveMetadataSupplier.html
+  name: GameSaveMetadataSupplier
+  nameWithType: GameSaveMetadataSupplier
+  fullName: ResourceDataManagementLib.GameSaveMetadataSupplier
+- uid: ResourceDataManagementLib
+  commentId: N:ResourceDataManagementLib
+  href: ResourceDataManagementLib.html
+  name: ResourceDataManagementLib
+  nameWithType: ResourceDataManagementLib
+  fullName: ResourceDataManagementLib

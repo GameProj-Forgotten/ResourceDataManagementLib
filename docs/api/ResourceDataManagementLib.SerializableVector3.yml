@@ -1,0 +1,567 @@
+### YamlMime:ManagedReference
+items:
+- uid: ResourceDataManagementLib.SerializableVector3
+  commentId: T:ResourceDataManagementLib.SerializableVector3
+  id: SerializableVector3
+  parent: ResourceDataManagementLib
+  children:
+  - ResourceDataManagementLib.SerializableVector3.#ctor(System.Single@,System.Single@,System.Single@)
+  - ResourceDataManagementLib.SerializableVector3.#ctor(UnityEngine.Vector3@)
+  - ResourceDataManagementLib.SerializableVector3.X
+  - ResourceDataManagementLib.SerializableVector3.Y
+  - ResourceDataManagementLib.SerializableVector3.Z
+  - ResourceDataManagementLib.SerializableVector3.one
+  - ResourceDataManagementLib.SerializableVector3.op_Implicit(ResourceDataManagementLib.SerializableVector3@)~UnityEngine.Vector3
+  - ResourceDataManagementLib.SerializableVector3.op_Implicit(UnityEngine.Vector3@)~ResourceDataManagementLib.SerializableVector3
+  - ResourceDataManagementLib.SerializableVector3.zero
+  langs:
+  - csharp
+  - vb
+  name: SerializableVector3
+  nameWithType: SerializableVector3
+  fullName: ResourceDataManagementLib.SerializableVector3
+  type: Struct
+  source:
+    id: SerializableVector3
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\SerializableType\SerializableVector.cs
+    startLine: 51
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib
+  syntax:
+    content: public struct SerializableVector3
+    content.vb: Public Structure SerializableVector3
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+- uid: ResourceDataManagementLib.SerializableVector3.X
+  commentId: F:ResourceDataManagementLib.SerializableVector3.X
+  id: X
+  parent: ResourceDataManagementLib.SerializableVector3
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: SerializableVector3.X
+  fullName: ResourceDataManagementLib.SerializableVector3.X
+  type: Field
+  source:
+    id: X
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\SerializableType\SerializableVector.cs
+    startLine: 53
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib
+  syntax:
+    content: public float X
+    return:
+      type: System.Single
+    content.vb: Public X As Single
+- uid: ResourceDataManagementLib.SerializableVector3.Y
+  commentId: F:ResourceDataManagementLib.SerializableVector3.Y
+  id: Y
+  parent: ResourceDataManagementLib.SerializableVector3
+  langs:
+  - csharp
+  - vb
+  name: Y
+  nameWithType: SerializableVector3.Y
+  fullName: ResourceDataManagementLib.SerializableVector3.Y
+  type: Field
+  source:
+    id: Y
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\SerializableType\SerializableVector.cs
+    startLine: 53
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib
+  syntax:
+    content: public float Y
+    return:
+      type: System.Single
+    content.vb: Public Y As Single
+- uid: ResourceDataManagementLib.SerializableVector3.Z
+  commentId: F:ResourceDataManagementLib.SerializableVector3.Z
+  id: Z
+  parent: ResourceDataManagementLib.SerializableVector3
+  langs:
+  - csharp
+  - vb
+  name: Z
+  nameWithType: SerializableVector3.Z
+  fullName: ResourceDataManagementLib.SerializableVector3.Z
+  type: Field
+  source:
+    id: Z
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\SerializableType\SerializableVector.cs
+    startLine: 53
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib
+  syntax:
+    content: public float Z
+    return:
+      type: System.Single
+    content.vb: Public Z As Single
+- uid: ResourceDataManagementLib.SerializableVector3.#ctor(UnityEngine.Vector3@)
+  commentId: M:ResourceDataManagementLib.SerializableVector3.#ctor(UnityEngine.Vector3@)
+  id: '#ctor(UnityEngine.Vector3@)'
+  parent: ResourceDataManagementLib.SerializableVector3
+  langs:
+  - csharp
+  - vb
+  name: SerializableVector3(in Vector3)
+  nameWithType: SerializableVector3.SerializableVector3(in Vector3)
+  fullName: ResourceDataManagementLib.SerializableVector3.SerializableVector3(in UnityEngine.Vector3)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\SerializableType\SerializableVector.cs
+    startLine: 56
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib
+  syntax:
+    content: public SerializableVector3(in Vector3 vector)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector3
+    content.vb: Public Sub New(vector As Vector3)
+  overload: ResourceDataManagementLib.SerializableVector3.#ctor*
+  nameWithType.vb: SerializableVector3.New(Vector3)
+  fullName.vb: ResourceDataManagementLib.SerializableVector3.New(UnityEngine.Vector3)
+  name.vb: New(Vector3)
+- uid: ResourceDataManagementLib.SerializableVector3.#ctor(System.Single@,System.Single@,System.Single@)
+  commentId: M:ResourceDataManagementLib.SerializableVector3.#ctor(System.Single@,System.Single@,System.Single@)
+  id: '#ctor(System.Single@,System.Single@,System.Single@)'
+  parent: ResourceDataManagementLib.SerializableVector3
+  langs:
+  - csharp
+  - vb
+  name: SerializableVector3(in float, in float, in float)
+  nameWithType: SerializableVector3.SerializableVector3(in float, in float, in float)
+  fullName: ResourceDataManagementLib.SerializableVector3.SerializableVector3(in float, in float, in float)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\SerializableType\SerializableVector.cs
+    startLine: 62
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib
+  syntax:
+    content: public SerializableVector3(in float x, in float y, in float z)
+    parameters:
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    - id: z
+      type: System.Single
+    content.vb: Public Sub New(x As Single, y As Single, z As Single)
+  overload: ResourceDataManagementLib.SerializableVector3.#ctor*
+  nameWithType.vb: SerializableVector3.New(Single, Single, Single)
+  fullName.vb: ResourceDataManagementLib.SerializableVector3.New(Single, Single, Single)
+  name.vb: New(Single, Single, Single)
+- uid: ResourceDataManagementLib.SerializableVector3.op_Implicit(ResourceDataManagementLib.SerializableVector3@)~UnityEngine.Vector3
+  commentId: M:ResourceDataManagementLib.SerializableVector3.op_Implicit(ResourceDataManagementLib.SerializableVector3@)~UnityEngine.Vector3
+  id: op_Implicit(ResourceDataManagementLib.SerializableVector3@)~UnityEngine.Vector3
+  parent: ResourceDataManagementLib.SerializableVector3
+  langs:
+  - csharp
+  - vb
+  name: implicit operator Vector3(in SerializableVector3)
+  nameWithType: SerializableVector3.implicit operator Vector3(in SerializableVector3)
+  fullName: ResourceDataManagementLib.SerializableVector3.implicit operator UnityEngine.Vector3(in ResourceDataManagementLib.SerializableVector3)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\SerializableType\SerializableVector.cs
+    startLine: 69
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib
+  syntax:
+    content: public static implicit operator Vector3(in SerializableVector3 serializableVector)
+    parameters:
+    - id: serializableVector
+      type: ResourceDataManagementLib.SerializableVector3
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public Shared Widening Operator CType(serializableVector As SerializableVector3) As Vector3
+  overload: ResourceDataManagementLib.SerializableVector3.op_Implicit*
+  nameWithType.vb: SerializableVector3.CType(SerializableVector3)
+  fullName.vb: ResourceDataManagementLib.SerializableVector3.CType(ResourceDataManagementLib.SerializableVector3)
+  name.vb: CType(SerializableVector3)
+- uid: ResourceDataManagementLib.SerializableVector3.op_Implicit(UnityEngine.Vector3@)~ResourceDataManagementLib.SerializableVector3
+  commentId: M:ResourceDataManagementLib.SerializableVector3.op_Implicit(UnityEngine.Vector3@)~ResourceDataManagementLib.SerializableVector3
+  id: op_Implicit(UnityEngine.Vector3@)~ResourceDataManagementLib.SerializableVector3
+  parent: ResourceDataManagementLib.SerializableVector3
+  langs:
+  - csharp
+  - vb
+  name: implicit operator SerializableVector3(in Vector3)
+  nameWithType: SerializableVector3.implicit operator SerializableVector3(in Vector3)
+  fullName: ResourceDataManagementLib.SerializableVector3.implicit operator ResourceDataManagementLib.SerializableVector3(in UnityEngine.Vector3)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\SerializableType\SerializableVector.cs
+    startLine: 73
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib
+  syntax:
+    content: public static implicit operator SerializableVector3(in Vector3 vector)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector3
+    return:
+      type: ResourceDataManagementLib.SerializableVector3
+    content.vb: Public Shared Widening Operator CType(vector As Vector3) As SerializableVector3
+  overload: ResourceDataManagementLib.SerializableVector3.op_Implicit*
+  nameWithType.vb: SerializableVector3.CType(Vector3)
+  fullName.vb: ResourceDataManagementLib.SerializableVector3.CType(UnityEngine.Vector3)
+  name.vb: CType(Vector3)
+- uid: ResourceDataManagementLib.SerializableVector3.zero
+  commentId: P:ResourceDataManagementLib.SerializableVector3.zero
+  id: zero
+  parent: ResourceDataManagementLib.SerializableVector3
+  langs:
+  - csharp
+  - vb
+  name: zero
+  nameWithType: SerializableVector3.zero
+  fullName: ResourceDataManagementLib.SerializableVector3.zero
+  type: Property
+  source:
+    id: zero
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\SerializableType\SerializableVector.cs
+    startLine: 78
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib
+  syntax:
+    content: public static SerializableVector3 zero { get; }
+    parameters: []
+    return:
+      type: ResourceDataManagementLib.SerializableVector3
+    content.vb: Public Shared ReadOnly Property zero As SerializableVector3
+  overload: ResourceDataManagementLib.SerializableVector3.zero*
+- uid: ResourceDataManagementLib.SerializableVector3.one
+  commentId: P:ResourceDataManagementLib.SerializableVector3.one
+  id: one
+  parent: ResourceDataManagementLib.SerializableVector3
+  langs:
+  - csharp
+  - vb
+  name: one
+  nameWithType: SerializableVector3.one
+  fullName: ResourceDataManagementLib.SerializableVector3.one
+  type: Property
+  source:
+    id: one
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\SerializableType\SerializableVector.cs
+    startLine: 85
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib
+  syntax:
+    content: public static SerializableVector3 one { get; }
+    parameters: []
+    return:
+      type: ResourceDataManagementLib.SerializableVector3
+    content.vb: Public Shared ReadOnly Property one As SerializableVector3
+  overload: ResourceDataManagementLib.SerializableVector3.one*
+references:
+- uid: ResourceDataManagementLib
+  commentId: N:ResourceDataManagementLib
+  href: ResourceDataManagementLib.html
+  name: ResourceDataManagementLib
+  nameWithType: ResourceDataManagementLib
+  fullName: ResourceDataManagementLib
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: ResourceDataManagementLib.SerializableVector3.#ctor*
+  commentId: Overload:ResourceDataManagementLib.SerializableVector3.#ctor
+  href: ResourceDataManagementLib.SerializableVector3.html#ResourceDataManagementLib_SerializableVector3__ctor_UnityEngine_Vector3__
+  name: SerializableVector3
+  nameWithType: SerializableVector3.SerializableVector3
+  fullName: ResourceDataManagementLib.SerializableVector3.SerializableVector3
+  nameWithType.vb: SerializableVector3.New
+  fullName.vb: ResourceDataManagementLib.SerializableVector3.New
+  name.vb: New
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: ResourceDataManagementLib.SerializableVector3.op_Implicit*
+  commentId: Overload:ResourceDataManagementLib.SerializableVector3.op_Implicit
+  name: implicit operator
+  nameWithType: SerializableVector3.implicit operator
+  fullName: ResourceDataManagementLib.SerializableVector3.implicit operator
+  nameWithType.vb: SerializableVector3.CType
+  fullName.vb: ResourceDataManagementLib.SerializableVector3.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: ResourceDataManagementLib.SerializableVector3
+  commentId: T:ResourceDataManagementLib.SerializableVector3
+  parent: ResourceDataManagementLib
+  href: ResourceDataManagementLib.SerializableVector3.html
+  name: SerializableVector3
+  nameWithType: SerializableVector3
+  fullName: ResourceDataManagementLib.SerializableVector3
+- uid: ResourceDataManagementLib.SerializableVector3.zero*
+  commentId: Overload:ResourceDataManagementLib.SerializableVector3.zero
+  href: ResourceDataManagementLib.SerializableVector3.html#ResourceDataManagementLib_SerializableVector3_zero
+  name: zero
+  nameWithType: SerializableVector3.zero
+  fullName: ResourceDataManagementLib.SerializableVector3.zero
+- uid: ResourceDataManagementLib.SerializableVector3.one*
+  commentId: Overload:ResourceDataManagementLib.SerializableVector3.one
+  href: ResourceDataManagementLib.SerializableVector3.html#ResourceDataManagementLib_SerializableVector3_one
+  name: one
+  nameWithType: SerializableVector3.one
+  fullName: ResourceDataManagementLib.SerializableVector3.one

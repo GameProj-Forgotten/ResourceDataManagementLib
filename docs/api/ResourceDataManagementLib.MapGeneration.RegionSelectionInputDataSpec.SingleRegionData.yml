@@ -1,0 +1,436 @@
+### YamlMime:ManagedReference
+items:
+- uid: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData
+  commentId: T:ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData
+  id: RegionSelectionInputDataSpec.SingleRegionData
+  parent: ResourceDataManagementLib.MapGeneration
+  children:
+  - ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData.DirectionWeight
+  - ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData.IdealSpawnPos
+  - ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData.RegionBlendColor
+  - ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData.RegionID
+  - ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData.RegionName
+  langs:
+  - csharp
+  - vb
+  name: RegionSelectionInputDataSpec.SingleRegionData
+  nameWithType: RegionSelectionInputDataSpec.SingleRegionData
+  fullName: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData
+  type: Struct
+  source:
+    id: SingleRegionData
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\RegionSelectionInputDataSpec.cs
+    startLine: 13
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: public struct RegionSelectionInputDataSpec.SingleRegionData
+    content.vb: Public Structure RegionSelectionInputDataSpec.SingleRegionData
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+- uid: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData.RegionName
+  commentId: F:ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData.RegionName
+  id: RegionName
+  parent: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData
+  langs:
+  - csharp
+  - vb
+  name: RegionName
+  nameWithType: RegionSelectionInputDataSpec.SingleRegionData.RegionName
+  fullName: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData.RegionName
+  type: Field
+  source:
+    id: RegionName
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\RegionSelectionInputDataSpec.cs
+    startLine: 15
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: public string RegionName
+    return:
+      type: System.String
+    content.vb: Public RegionName As String
+- uid: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData.RegionID
+  commentId: F:ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData.RegionID
+  id: RegionID
+  parent: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData
+  langs:
+  - csharp
+  - vb
+  name: RegionID
+  nameWithType: RegionSelectionInputDataSpec.SingleRegionData.RegionID
+  fullName: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData.RegionID
+  type: Field
+  source:
+    id: RegionID
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\RegionSelectionInputDataSpec.cs
+    startLine: 16
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: public Guid RegionID
+    return:
+      type: System.Guid
+    content.vb: Public RegionID As Guid
+- uid: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData.RegionBlendColor
+  commentId: F:ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData.RegionBlendColor
+  id: RegionBlendColor
+  parent: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData
+  langs:
+  - csharp
+  - vb
+  name: RegionBlendColor
+  nameWithType: RegionSelectionInputDataSpec.SingleRegionData.RegionBlendColor
+  fullName: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData.RegionBlendColor
+  type: Field
+  source:
+    id: RegionBlendColor
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\RegionSelectionInputDataSpec.cs
+    startLine: 18
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: public Color RegionBlendColor
+    return:
+      type: UnityEngine.Color
+    content.vb: Public RegionBlendColor As Color
+- uid: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData.IdealSpawnPos
+  commentId: F:ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData.IdealSpawnPos
+  id: IdealSpawnPos
+  parent: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData
+  langs:
+  - csharp
+  - vb
+  name: IdealSpawnPos
+  nameWithType: RegionSelectionInputDataSpec.SingleRegionData.IdealSpawnPos
+  fullName: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData.IdealSpawnPos
+  type: Field
+  source:
+    id: IdealSpawnPos
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\RegionSelectionInputDataSpec.cs
+    startLine: 20
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: public SerializableVector3 IdealSpawnPos
+    return:
+      type: ResourceDataManagementLib.SerializableVector3
+    content.vb: Public IdealSpawnPos As SerializableVector3
+- uid: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData.DirectionWeight
+  commentId: F:ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData.DirectionWeight
+  id: DirectionWeight
+  parent: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData
+  langs:
+  - csharp
+  - vb
+  name: DirectionWeight
+  nameWithType: RegionSelectionInputDataSpec.SingleRegionData.DirectionWeight
+  fullName: ResourceDataManagementLib.MapGeneration.RegionSelectionInputDataSpec.SingleRegionData.DirectionWeight
+  type: Field
+  source:
+    id: DirectionWeight
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\MapGenInputDataSpec\RegionSelectionInputDataSpec.cs
+    startLine: 21
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration
+  syntax:
+    content: public SerializableVector3 DirectionWeight
+    return:
+      type: ResourceDataManagementLib.SerializableVector3
+    content.vb: Public DirectionWeight As SerializableVector3
+references:
+- uid: ResourceDataManagementLib.MapGeneration
+  commentId: N:ResourceDataManagementLib.MapGeneration
+  href: ResourceDataManagementLib.html
+  name: ResourceDataManagementLib.MapGeneration
+  nameWithType: ResourceDataManagementLib.MapGeneration
+  fullName: ResourceDataManagementLib.MapGeneration
+  spec.csharp:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+  spec.vb:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: UnityEngine.Color
+  commentId: T:UnityEngine.Color
+  parent: UnityEngine
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: UnityEngine.Color
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: ResourceDataManagementLib.SerializableVector3
+  commentId: T:ResourceDataManagementLib.SerializableVector3
+  parent: ResourceDataManagementLib
+  href: ResourceDataManagementLib.SerializableVector3.html
+  name: SerializableVector3
+  nameWithType: SerializableVector3
+  fullName: ResourceDataManagementLib.SerializableVector3
+- uid: ResourceDataManagementLib
+  commentId: N:ResourceDataManagementLib
+  href: ResourceDataManagementLib.html
+  name: ResourceDataManagementLib
+  nameWithType: ResourceDataManagementLib
+  fullName: ResourceDataManagementLib

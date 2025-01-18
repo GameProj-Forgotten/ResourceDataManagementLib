@@ -1,0 +1,422 @@
+### YamlMime:ManagedReference
+items:
+- uid: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier
+  commentId: T:ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier
+  id: MapGenDataSupplier
+  parent: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave
+  children:
+  - ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier.SupplyMapGenData(System.Int32@,System.Int32@)
+  - ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier.SupplyMapGenInputData(ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType@)
+  langs:
+  - csharp
+  - vb
+  name: MapGenDataSupplier
+  nameWithType: MapGenDataSupplier
+  fullName: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier
+  type: Class
+  source:
+    id: MapGenDataSupplier
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataSupplyAndSave\MapGenDataSupplier.cs
+    startLine: 21
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave
+  syntax:
+    content: public static class MapGenDataSupplier
+    content.vb: Public Module MapGenDataSupplier
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier.SupplyMapGenInputData(ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType@)
+  commentId: M:ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier.SupplyMapGenInputData(ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType@)
+  id: SupplyMapGenInputData(ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType@)
+  parent: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier
+  langs:
+  - csharp
+  - vb
+  name: SupplyMapGenInputData(in MapGenInputDataType)
+  nameWithType: MapGenDataSupplier.SupplyMapGenInputData(in MapGenInputDataType)
+  fullName: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier.SupplyMapGenInputData(in ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType)
+  type: Method
+  source:
+    id: SupplyMapGenInputData
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataSupplyAndSave\MapGenDataSupplier.cs
+    startLine: 23
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave
+  syntax:
+    content: public static void SupplyMapGenInputData(in MapGenInputDataType targetInputData)
+    parameters:
+    - id: targetInputData
+      type: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType
+    content.vb: Public Shared Sub SupplyMapGenInputData(targetInputData As MapGenInputDataType)
+  overload: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier.SupplyMapGenInputData*
+  nameWithType.vb: MapGenDataSupplier.SupplyMapGenInputData(MapGenInputDataType)
+  fullName.vb: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier.SupplyMapGenInputData(ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType)
+  name.vb: SupplyMapGenInputData(MapGenInputDataType)
+- uid: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier.SupplyMapGenData(System.Int32@,System.Int32@)
+  commentId: M:ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier.SupplyMapGenData(System.Int32@,System.Int32@)
+  id: SupplyMapGenData(System.Int32@,System.Int32@)
+  parent: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier
+  langs:
+  - csharp
+  - vb
+  name: SupplyMapGenData(in int, in int)
+  nameWithType: MapGenDataSupplier.SupplyMapGenData(in int, in int)
+  fullName: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier.SupplyMapGenData(in int, in int)
+  type: Method
+  source:
+    id: SupplyMapGenData
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Functor\MapGen\DataSupplyAndSave\MapGenDataSupplier.cs
+    startLine: 97
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave
+  syntax:
+    content: public static void SupplyMapGenData(in int targetLayerIndex, in int preLoadedLayerRadius = 1)
+    parameters:
+    - id: targetLayerIndex
+      type: System.Int32
+    - id: preLoadedLayerRadius
+      type: System.Int32
+    content.vb: Public Shared Sub SupplyMapGenData(targetLayerIndex As Integer, preLoadedLayerRadius As Integer = 1)
+  overload: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier.SupplyMapGenData*
+  nameWithType.vb: MapGenDataSupplier.SupplyMapGenData(Integer, Integer)
+  fullName.vb: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier.SupplyMapGenData(Integer, Integer)
+  name.vb: SupplyMapGenData(Integer, Integer)
+references:
+- uid: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave
+  commentId: N:ResourceDataManagementLib.MapGeneration.DataSupplyAndSave
+  href: ResourceDataManagementLib.html
+  name: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave
+  nameWithType: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave
+  fullName: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave
+  spec.csharp:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave
+    name: DataSupplyAndSave
+    href: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.html
+  spec.vb:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave
+    name: DataSupplyAndSave
+    href: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier.SupplyMapGenInputData*
+  commentId: Overload:ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier.SupplyMapGenInputData
+  href: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier.html#ResourceDataManagementLib_MapGeneration_DataSupplyAndSave_MapGenDataSupplier_SupplyMapGenInputData_ResourceDataManagementLib_MapGeneration_MapGenInputDataSpec_MapGenInputDataType__
+  name: SupplyMapGenInputData
+  nameWithType: MapGenDataSupplier.SupplyMapGenInputData
+  fullName: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier.SupplyMapGenInputData
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType
+  commentId: T:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType
+  parent: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType.html
+  name: MapGenInputDataType
+  nameWithType: MapGenInputDataType
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.MapGenInputDataType
+- uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  commentId: N:ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  href: ResourceDataManagementLib.html
+  name: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  nameWithType: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  fullName: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+  spec.csharp:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+    name: MapGenInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.html
+  spec.vb:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec
+    name: MapGenInputDataSpec
+    href: ResourceDataManagementLib.MapGeneration.MapGenInputDataSpec.html
+- uid: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier.SupplyMapGenData*
+  commentId: Overload:ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier.SupplyMapGenData
+  href: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier.html#ResourceDataManagementLib_MapGeneration_DataSupplyAndSave_MapGenDataSupplier_SupplyMapGenData_System_Int32__System_Int32__
+  name: SupplyMapGenData
+  nameWithType: MapGenDataSupplier.SupplyMapGenData
+  fullName: ResourceDataManagementLib.MapGeneration.DataSupplyAndSave.MapGenDataSupplier.SupplyMapGenData
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

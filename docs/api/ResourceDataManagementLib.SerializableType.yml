@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: ResourceDataManagementLib.SerializableType
+  commentId: N:ResourceDataManagementLib.SerializableType
+  id: ResourceDataManagementLib.SerializableType
+  children:
+  - ResourceDataManagementLib.SerializableType.SerializableVector2
+  - ResourceDataManagementLib.SerializableType.SerializableVector3
+  - ResourceDataManagementLib.SerializableType.SerializableVector4
+  langs:
+  - csharp
+  - vb
+  name: ResourceDataManagementLib.SerializableType
+  nameWithType: ResourceDataManagementLib.SerializableType
+  fullName: ResourceDataManagementLib.SerializableType
+  type: Namespace
+  assemblies:
+  - ResourceDataManagementLib
+references:
+- uid: ResourceDataManagementLib.SerializableType.SerializableVector2
+  commentId: T:ResourceDataManagementLib.SerializableType.SerializableVector2
+  parent: ResourceDataManagementLib.SerializableType
+  href: ResourceDataManagementLib.SerializableType.SerializableVector2.html
+  name: SerializableVector2
+  nameWithType: SerializableVector2
+  fullName: ResourceDataManagementLib.SerializableType.SerializableVector2
+- uid: ResourceDataManagementLib.SerializableType.SerializableVector3
+  commentId: T:ResourceDataManagementLib.SerializableType.SerializableVector3
+  parent: ResourceDataManagementLib.SerializableType
+  href: ResourceDataManagementLib.SerializableType.SerializableVector3.html
+  name: SerializableVector3
+  nameWithType: SerializableVector3
+  fullName: ResourceDataManagementLib.SerializableType.SerializableVector3
+- uid: ResourceDataManagementLib.SerializableType.SerializableVector4
+  commentId: T:ResourceDataManagementLib.SerializableType.SerializableVector4
+  parent: ResourceDataManagementLib.SerializableType
+  href: ResourceDataManagementLib.SerializableType.SerializableVector4.html
+  name: SerializableVector4
+  nameWithType: SerializableVector4
+  fullName: ResourceDataManagementLib.SerializableType.SerializableVector4
+- uid: ResourceDataManagementLib.SerializableType
+  commentId: N:ResourceDataManagementLib.SerializableType
+  href: ResourceDataManagementLib.html
+  name: ResourceDataManagementLib.SerializableType
+  nameWithType: ResourceDataManagementLib.SerializableType
+  fullName: ResourceDataManagementLib.SerializableType
+  spec.csharp:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.SerializableType
+    name: SerializableType
+    href: ResourceDataManagementLib.SerializableType.html
+  spec.vb:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.SerializableType
+    name: SerializableType
+    href: ResourceDataManagementLib.SerializableType.html

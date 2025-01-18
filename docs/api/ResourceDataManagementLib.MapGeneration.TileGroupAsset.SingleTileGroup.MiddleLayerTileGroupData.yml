@@ -1,0 +1,423 @@
+### YamlMime:ManagedReference
+items:
+- uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData
+  commentId: T:ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData
+  id: SingleTileGroup.MiddleLayerTileGroupData
+  parent: ResourceDataManagementLib.MapGeneration.TileGroupAsset
+  children:
+  - ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerData
+  - ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerData
+  langs:
+  - csharp
+  - vb
+  name: SingleTileGroup.MiddleLayerTileGroupData
+  nameWithType: SingleTileGroup.MiddleLayerTileGroupData
+  fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData
+  type: Struct
+  source:
+    id: MiddleLayerTileGroupData
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    startLine: 141
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.TileGroupAsset
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct SingleTileGroup.MiddleLayerTileGroupData
+    content.vb: >-
+      <Serializable>
+
+      Public Structure SingleTileGroup.MiddleLayerTileGroupData
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerData
+  commentId: F:ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerData
+  id: OnMiddleLayerData
+  parent: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData
+  langs:
+  - csharp
+  - vb
+  name: OnMiddleLayerData
+  nameWithType: SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerData
+  fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerData
+  type: Field
+  source:
+    id: OnMiddleLayerData
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    startLine: 157
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.TileGroupAsset
+  syntax:
+    content: >-
+      [Header("On Middle Layer Tiles")]
+
+      public SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerDetailData OnMiddleLayerData
+    return:
+      type: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerDetailData
+    content.vb: >-
+      <Header("On Middle Layer Tiles")>
+
+      Public OnMiddleLayerData As SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerDetailData
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: On Middle Layer Tiles
+- uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerData
+  commentId: F:ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerData
+  id: BetweenTheMiddleLayerData
+  parent: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData
+  langs:
+  - csharp
+  - vb
+  name: BetweenTheMiddleLayerData
+  nameWithType: SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerData
+  fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerData
+  type: Field
+  source:
+    id: BetweenTheMiddleLayerData
+    path: C:\Storage\Libs\Forgotten\ResourceDataManagementLib\Public\Data\TileGroupAsset\TileGroup.cs
+    startLine: 160
+  assemblies:
+  - ResourceDataManagementLib
+  namespace: ResourceDataManagementLib.MapGeneration.TileGroupAsset
+  syntax:
+    content: >-
+      [Header("Between The Middle Layer Tiles")]
+
+      public SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerDetailData BetweenTheMiddleLayerData
+    return:
+      type: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerDetailData
+    content.vb: >-
+      <Header("Between The Middle Layer Tiles")>
+
+      Public BetweenTheMiddleLayerData As SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerDetailData
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Between The Middle Layer Tiles
+references:
+- uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset
+  commentId: N:ResourceDataManagementLib.MapGeneration.TileGroupAsset
+  href: ResourceDataManagementLib.html
+  name: ResourceDataManagementLib.MapGeneration.TileGroupAsset
+  nameWithType: ResourceDataManagementLib.MapGeneration.TileGroupAsset
+  fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset
+  spec.csharp:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset
+    name: TileGroupAsset
+    href: ResourceDataManagementLib.MapGeneration.TileGroupAsset.html
+  spec.vb:
+  - uid: ResourceDataManagementLib
+    name: ResourceDataManagementLib
+    href: ResourceDataManagementLib.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration
+    name: MapGeneration
+    href: ResourceDataManagementLib.MapGeneration.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset
+    name: TileGroupAsset
+    href: ResourceDataManagementLib.MapGeneration.TileGroupAsset.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerDetailData
+  parent: ResourceDataManagementLib.MapGeneration.TileGroupAsset
+  href: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.html
+  name: SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerDetailData
+  nameWithType: SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerDetailData
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup
+    name: SingleTileGroup
+    href: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData
+    name: MiddleLayerTileGroupData
+    href: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerDetailData
+    name: OnMiddleLayerDetailData
+    href: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerDetailData.html
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup
+    name: SingleTileGroup
+    href: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData
+    name: MiddleLayerTileGroupData
+    href: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerDetailData
+    name: OnMiddleLayerDetailData
+    href: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.OnMiddleLayerDetailData.html
+- uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerDetailData
+  commentId: T:ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerDetailData
+  parent: ResourceDataManagementLib.MapGeneration.TileGroupAsset
+  href: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.html
+  name: SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerDetailData
+  nameWithType: SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerDetailData
+  fullName: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerDetailData
+  spec.csharp:
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup
+    name: SingleTileGroup
+    href: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData
+    name: MiddleLayerTileGroupData
+    href: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerDetailData
+    name: BetweenTheMiddleLayerDetailData
+    href: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerDetailData.html
+  spec.vb:
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup
+    name: SingleTileGroup
+    href: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData
+    name: MiddleLayerTileGroupData
+    href: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.html
+  - name: .
+  - uid: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerDetailData
+    name: BetweenTheMiddleLayerDetailData
+    href: ResourceDataManagementLib.MapGeneration.TileGroupAsset.SingleTileGroup.MiddleLayerTileGroupData.BetweenTheMiddleLayerDetailData.html
