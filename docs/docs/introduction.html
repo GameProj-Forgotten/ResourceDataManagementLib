@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      
+      <meta name="docfx:docurl" content="https://github.com/GameProj-Forgotten/ResourceDataManagementLib/blob/master/docs/docs/introduction.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -87,10 +87,68 @@
         <article data-uid="">
 <h1 id="introduction">Introduction</h1>
 
+<p>This library manages all data and resources of the Forgotten project.</p>
+<p>In particular, it defines and provides interfaces for storing, loading, and accessing resources, Asset Files, etc.</p>
+<br>
+<p>Please note that this library is built based on .Net Framework 4.8.</p>
+<p><br><br></p>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/9f2e8c0d-7701-4050-ae0e-4d59992ec7b6" width="20%">
+</div>
+<br><br>
+<p>The representative functions provided by this library are as follows:</p>
+<pre><code>GameSaveData
+└── struct GameSaveMetadata
+MapGeneration
+├── MapGenInputDataSpec
+│   ├── [Flags] enum MapGenInputDataType : byte
+│   ├── [Flags] enum PathDirection : byte
+│   ├── [Flags]enum MapActiveType : byte
+│   ├── struct AbstractInputDataSpec
+│   ├── struct BasicMapGenInputDataSpec
+│   ├── struct MiddleLayersInputDataSpec
+│   └── struct RegionSelectionInputDataSpec
+├── TileGroupAsset
+│   ├── enum TileKind : byte
+│   ├── sealed class TotalTileGroup : ScriptableObject
+│   ├── sealed class SingleTileGroup : ScriptableObject
+│   ├── struct BasicCommonAreaTileDetailData
+│   ├── struct BasicDecorationAreaTileDetailData
+│   ├── struct FallingTileDetailData
+│   ├── struct ArrawTrapTileDetailData
+│   ├── struct SpearTrapTileDetailData
+│   ├── struct SpikeTrapTileDetailData
+│   ├── struct ChestTileDetailData
+│   ├── struct DoorTileDetailData
+│   ├── struct LadderTileDetailData
+│   ├── struct GlowTileDetailData
+│   ├── struct MovementTileDetailData
+│   ├── struct PillarTileDetailData
+│   ├── struct BackgroundWallpaperTileDetailData
+│   └── struct FloatingDecorationPropTileDetailData
+├── DataAccessInterface
+│   ├── static class MapGenInputResourceInterface
+│   │   ├── static class AbstractInputDataInterface
+│   │   ├── static class BasicMapGenInputDataInterface
+│   │   ├── static class RegionSelectionInputDataInterface
+│   │   └── static class MiddleLayersInputDataInterface
+│   ├── static class MapGenOutputResourceInterface
+│   └── static class TileBaseResourceInterface
+└── DataSupplyAndSave
+    ├── static class GameSaveMetadataSaver
+    ├── static class GameSaveMetadataSupplier
+    ├── static class MapGenDataSaver
+    └── static class MapGenDataSupplier
+SerializableType
+├── struct SerializableVector2
+├── struct SerializableVector3
+└── struct SerializableVector4
+</code></pre>
 
 </article>
 
         <div class="contribution d-print-none">
+          <a href="https://github.com/GameProj-Forgotten/ResourceDataManagementLib/blob/master/docs/docs/introduction.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

@@ -617,16 +617,16 @@
   "docs/getting-started.html": {
     "href": "docs/getting-started.html",
     "title": "Getting Started | ResourceDataManagementLib",
-    "keywords": "Getting Started"
+    "keywords": "Getting Started This library is written assuming that it will be used in the form of a dll. Therefore, it can be applied generally by referencing the dll to the project. However, if you want a detailed official manual, please refer to the following materials: .Net - Manage references in a project Unity - Integrating third-party code libraries (plug-ins)"
   },
   "docs/introduction.html": {
     "href": "docs/introduction.html",
     "title": "Introduction | ResourceDataManagementLib",
-    "keywords": "Introduction"
+    "keywords": "Introduction This library manages all data and resources of the Forgotten project. In particular, it defines and provides interfaces for storing, loading, and accessing resources, Asset Files, etc. Please note that this library is built based on .Net Framework 4.8. The representative functions provided by this library are as follows: GameSaveData └── struct GameSaveMetadata MapGeneration ├── MapGenInputDataSpec │ ├── [Flags] enum MapGenInputDataType : byte │ ├── [Flags] enum PathDirection : byte │ ├── [Flags]enum MapActiveType : byte │ ├── struct AbstractInputDataSpec │ ├── struct BasicMapGenInputDataSpec │ ├── struct MiddleLayersInputDataSpec │ └── struct RegionSelectionInputDataSpec ├── TileGroupAsset │ ├── enum TileKind : byte │ ├── sealed class TotalTileGroup : ScriptableObject │ ├── sealed class SingleTileGroup : ScriptableObject │ ├── struct BasicCommonAreaTileDetailData │ ├── struct BasicDecorationAreaTileDetailData │ ├── struct FallingTileDetailData │ ├── struct ArrawTrapTileDetailData │ ├── struct SpearTrapTileDetailData │ ├── struct SpikeTrapTileDetailData │ ├── struct ChestTileDetailData │ ├── struct DoorTileDetailData │ ├── struct LadderTileDetailData │ ├── struct GlowTileDetailData │ ├── struct MovementTileDetailData │ ├── struct PillarTileDetailData │ ├── struct BackgroundWallpaperTileDetailData │ └── struct FloatingDecorationPropTileDetailData ├── DataAccessInterface │ ├── static class MapGenInputResourceInterface │ │ ├── static class AbstractInputDataInterface │ │ ├── static class BasicMapGenInputDataInterface │ │ ├── static class RegionSelectionInputDataInterface │ │ └── static class MiddleLayersInputDataInterface │ ├── static class MapGenOutputResourceInterface │ └── static class TileBaseResourceInterface └── DataSupplyAndSave ├── static class GameSaveMetadataSaver ├── static class GameSaveMetadataSupplier ├── static class MapGenDataSaver └── static class MapGenDataSupplier SerializableType ├── struct SerializableVector2 ├── struct SerializableVector3 └── struct SerializableVector4"
   },
   "index.html": {
     "href": "index.html",
-    "title": "This is the HOMEPAGE. | ResourceDataManagementLib",
-    "keywords": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+    "title": "| ResourceDataManagementLib",
+    "keywords": "ResourceDataManagementLib Abstract This library manages all data and resources of the Forgotten project Features Resource, Data Buffers Resource, Data Interfaces Resource, Data Saver, Loader Special Purpose Asset File Definition Usage [!IMPORTANT] This project is for UI development in Unity. Informs that no other game engine supports it Dependency UnityEngine.dll CommonUtilLib.dll ResourcePathManagementLib.dll Releases"
   }
 }
